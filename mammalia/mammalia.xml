@@ -1,0 +1,3409 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<fluxml xmlns="http://www.13cflux.net/fluxml">	
+<info>	
+	<name>MammalianCell_carbon_mapping</name>
+	<version>1.0</version>
+	<comment/>
+</info>	
+<reactionnetwork>			
+	<metabolitepools>		
+		<pool atoms="1" id="CO2_IN"/>	
+		<pool atoms="1" id="CO2_12"/>	
+		<pool atoms="6" id="GLC12_IN"/>	
+		<pool atoms="6" id="GLC_12"/>	
+		<pool atoms="6" id="G6P_12"/>	
+		<pool atoms="6" id="F6P_12"/>	
+		<pool atoms="6" id="FBP_12"/>	
+		<pool atoms="3" id="GAP_12"/>	
+		<pool atoms="3" id="DHAP_12"/>	
+		<pool atoms="3" id="BPG_12"/>	
+		<pool atoms="3" id="PGA_12"/>	
+		<pool atoms="3" id="PEP_12"/>	
+		<pool atoms="3" id="PYR_12"/>	
+		<pool atoms="4" id="OAA_12"/>	
+		<pool atoms="4" id="MAL_12"/>	
+		<pool atoms="6" id="m6PG_12"/>	
+		<pool atoms="5" id="Ru5P_12"/>	
+		<pool atoms="5" id="R5P_12"/>	
+		<pool atoms="5" id="X5P_12"/>	
+		<pool atoms="7" id="S7P_12"/>	
+		<pool atoms="4" id="E4P_12"/>	
+		<pool atoms="2" id="AcCoA_12"/>	
+		<pool atoms="6" id="CitICit_12"/>	
+		<pool atoms="5" id="OGA_12"/>	
+		<pool atoms="4" id="SuccCoA_12"/>	
+		<pool atoms="4" id="Succ_12"/>	
+		<pool atoms="4" id="Fum_12"/>	
+		<pool atoms="3" id="Ser_IN"/>	
+		<pool atoms="5" id="Glu_12"/>	
+		<pool atoms="3" id="PSer_12"/>	
+		<pool atoms="3" id="Ser_12"/>	
+		<pool atoms="2" id="Gly_IN"/>	
+		<pool atoms="2" id="Gly_12"/>	
+		<pool atoms="1" id="FTHF_12"/>	
+		<pool atoms="3" id="Cys_IN"/>	
+		<pool atoms="3" id="Cys_12"/>	
+		<pool atoms="3" id="Ala_12"/>	
+		<pool atoms="5" id="Val_IN"/>	
+		<pool atoms="5" id="Val_12"/>	
+		<pool atoms="6" id="Leu_IN"/>	
+		<pool atoms="6" id="Leu_12"/>	
+		<pool atoms="4" id="AcetoAc_12"/>	
+		<pool atoms="9" id="Phe_IN"/>	
+		<pool atoms="9" id="Phe_12"/>	
+		<pool atoms="9" id="Tyr_IN"/>	
+		<pool atoms="9" id="Tyr_12"/>	
+		<pool atoms="11" id="Trp_IN"/>	
+		<pool atoms="11" id="Trp_12"/>	
+		<pool atoms="4" id="Thr_IN"/>	
+		<pool atoms="4" id="Thr_12"/>	
+		<pool atoms="5" id="Pro_12"/>	
+		<pool atoms="5" id="Gln_IN"/>	
+		<pool atoms="5" id="Gln_12"/>	
+		<pool atoms="5" id="ORN_12"/>	
+		<pool atoms="6" id="CITRL_12"/>	
+		<pool atoms="4" id="Asp_12"/>	
+		<pool atoms="6" id="Arg_IN"/>	
+		<pool atoms="6" id="Arg_12"/>	
+		<pool atoms="6" id="His_IN"/>	
+		<pool atoms="6" id="His_12"/>	
+		<pool atoms="5" id="PRPP_12"/>	
+		<pool atoms="9" id="AICAR_12"/>	
+		<pool atoms="10" id="ATP_12"/>	
+		<pool atoms="4" id="Asn_12"/>	
+		<pool atoms="6" id="Ile_IN"/>	
+		<pool atoms="6" id="Ile_12"/>	
+		<pool atoms="5" id="Met_IN"/>	
+		<pool atoms="5" id="Met_12"/>	
+		<pool atoms="6" id="Lys_IN"/>	
+		<pool atoms="6" id="Lys_12"/>	
+		<pool atoms="5" id="CBASP_12"/>	
+		<pool atoms="5" id="OROT_12"/>	
+		<pool atoms="9" id="UMP_12"/>	
+		<pool atoms="10" id="dTTP_12"/>	
+		<pool atoms="6" id="GAM6P_12"/>	
+		<pool atoms="8" id="ACGAM1P_12"/>	
+		<pool atoms="3" id="GLYC3P_12"/>	
+		<pool atoms="2" id="AcCoA_cyt_12"/>	
+		<pool atoms="2" id="AC_IN"/>	
+			
+		<pool atoms="1" id="CO2_U"/>	
+		<pool atoms="6" id="GLCU_IN"/>	
+		<pool atoms="6" id="GLC_U"/>	
+		<pool atoms="6" id="G6P_U"/>	
+		<pool atoms="6" id="F6P_U"/>	
+		<pool atoms="6" id="FBP_U"/>	
+		<pool atoms="3" id="GAP_U"/>	
+		<pool atoms="3" id="DHAP_U"/>	
+		<pool atoms="3" id="BPG_U"/>	
+		<pool atoms="3" id="PGA_U"/>	
+		<pool atoms="3" id="PEP_U"/>	
+		<pool atoms="3" id="PYR_U"/>	
+		<pool atoms="4" id="OAA_U"/>	
+		<pool atoms="4" id="MAL_U"/>	
+		<pool atoms="6" id="m6PG_U"/>	
+		<pool atoms="5" id="Ru5P_U"/>	
+		<pool atoms="5" id="R5P_U"/>	
+		<pool atoms="5" id="X5P_U"/>	
+		<pool atoms="7" id="S7P_U"/>	
+		<pool atoms="4" id="E4P_U"/>	
+		<pool atoms="2" id="AcCoA_U"/>	
+		<pool atoms="6" id="CitICit_U"/>	
+		<pool atoms="5" id="OGA_U"/>	
+		<pool atoms="4" id="SuccCoA_U"/>	
+		<pool atoms="4" id="Succ_U"/>	
+		<pool atoms="4" id="Fum_U"/>	
+		<pool atoms="5" id="Glu_U"/>	
+		<pool atoms="3" id="PSer_U"/>	
+		<pool atoms="3" id="Ser_U"/>	
+		<pool atoms="2" id="Gly_U"/>	
+		<pool atoms="1" id="FTHF_U"/>	
+		<pool atoms="3" id="Cys_U"/>	
+		<pool atoms="3" id="Ala_U"/>	
+		<pool atoms="5" id="Val_U"/>	
+		<pool atoms="6" id="Leu_U"/>	
+		<pool atoms="4" id="AcetoAc_U"/>	
+		<pool atoms="9" id="Phe_U"/>	
+		<pool atoms="9" id="Tyr_U"/>	
+		<pool atoms="11" id="Trp_U"/>	
+		<pool atoms="4" id="Thr_U"/>	
+		<pool atoms="5" id="Pro_U"/>	
+		<pool atoms="5" id="Gln_U"/>	
+		<pool atoms="5" id="ORN_U"/>	
+		<pool atoms="6" id="CITRL_U"/>	
+		<pool atoms="4" id="Asp_U"/>	
+		<pool atoms="6" id="Arg_U"/>	
+		<pool atoms="6" id="His_U"/>	
+		<pool atoms="5" id="PRPP_U"/>	
+		<pool atoms="9" id="AICAR_U"/>	
+		<pool atoms="10" id="ATP_U"/>	
+		<pool atoms="4" id="Asn_U"/>	
+		<pool atoms="6" id="Ile_U"/>	
+		<pool atoms="5" id="Met_U"/>	
+		<pool atoms="6" id="Lys_U"/>	
+		<pool atoms="5" id="CBASP_U"/>	
+		<pool atoms="5" id="OROT_U"/>	
+		<pool atoms="9" id="UMP_U"/>	
+		<pool atoms="10" id="dTTP_U"/>	
+		<pool atoms="6" id="GAM6P_U"/>	
+		<pool atoms="8" id="ACGAM1P_U"/>	
+		<pool atoms="3" id="GLYC3P_U"/>	
+		<pool atoms="2" id="AcCoA_cyt_U"/>	
+			
+		<pool atoms="1" id="CO2_UGln"/>	
+		<pool atoms="6" id="GLC0_IN"/>	
+		<pool atoms="6" id="GLC_UGln"/>	
+		<pool atoms="6" id="G6P_UGln"/>	
+		<pool atoms="6" id="F6P_UGln"/>	
+		<pool atoms="6" id="FBP_UGln"/>	
+		<pool atoms="3" id="GAP_UGln"/>	
+		<pool atoms="3" id="DHAP_UGln"/>	
+		<pool atoms="3" id="BPG_UGln"/>	
+		<pool atoms="3" id="PGA_UGln"/>	
+		<pool atoms="3" id="PEP_UGln"/>	
+		<pool atoms="3" id="PYR_UGln"/>	
+		<pool atoms="4" id="OAA_UGln"/>	
+		<pool atoms="4" id="MAL_UGln"/>	
+		<pool atoms="6" id="m6PG_UGln"/>	
+		<pool atoms="5" id="Ru5P_UGln"/>	
+		<pool atoms="5" id="R5P_UGln"/>	
+		<pool atoms="5" id="X5P_UGln"/>	
+		<pool atoms="7" id="S7P_UGln"/>	
+		<pool atoms="4" id="E4P_UGln"/>	
+		<pool atoms="2" id="AcCoA_UGln"/>	
+		<pool atoms="6" id="CitICit_UGln"/>	
+		<pool atoms="5" id="OGA_UGln"/>	
+		<pool atoms="4" id="SuccCoA_UGln"/>	
+		<pool atoms="4" id="Succ_UGln"/>	
+		<pool atoms="4" id="Fum_UGln"/>	
+		<pool atoms="5" id="Glu_UGln"/>	
+		<pool atoms="3" id="PSer_UGln"/>	
+		<pool atoms="3" id="Ser_UGln"/>	
+		<pool atoms="2" id="Gly_UGln"/>	
+		<pool atoms="1" id="FTHF_UGln"/>	
+		<pool atoms="3" id="Cys_UGln"/>	
+		<pool atoms="3" id="Ala_UGln"/>	
+		<pool atoms="5" id="Val_UGln"/>	
+		<pool atoms="6" id="Leu_UGln"/>	
+		<pool atoms="4" id="AcetoAc_UGln"/>	
+		<pool atoms="9" id="Phe_UGln"/>	
+		<pool atoms="9" id="Tyr_UGln"/>	
+		<pool atoms="11" id="Trp_UGln"/>	
+		<pool atoms="4" id="Thr_UGln"/>	
+		<pool atoms="5" id="Pro_UGln"/>	
+		<pool atoms="5" id="GlnU_IN"/>	
+		<pool atoms="5" id="Gln_UGln"/>	
+		<pool atoms="5" id="ORN_UGln"/>	
+		<pool atoms="6" id="CITRL_UGln"/>	
+		<pool atoms="4" id="Asp_UGln"/>	
+		<pool atoms="6" id="Arg_UGln"/>	
+		<pool atoms="6" id="His_UGln"/>	
+		<pool atoms="5" id="PRPP_UGln"/>	
+		<pool atoms="9" id="AICAR_UGln"/>	
+		<pool atoms="10" id="ATP_UGln"/>	
+		<pool atoms="4" id="Asn_UGln"/>	
+		<pool atoms="6" id="Ile_UGln"/>	
+		<pool atoms="5" id="Met_UGln"/>	
+		<pool atoms="6" id="Lys_UGln"/>	
+		<pool atoms="5" id="CBASP_UGln"/>	
+		<pool atoms="5" id="OROT_UGln"/>	
+		<pool atoms="9" id="UMP_UGln"/>	
+		<pool atoms="10" id="dTTP_UGln"/>	
+		<pool atoms="6" id="GAM6P_UGln"/>	
+		<pool atoms="8" id="ACGAM1P_UGln"/>	
+		<pool atoms="3" id="GLYC3P_UGln"/>	
+		<pool atoms="2" id="AcCoA_cyt_UGln"/>	
+			
+	</metabolitepools>		
+	<reaction id="IN_CO2_12">		
+		<reduct cfg="A" id="CO2_IN"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="EX_CO2_12">		
+		<reduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="IN_upt12">		
+		<reduct cfg="ABCDEF" id="GLC12_IN"/>	
+		<rproduct cfg="ABCDEF" id="GLC_12"/>	
+	</reaction>		
+	<reaction id="upt_12">		
+		<reduct cfg="ABCDEF" id="GLC_12"/>	
+		<rproduct cfg="ABCDEF" id="G6P_12"/>	
+	</reaction>		
+	<reaction id="pgi_12">		
+		<reduct cfg="ABCDEF" id="G6P_12"/>	
+		<rproduct cfg="ABCDEF" id="F6P_12"/>	
+	</reaction>		
+	<reaction id="pfk_12">		
+		<reduct cfg="ABCDEF" id="F6P_12"/>	
+		<rproduct cfg="ABCDEF" id="FBP_12"/>	
+	</reaction>		
+	<reaction id="fba_12">		
+		<reduct cfg="ABCDEF" id="FBP_12"/>	
+		<rproduct cfg="CBA" id="DHAP_12"/>	
+		<rproduct cfg="DEF" id="GAP_12"/>	
+	</reaction>		
+	<reaction id="tpi_12">		
+		<reduct cfg="ABC" id="DHAP_12"/>	
+		<rproduct cfg="ABC" id="GAP_12"/>	
+	</reaction>		
+	<reaction id="gapd_12">		
+		<reduct cfg="ABC" id="GAP_12"/>	
+		<rproduct cfg="ABC" id="BPG_12"/>	
+	</reaction>		
+	<reaction id="pgk_12">		
+		<reduct cfg="ABC" id="BPG_12"/>	
+		<rproduct cfg="ABC" id="PGA_12"/>	
+	</reaction>		
+	<reaction id="eno_12">		
+		<reduct cfg="ABC" id="PGA_12"/>	
+		<rproduct cfg="ABC" id="PEP_12"/>	
+	</reaction>		
+	<reaction id="pyk_12">		
+		<reduct cfg="ABC" id="PEP_12"/>	
+		<rproduct cfg="ABC" id="PYR_12"/>	
+	</reaction>		
+	<reaction id="EX_GAP_12">		
+		<reduct cfg="ABC" id="GAP_12"/>	
+	</reaction>		
+	<reaction id="EX_PGA_12">		
+		<reduct cfg="ABC" id="PGA_12"/>	
+	</reaction>		
+	<reaction id="EX_PEP_12">		
+		<reduct cfg="ABC" id="PEP_12"/>	
+	</reaction>		
+	<reaction id="EX_PYR_12">		
+		<reduct cfg="ABC" id="PYR_12"/>	
+	</reaction>		
+	<reaction id="EX_G6P_12">		
+		<reduct cfg="ABCDEF" id="G6P_12"/>	
+	</reaction>		
+	<reaction id="ppck_12">		
+		<reduct cfg="ABCD" id="OAA_12"/>	
+		<rproduct cfg="ABC" id="PEP_12"/>	
+		<rproduct cfg="D" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="me_12">		
+		<reduct cfg="ABCD" id="MAL_12"/>	
+		<rproduct cfg="ABC" id="PYR_12"/>	
+		<rproduct cfg="D" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="pc_12">		
+		<reduct cfg="ABC" id="PYR_12"/>	
+		<reduct cfg="D" id="CO2_12"/>	
+		<rproduct cfg="ABCD" id="OAA_12"/>	
+	</reaction>		
+	<reaction id="g6pdh_12">		
+		<reduct cfg="ABCDEF" id="G6P_12"/>	
+		<rproduct cfg="ABCDEF" id="m6PG_12"/>	
+	</reaction>		
+	<reaction id="gnd_12">		
+		<reduct cfg="ABCDEF" id="m6PG_12"/>	
+		<rproduct cfg="BCDEF" id="Ru5P_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="rpi_12">		
+		<reduct cfg="ABCDE" id="Ru5P_12"/>	
+		<rproduct cfg="ABCDE" id="R5P_12"/>	
+	</reaction>		
+	<reaction id="rpe_12">		
+		<reduct cfg="ABCDE" id="Ru5P_12"/>	
+		<rproduct cfg="ABCDE" id="X5P_12"/>	
+	</reaction>		
+	<reaction id="tkt2_12">		
+		<reduct cfg="ABCDE" id="X5P_12"/>	
+		<reduct cfg="abcd" id="E4P_12"/>	
+		<rproduct cfg="CDE" id="GAP_12"/>	
+		<rproduct cfg="ABabcd" id="F6P_12"/>	
+	</reaction>		
+	<reaction id="tkt1_12">		
+		<reduct cfg="ABCDE" id="X5P_12"/>	
+		<reduct cfg="abcde" id="R5P_12"/>	
+		<rproduct cfg="ABabcde" id="S7P_12"/>	
+		<rproduct cfg="CDE" id="GAP_12"/>	
+	</reaction>		
+	<reaction id="tal_12">		
+		<reduct cfg="ABC" id="GAP_12"/>	
+		<reduct cfg="abcdefg" id="S7P_12"/>	
+		<rproduct cfg="defg" id="E4P_12"/>	
+		<rproduct cfg="abcABC" id="F6P_12"/>	
+	</reaction>		
+	<reaction id="EX_R5P_12">		
+		<reduct cfg="ABCDE" id="R5P_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_12">		
+		<reduct cfg="ABCD" id="OAA_12"/>	
+	</reaction>		
+	<reaction id="pdh_12">		
+		<reduct cfg="ABC" id="PYR_12"/>	
+		<rproduct cfg="BC" id="AcCoA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="IN_AC_12">		
+		<reduct cfg="ab" id="AC_IN"/>	
+		<rproduct cfg="ab" id="AcCoA_12"/>	
+	</reaction>		
+	<reaction id="cs_12">		
+		<reduct cfg="ABCD" id="OAA_12"/>	
+		<reduct cfg="ab" id="AcCoA_12"/>	
+		<rproduct cfg="DCBAba" id="CitICit_12"/>	
+	</reaction>		
+	<reaction id="acitl_12">		
+		<reduct cfg="DCBAba" id="CitICit_12"/>	
+		<rproduct cfg="ABCD" id="MAL_12"/>	
+		<rproduct cfg="ab" id="AcCoA_cyt_12"/>	
+	</reaction>		
+	<reaction id="icdh_12">		
+		<reduct cfg="ABCDEF" id="CitICit_12"/>	
+		<rproduct cfg="ABCEF" id="OGA_12"/>	
+		<rproduct cfg="D" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="akgdh_12">		
+		<reduct cfg="ABCDE" id="OGA_12"/>	
+		<rproduct cfg="BCDE" id="SuccCoA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="sucoasA_12">		
+		<reduct cfg="ABCD" id="SuccCoA_12"/>	
+		<rproduct cfg="ABCD" id="Succ_12"/>	
+	</reaction>		
+	<reaction id="sucoasB_12">		
+		<reduct cfg="ABCD" id="SuccCoA_12"/>	
+		<rproduct cfg="DCBA" id="Succ_12"/>	
+	</reaction>		
+	<reaction id="sucd_12">		
+		<reduct cfg="ABCD" id="Succ_12"/>	
+		<rproduct cfg="ABCD" id="Fum_12"/>	
+	</reaction>		
+	<reaction id="fumA_12">		
+		<reduct cfg="ABCD" id="Fum_12"/>	
+		<rproduct cfg="ABCD" id="MAL_12"/>	
+	</reaction>		
+	<reaction id="fumB_12">		
+		<reduct cfg="ABCD" id="Fum_12"/>	
+		<rproduct cfg="DCBA" id="MAL_12"/>	
+	</reaction>		
+	<reaction id="mdh_12">		
+		<reduct cfg="ABCD" id="MAL_12"/>	
+		<rproduct cfg="ABCD" id="OAA_12"/>	
+	</reaction>		
+	<reaction id="EX_FUM_12">		
+		<reduct cfg="ABCD" id="Fum_12"/>	
+	</reaction>		
+	<reaction id="EX_SUCC_12">		
+		<reduct cfg="ABCD" id="Succ_12"/>	
+	</reaction>		
+	<reaction id="EX_MAL_12">		
+		<reduct cfg="ABCD" id="MAL_12"/>	
+	</reaction>		
+	<reaction id="EX_OGA_12">		
+		<reduct cfg="ABCDE" id="OGA_12"/>	
+	</reaction>		
+	<reaction id="IN_Ser_12">		
+		<reduct cfg="ABC" id="Ser_IN"/>	
+		<rproduct cfg="ABC" id="Ser_12"/>	
+	</reaction>		
+	<reaction id="PGA_PSer_12">		
+		<reduct cfg="ABC" id="PGA_12"/>	
+		<reduct cfg="DEFGH" id="Glu_12"/>	
+		<rproduct cfg="ABC" id="PSer_12"/>	
+		<rproduct cfg="DEFGH" id="OGA_12"/>	
+	</reaction>		
+	<reaction id="PGA_Ser_12">		
+		<reduct cfg="ABC" id="PSer_12"/>	
+		<rproduct cfg="ABC" id="Ser_12"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Ser_12">		
+		<reduct cfg="ABC" id="Ser_12"/>	
+	</reaction>		
+	<reaction id="PGA_serd_12">		
+		<reduct cfg="ABC" id="Ser_12"/>	
+		<rproduct cfg="ABC" id="PYR_12"/>	
+	</reaction>		
+	<reaction id="IN_Gly_12">		
+		<reduct cfg="AB" id="Gly_IN"/>	
+		<rproduct cfg="AB" id="Gly_12"/>	
+	</reaction>		
+	<reaction id="PGA_Gly_12">		
+		<reduct cfg="ABC" id="Ser_12"/>	
+		<rproduct cfg="AB" id="Gly_12"/>	
+		<rproduct cfg="C" id="FTHF_12"/>	
+	</reaction>		
+	<reaction id="OAA_glycl_12">		
+		<reduct cfg="AB" id="Gly_12"/>	
+		<rproduct cfg="B" id="FTHF_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="EX_FTHF_12">		
+		<reduct cfg="A" id="FTHF_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Gly_12">		
+		<reduct cfg="AB" id="Gly_12"/>	
+	</reaction>		
+	<reaction id="IN_Cys_12">		
+		<reduct cfg="ABC" id="Cys_IN"/>	
+		<rproduct cfg="ABC" id="Cys_12"/>	
+	</reaction>		
+	<reaction id="PGA_Cys_12">		
+		<reduct cfg="ABC" id="Ser_12"/>	
+		<rproduct cfg="ABC" id="Cys_12"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Cys_12">		
+		<reduct cfg="ABC" id="Cys_12"/>	
+	</reaction>		
+	<reaction id="PGA_nifs_12">		
+		<reduct cfg="ABC" id="Cys_12"/>	
+		<rproduct cfg="ABC" id="Ala_12"/>	
+	</reaction>		
+	<reaction id="PGA_cysds_12">		
+		<reduct cfg="ABC" id="Cys_12"/>	
+		<reduct cfg="DEFGH" id="OGA_12"/>	
+		<rproduct cfg="ABC" id="PYR_12"/>	
+		<rproduct cfg="DEFGH" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="PYR_Ala_12">		
+		<reduct cfg="ABC" id="PYR_12"/>	
+		<reduct cfg="DEFGH" id="Glu_12"/>	
+		<rproduct cfg="ABC" id="Ala_12"/>	
+		<rproduct cfg="DEFGH" id="OGA_12"/>	
+	</reaction>		
+	<reaction id="IN_Val_12">		
+		<reduct cfg="ABCDE" id="Val_IN"/>	
+		<rproduct cfg="ABCDE" id="Val_12"/>	
+	</reaction>		
+	<reaction id="Val_degradation_12">		
+		<reduct cfg="ABCDE" id="Val_12"/>	
+		<reduct cfg="F" id="CO2_12"/>	
+		<reduct cfg="GHIJK" id="OGA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="B" id="CO2_12"/>	
+		<rproduct cfg="EDCF" id="SuccCoA_12"/>	
+		<rproduct cfg="GHIJK" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Val_12">		
+		<reduct cfg="ABCDE" id="Val_12"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Ala_12">		
+		<reduct cfg="ABC" id="Ala_12"/>	
+	</reaction>		
+	<reaction id="IN_Leu_12">		
+		<reduct cfg="ABCDEF" id="Leu_IN"/>	
+		<rproduct cfg="ABCDEF" id="Leu_12"/>	
+	</reaction>		
+	<reaction id="Leu_degradation_12">		
+		<reduct cfg="ABCDEF" id="Leu_12"/>	
+		<reduct cfg="G" id="CO2_12"/>	
+		<reduct cfg="HIJKL" id="OGA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="GEDF" id="AcetoAc_12"/>	
+		<rproduct cfg="BC" id="AcCoA_12"/>	
+		<rproduct cfg="HIJKL" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Leu_12">		
+		<reduct cfg="ABCDEF" id="Leu_12"/>	
+	</reaction>		
+	<reaction id="IN_Phe_12">		
+		<reduct cfg="ABCDEFGHI" id="Phe_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Phe_12"/>	
+	</reaction>		
+	<reaction id="IN_Tyr_12">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_12"/>	
+	</reaction>		
+	<reaction id="pah_PheTyr_12">		
+		<reduct cfg="ABCDEFGHI" id="Phe_12"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_12"/>	
+	</reaction>		
+	<reaction id="Tyr_degradation_12">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_12"/>	
+		<reduct cfg="JKLMN" id="OGA_12"/>	
+		<rproduct cfg="JKLMN" id="Glu_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="HGFE" id="Fum_12"/>	
+		<rproduct cfg="BCDI" id="AcetoAc_12"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Phe_12">		
+		<reduct cfg="ABCEFGHIJ" id="Phe_12"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Tyr_12">		
+		<reduct cfg="ABCEFGHIJ" id="Tyr_12"/>	
+	</reaction>		
+	<reaction id="IN_Trp_12">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_IN"/>	
+		<rproduct cfg="ABCDEFGHIJK" id="Trp_12"/>	
+	</reaction>		
+	<reaction id="Trp_degradation_12">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_12"/>	
+		<rproduct cfg="E" id="FTHF_12"/>	
+		<rproduct cfg="ABC" id="Ala_12"/>	
+		<rproduct cfg="D" id="CO2_12"/>	
+		<rproduct cfg="H" id="CO2_12"/>	
+		<rproduct cfg="I" id="CO2_12"/>	
+		<rproduct cfg="GF" id="AcCoA_12"/>	
+		<rproduct cfg="KJ" id="AcCoA_12"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Trp_12">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_12"/>	
+	</reaction>		
+	<reaction id="IN_Thr_12">		
+		<reduct cfg="ABCD" id="Thr_IN"/>	
+		<rproduct cfg="ABCD" id="Thr_12"/>	
+	</reaction>		
+	<reaction id="OAA_Gly_12">		
+		<reduct cfg="ABCD" id="Thr_12"/>	
+		<rproduct cfg="AB" id="Gly_12"/>	
+		<rproduct cfg="CD" id="AcCoA_12"/>	
+	</reaction>		
+	<reaction id="OGA_Glu_12">		
+		<reduct cfg="ABCDE" id="OGA_12"/>	
+		<rproduct cfg="ABCDE" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="OGA_Pro_12">		
+		<reduct cfg="ABCDE" id="Glu_12"/>	
+		<rproduct cfg="ABCDE" id="Pro_12"/>	
+	</reaction>		
+	<reaction id="IN_Gln_12">		
+		<reduct cfg="ABCDE" id="Gln_IN"/>	
+		<rproduct cfg="ABCDE" id="Gln_12"/>	
+	</reaction>		
+	<reaction id="OGA_Gln_12">		
+		<reduct cfg="ABCDE" id="Glu_12"/>	
+		<rproduct cfg="ABCDE" id="Gln_12"/>	
+	</reaction>		
+	<reaction id="OGA_Succ_12">		
+		<reduct cfg="ABCDE" id="Glu_12"/>	
+		<reduct cfg="FGHIJ" id="OGA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="FGHIJ" id="Glu_12"/>	
+		<rproduct cfg="EDCB" id="Succ_12"/>	
+	</reaction>		
+	<reaction id="OGA_OAT_12">		
+		<reduct cfg="ABCDE" id="Glu_12"/>	
+		<reduct cfg="FGHIJ" id="Glu_12"/>	
+		<rproduct cfg="FGHIJ" id="ORN_12"/>	
+		<rproduct cfg="ABCDE" id="OGA_12"/>	
+	</reaction>		
+	<reaction id="OGA_CITRL_12">		
+		<reduct cfg="ABCDE" id="ORN_12"/>	
+		<reduct cfg="f" id="CO2_12"/>	
+		<rproduct cfg="ABCDEf" id="CITRL_12"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgA_12">		
+		<reduct cfg="ABCDEF" id="CITRL_12"/>	
+		<reduct cfg="GHIJ" id="Asp_12"/>	
+		<rproduct cfg="ABCDEF" id="Arg_12"/>	
+		<rproduct cfg="GHIJ" id="Fum_12"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgB_12">		
+		<reduct cfg="ABCDEF" id="CITRL_12"/>	
+		<reduct cfg="GHIJ" id="Asp_12"/>	
+		<rproduct cfg="ABCDEF" id="Arg_12"/>	
+		<rproduct cfg="JIHG" id="Fum_12"/>	
+	</reaction>		
+	<reaction id="IN_Arg_12">		
+		<reduct cfg="ABCDEF" id="Arg_IN"/>	
+		<rproduct cfg="ABCDEF" id="Arg_12"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Glu_12">		
+		<reduct cfg="ABCDE" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Pro_12">		
+		<reduct cfg="ABCDE" id="Pro_12"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Gln_12">		
+		<reduct cfg="ABCDE" id="Gln_12"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Arg_12">		
+		<reduct cfg="ABCDEF" id="Arg_12"/>	
+	</reaction>		
+	<reaction id="IN_His_12">		
+		<reduct cfg="ABCDEF" id="His_IN"/>	
+		<rproduct cfg="ABCDEF" id="His_12"/>	
+	</reaction>		
+	<reaction id="His_GluF_12">		
+		<reduct cfg="ABCDEF" id="His_12"/>	
+		<rproduct cfg="EDCBA" id="Glu_12"/>	
+		<rproduct cfg="F" id="FTHF_12"/>	
+	</reaction>		
+	<reaction id="R5P_PRPP_12">		
+		<reduct cfg="ABCDE" id="R5P_12"/>	
+		<rproduct cfg="ABCDE" id="PRPP_12"/>	
+	</reaction>		
+	<reaction id="R5P_AICAR_12">		
+		<reduct cfg="ABCDE" id="PRPP_12"/>	
+		<reduct cfg="fg" id="Gly_12"/>	
+		<reduct cfg="h" id="FTHF_12"/>	
+		<reduct cfg="i" id="CO2_12"/>	
+		<reduct cfg="abcde" id="Gln_12"/>	
+		<reduct cfg="klmno" id="Gln_12"/>	
+		<reduct cfg="pqrs" id="Asp_12"/>	
+		<rproduct cfg="ABCDEhfgi" id="AICAR_12"/>	
+		<rproduct cfg="abcde" id="Glu_12"/>	
+		<rproduct cfg="klmno" id="Glu_12"/>	
+		<rproduct cfg="pqrs" id="Fum_12"/>	
+	</reaction>		
+	<reaction id="R5P_ATP_12">		
+		<reduct cfg="abcdefghi" id="AICAR_12"/>	
+		<reduct cfg="J" id="FTHF_12"/>	
+		<rproduct cfg="abcdefghiJ" id="ATP_12"/>	
+	</reaction>		
+	<reaction id="EX_R5P_ATP_12">		
+		<reduct cfg="ABCDEFGHIJ" id="ATP_12"/>	
+	</reaction>		
+	<reaction id="EX_R5P_His_12">		
+		<reduct cfg="ABCDEF" id="His_12"/>	
+	</reaction>		
+	<reaction id="OAA_AspShuttle_12">		
+		<reduct cfg="ABCD" id="OAA_12"/>	
+		<reduct cfg="EFGHI" id="Glu_12"/>	
+		<rproduct cfg="ABCD" id="Asp_12"/>	
+		<rproduct cfg="EFGHI" id="OGA_12"/>	
+	</reaction>		
+	<reaction id="OAA_Asns_12">		
+		<reduct cfg="ABCD" id="Asp_12"/>	
+		<reduct cfg="EFGHI" id="Gln_12"/>	
+		<rproduct cfg="ABCD" id="Asn_12"/>	
+		<rproduct cfg="EFGHI" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="IN_Ile_12">		
+		<reduct cfg="ABCDEF" id="Ile_IN"/>	
+		<rproduct cfg="ABCDEF" id="Ile_12"/>	
+	</reaction>		
+	<reaction id="Ile_degradation_12">		
+		<reduct cfg="GABEFD" id="Ile_12"/>	
+		<reduct cfg="C" id="CO2_12"/>	
+		<reduct cfg="MNOPQ" id="OGA_12"/>	
+		<rproduct cfg="G" id="CO2_12"/>	
+		<rproduct cfg="EF" id="AcCoA_12"/>	
+		<rproduct cfg="ADBC" id="SuccCoA_12"/>	
+		<rproduct cfg="MNOPQ" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="IN_Met_12">		
+		<reduct cfg="ABCDE" id="Met_IN"/>	
+		<rproduct cfg="ABCDE" id="Met_12"/>	
+	</reaction>		
+	<reaction id="Met_degradation_12">		
+		<reduct cfg="ABCDE" id="Met_12"/>	
+		<reduct cfg="I" id="CO2_12"/>	
+		<reduct cfg="abc" id="Ser_12"/>	
+		<rproduct cfg="E" id="FTHF_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="BDCI" id="SuccCoA_12"/>	
+		<rproduct cfg="abc" id="Cys_12"/>	
+	</reaction>		
+	<reaction id="IN_Lys_12">		
+		<reduct cfg="ABCDEF" id="Lys_IN"/>	
+		<rproduct cfg="ABCDEF" id="Lys_12"/>	
+	</reaction>		
+	<reaction id="Lys_degradation_12">		
+		<reduct cfg="ABCDEF" id="Lys_12"/>	
+		<reduct cfg="abcde" id="OGA_12"/>	
+		<reduct cfg="fghij" id="OGA_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+		<rproduct cfg="F" id="CO2_12"/>	
+		<rproduct cfg="BC" id="AcCoA_12"/>	
+		<rproduct cfg="DE" id="AcCoA_12"/>	
+		<rproduct cfg="abcde" id="Glu_12"/>	
+		<rproduct cfg="fghij" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Lys_12">		
+		<reduct cfg="ABCDEF" id="Lys_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asp_12">		
+		<reduct cfg="ABCD" id="Asp_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Thr_12">		
+		<reduct cfg="ABCD" id="Thr_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Ile_12">		
+		<reduct cfg="ABCDEF" id="Ile_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asn_12">		
+		<reduct cfg="ABCD" id="Asn_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Met_12">		
+		<reduct cfg="ABCDE" id="Met_12"/>	
+	</reaction>		
+	<reaction id="OAA_CBASP_12">		
+		<reduct cfg="ABCD" id="Asp_12"/>	
+		<reduct cfg="E" id="CO2_12"/>	
+		<rproduct cfg="ABCDE" id="CBASP_12"/>	
+	</reaction>		
+	<reaction id="OAA_OROT_12">		
+		<reduct cfg="ABCDE" id="CBASP_12"/>	
+		<rproduct cfg="ABCDE" id="OROT_12"/>	
+	</reaction>		
+	<reaction id="OAA_UMP_12">		
+		<reduct cfg="ABCDE" id="OROT_12"/>	
+		<reduct cfg="abcde" id="PRPP_12"/>	
+		<rproduct cfg="abcdeBCDE" id="UMP_12"/>	
+		<rproduct cfg="A" id="CO2_12"/>	
+	</reaction>		
+	<reaction id="OAA_dTTP_Gln_12">		
+		<reduct cfg="abcdeBCDE" id="UMP_12"/>	
+		<reduct cfg="f" id="FTHF_12"/>	
+		<reduct cfg="mnopq" id="Gln_12"/>	
+		<rproduct cfg="abcdeBCDEf" id="dTTP_12"/>	
+		<rproduct cfg="mnopq" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_UMP_12">		
+		<reduct cfg="abcdeBCDE" id="UMP_12"/>	
+	</reaction>		
+	<reaction id="EX_OAA_dTTP_12">		
+		<reduct cfg="abcdeBCDEf" id="dTTP_12"/>	
+	</reaction>		
+	<reaction id="F6P_gfpt_12">		
+		<reduct cfg="ABCDEF" id="F6P_12"/>	
+		<reduct cfg="GHIJK" id="Gln_12"/>	
+		<rproduct cfg="ABCDEF" id="GAM6P_12"/>	
+		<rproduct cfg="GHIJK" id="Glu_12"/>	
+	</reaction>		
+	<reaction id="F6P_ACGAM1P_12">		
+		<reduct cfg="ABCDEF" id="GAM6P_12"/>	
+		<reduct cfg="ab" id="AcCoA_12"/>	
+		<rproduct cfg="ABCDEFab" id="ACGAM1P_12"/>	
+	</reaction>		
+	<reaction id="EX_F6P_ACGAM1P_12">		
+		<reduct cfg="ABCDEFab" id="ACGAM1P_12"/>	
+	</reaction>		
+	<reaction id="DHAP_GLYC3P_12">		
+		<reduct cfg="ABC" id="DHAP_12"/>	
+		<rproduct cfg="ABC" id="GLYC3P_12"/>	
+	</reaction>		
+	<reaction id="EX_DHAP_GLYC3P_12">		
+		<reduct cfg="ABC" id="GLYC3P_12"/>	
+	</reaction>		
+	<reaction id="EX_AC_cyt_12">		
+		<reduct cfg="AB" id="AcCoA_cyt_12"/>	
+	</reaction>		
+	<reaction id="AC_ketolysis_12">		
+		<reduct cfg="ABCD" id="SuccCoA_12"/>	
+		<reduct cfg="EFGH" id="AcetoAc_12"/>	
+		<rproduct cfg="ABCD" id="Succ_12"/>	
+		<rproduct cfg="EF" id="AcCoA_12"/>	
+		<rproduct cfg="GH" id="AcCoA_12"/>	
+	</reaction>		
+	<reaction id="EX_AcetoAc_12">		
+		<reduct cfg="ABCD" id="AcetoAc_12"/>	
+	</reaction>		
+			
+			
+	<reaction id="IN_CO2_U">		
+		<reduct cfg="A" id="CO2_IN"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="EX_CO2_U">		
+		<reduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="IN_uptU">		
+		<reduct cfg="ABCDEF" id="GLCU_IN"/>	
+		<rproduct cfg="ABCDEF" id="GLC_U"/>	
+	</reaction>		
+	<reaction id="upt_U">		
+		<reduct cfg="ABCDEF" id="GLC_U"/>	
+		<rproduct cfg="ABCDEF" id="G6P_U"/>	
+	</reaction>		
+	<reaction id="pgi_U">		
+		<reduct cfg="ABCDEF" id="G6P_U"/>	
+		<rproduct cfg="ABCDEF" id="F6P_U"/>	
+	</reaction>		
+	<reaction id="pfk_U">		
+		<reduct cfg="ABCDEF" id="F6P_U"/>	
+		<rproduct cfg="ABCDEF" id="FBP_U"/>	
+	</reaction>		
+	<reaction id="fba_U">		
+		<reduct cfg="ABCDEF" id="FBP_U"/>	
+		<rproduct cfg="CBA" id="DHAP_U"/>	
+		<rproduct cfg="DEF" id="GAP_U"/>	
+	</reaction>		
+	<reaction id="tpi_U">		
+		<reduct cfg="ABC" id="DHAP_U"/>	
+		<rproduct cfg="ABC" id="GAP_U"/>	
+	</reaction>		
+	<reaction id="gapd_U">		
+		<reduct cfg="ABC" id="GAP_U"/>	
+		<rproduct cfg="ABC" id="BPG_U"/>	
+	</reaction>		
+	<reaction id="pgk_U">		
+		<reduct cfg="ABC" id="BPG_U"/>	
+		<rproduct cfg="ABC" id="PGA_U"/>	
+	</reaction>		
+	<reaction id="eno_U">		
+		<reduct cfg="ABC" id="PGA_U"/>	
+		<rproduct cfg="ABC" id="PEP_U"/>	
+	</reaction>		
+	<reaction id="pyk_U">		
+		<reduct cfg="ABC" id="PEP_U"/>	
+		<rproduct cfg="ABC" id="PYR_U"/>	
+	</reaction>		
+	<reaction id="EX_GAP_U">		
+		<reduct cfg="ABC" id="GAP_U"/>	
+	</reaction>		
+	<reaction id="EX_PGA_U">		
+		<reduct cfg="ABC" id="PGA_U"/>	
+	</reaction>		
+	<reaction id="EX_PEP_U">		
+		<reduct cfg="ABC" id="PEP_U"/>	
+	</reaction>		
+	<reaction id="EX_PYR_U">		
+		<reduct cfg="ABC" id="PYR_U"/>	
+	</reaction>		
+	<reaction id="EX_G6P_U">		
+		<reduct cfg="ABCDEF" id="G6P_U"/>	
+	</reaction>		
+	<reaction id="ppck_U">		
+		<reduct cfg="ABCD" id="OAA_U"/>	
+		<rproduct cfg="ABC" id="PEP_U"/>	
+		<rproduct cfg="D" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="me_U">		
+		<reduct cfg="ABCD" id="MAL_U"/>	
+		<rproduct cfg="ABC" id="PYR_U"/>	
+		<rproduct cfg="D" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="pc_U">		
+		<reduct cfg="ABC" id="PYR_U"/>	
+		<reduct cfg="D" id="CO2_U"/>	
+		<rproduct cfg="ABCD" id="OAA_U"/>	
+	</reaction>		
+	<reaction id="g6pdh_U">		
+		<reduct cfg="ABCDEF" id="G6P_U"/>	
+		<rproduct cfg="ABCDEF" id="m6PG_U"/>	
+	</reaction>		
+	<reaction id="gnd_U">		
+		<reduct cfg="ABCDEF" id="m6PG_U"/>	
+		<rproduct cfg="BCDEF" id="Ru5P_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="rpi_U">		
+		<reduct cfg="ABCDE" id="Ru5P_U"/>	
+		<rproduct cfg="ABCDE" id="R5P_U"/>	
+	</reaction>		
+	<reaction id="rpe_U">		
+		<reduct cfg="ABCDE" id="Ru5P_U"/>	
+		<rproduct cfg="ABCDE" id="X5P_U"/>	
+	</reaction>		
+	<reaction id="tkt2_U">		
+		<reduct cfg="ABCDE" id="X5P_U"/>	
+		<reduct cfg="abcd" id="E4P_U"/>	
+		<rproduct cfg="CDE" id="GAP_U"/>	
+		<rproduct cfg="ABabcd" id="F6P_U"/>	
+	</reaction>		
+	<reaction id="tkt1_U">		
+		<reduct cfg="ABCDE" id="X5P_U"/>	
+		<reduct cfg="abcde" id="R5P_U"/>	
+		<rproduct cfg="ABabcde" id="S7P_U"/>	
+		<rproduct cfg="CDE" id="GAP_U"/>	
+	</reaction>		
+	<reaction id="tal_U">		
+		<reduct cfg="ABC" id="GAP_U"/>	
+		<reduct cfg="abcdefg" id="S7P_U"/>	
+		<rproduct cfg="defg" id="E4P_U"/>	
+		<rproduct cfg="abcABC" id="F6P_U"/>	
+	</reaction>		
+	<reaction id="EX_R5P_U">		
+		<reduct cfg="ABCDE" id="R5P_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_U">		
+		<reduct cfg="ABCD" id="OAA_U"/>	
+	</reaction>		
+	<reaction id="pdh_U">		
+		<reduct cfg="ABC" id="PYR_U"/>	
+		<rproduct cfg="BC" id="AcCoA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="IN_AC_U">		
+		<reduct cfg="ab" id="AC_IN"/>	
+		<rproduct cfg="ab" id="AcCoA_U"/>	
+	</reaction>		
+	<reaction id="cs_U">		
+		<reduct cfg="ABCD" id="OAA_U"/>	
+		<reduct cfg="ab" id="AcCoA_U"/>	
+		<rproduct cfg="DCBAba" id="CitICit_U"/>	
+	</reaction>		
+	<reaction id="acitl_U">		
+		<reduct cfg="DCBAba" id="CitICit_U"/>	
+		<rproduct cfg="ABCD" id="MAL_U"/>	
+		<rproduct cfg="ab" id="AcCoA_cyt_U"/>	
+	</reaction>		
+	<reaction id="icdh_U">		
+		<reduct cfg="ABCDEF" id="CitICit_U"/>	
+		<rproduct cfg="ABCEF" id="OGA_U"/>	
+		<rproduct cfg="D" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="akgdh_U">		
+		<reduct cfg="ABCDE" id="OGA_U"/>	
+		<rproduct cfg="BCDE" id="SuccCoA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="sucoasA_U">		
+		<reduct cfg="ABCD" id="SuccCoA_U"/>	
+		<rproduct cfg="ABCD" id="Succ_U"/>	
+	</reaction>		
+	<reaction id="sucoasB_U">		
+		<reduct cfg="ABCD" id="SuccCoA_U"/>	
+		<rproduct cfg="DCBA" id="Succ_U"/>	
+	</reaction>		
+	<reaction id="sucd_U">		
+		<reduct cfg="ABCD" id="Succ_U"/>	
+		<rproduct cfg="ABCD" id="Fum_U"/>	
+	</reaction>		
+	<reaction id="fumA_U">		
+		<reduct cfg="ABCD" id="Fum_U"/>	
+		<rproduct cfg="ABCD" id="MAL_U"/>	
+	</reaction>		
+	<reaction id="fumB_U">		
+		<reduct cfg="ABCD" id="Fum_U"/>	
+		<rproduct cfg="DCBA" id="MAL_U"/>	
+	</reaction>		
+	<reaction id="mdh_U">		
+		<reduct cfg="ABCD" id="MAL_U"/>	
+		<rproduct cfg="ABCD" id="OAA_U"/>	
+	</reaction>		
+	<reaction id="EX_FUM_U">		
+		<reduct cfg="ABCD" id="Fum_U"/>	
+	</reaction>		
+	<reaction id="EX_SUCC_U">		
+		<reduct cfg="ABCD" id="Succ_U"/>	
+	</reaction>		
+	<reaction id="EX_MAL_U">		
+		<reduct cfg="ABCD" id="MAL_U"/>	
+	</reaction>		
+	<reaction id="EX_OGA_U">		
+		<reduct cfg="ABCDE" id="OGA_U"/>	
+	</reaction>		
+	<reaction id="IN_Ser_U">		
+		<reduct cfg="ABC" id="Ser_IN"/>	
+		<rproduct cfg="ABC" id="Ser_U"/>	
+	</reaction>		
+	<reaction id="PGA_PSer_U">		
+		<reduct cfg="ABC" id="PGA_U"/>	
+		<reduct cfg="DEFGH" id="Glu_U"/>	
+		<rproduct cfg="ABC" id="PSer_U"/>	
+		<rproduct cfg="DEFGH" id="OGA_U"/>	
+	</reaction>		
+	<reaction id="PGA_Ser_U">		
+		<reduct cfg="ABC" id="PSer_U"/>	
+		<rproduct cfg="ABC" id="Ser_U"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Ser_U">		
+		<reduct cfg="ABC" id="Ser_U"/>	
+	</reaction>		
+	<reaction id="PGA_serd_U">		
+		<reduct cfg="ABC" id="Ser_U"/>	
+		<rproduct cfg="ABC" id="PYR_U"/>	
+	</reaction>		
+	<reaction id="IN_Gly_U">		
+		<reduct cfg="AB" id="Gly_IN"/>	
+		<rproduct cfg="AB" id="Gly_U"/>	
+	</reaction>		
+	<reaction id="PGA_Gly_U">		
+		<reduct cfg="ABC" id="Ser_U"/>	
+		<rproduct cfg="AB" id="Gly_U"/>	
+		<rproduct cfg="C" id="FTHF_U"/>	
+	</reaction>		
+	<reaction id="OAA_glycl_U">		
+		<reduct cfg="AB" id="Gly_U"/>	
+		<rproduct cfg="B" id="FTHF_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="EX_FTHF_U">		
+		<reduct cfg="A" id="FTHF_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Gly_U">		
+		<reduct cfg="AB" id="Gly_U"/>	
+	</reaction>		
+	<reaction id="IN_Cys_U">		
+		<reduct cfg="ABC" id="Cys_IN"/>	
+		<rproduct cfg="ABC" id="Cys_U"/>	
+	</reaction>		
+	<reaction id="PGA_Cys_U">		
+		<reduct cfg="ABC" id="Ser_U"/>	
+		<rproduct cfg="ABC" id="Cys_U"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Cys_U">		
+		<reduct cfg="ABC" id="Cys_U"/>	
+	</reaction>		
+	<reaction id="PGA_nifs_U">		
+		<reduct cfg="ABC" id="Cys_U"/>	
+		<rproduct cfg="ABC" id="Ala_U"/>	
+	</reaction>		
+	<reaction id="PGA_cysds_U">		
+		<reduct cfg="ABC" id="Cys_U"/>	
+		<reduct cfg="DEFGH" id="OGA_U"/>	
+		<rproduct cfg="ABC" id="PYR_U"/>	
+		<rproduct cfg="DEFGH" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="PYR_Ala_U">		
+		<reduct cfg="ABC" id="PYR_U"/>	
+		<reduct cfg="DEFGH" id="Glu_U"/>	
+		<rproduct cfg="ABC" id="Ala_U"/>	
+		<rproduct cfg="DEFGH" id="OGA_U"/>	
+	</reaction>		
+	<reaction id="IN_Val_U">		
+		<reduct cfg="ABCDE" id="Val_IN"/>	
+		<rproduct cfg="ABCDE" id="Val_U"/>	
+	</reaction>		
+	<reaction id="Val_degradation_U">		
+		<reduct cfg="ABCDE" id="Val_U"/>	
+		<reduct cfg="F" id="CO2_U"/>	
+		<reduct cfg="GHIJK" id="OGA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="B" id="CO2_U"/>	
+		<rproduct cfg="EDCF" id="SuccCoA_U"/>	
+		<rproduct cfg="GHIJK" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Val_U">		
+		<reduct cfg="ABCDE" id="Val_U"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Ala_U">		
+		<reduct cfg="ABC" id="Ala_U"/>	
+	</reaction>		
+	<reaction id="IN_Leu_U">		
+		<reduct cfg="ABCDEF" id="Leu_IN"/>	
+		<rproduct cfg="ABCDEF" id="Leu_U"/>	
+	</reaction>		
+	<reaction id="Leu_degradation_U">		
+		<reduct cfg="ABCDEF" id="Leu_U"/>	
+		<reduct cfg="G" id="CO2_U"/>	
+		<reduct cfg="HIJKL" id="OGA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="GEDF" id="AcetoAc_U"/>	
+		<rproduct cfg="BC" id="AcCoA_U"/>	
+		<rproduct cfg="HIJKL" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Leu_U">		
+		<reduct cfg="ABCDEF" id="Leu_U"/>	
+	</reaction>		
+	<reaction id="IN_Phe_U">		
+		<reduct cfg="ABCDEFGHI" id="Phe_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Phe_U"/>	
+	</reaction>		
+	<reaction id="IN_Tyr_U">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_U"/>	
+	</reaction>		
+	<reaction id="pah_PheTyr_U">		
+		<reduct cfg="ABCDEFGHI" id="Phe_U"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_U"/>	
+	</reaction>		
+	<reaction id="Tyr_degradation_U">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_U"/>	
+		<reduct cfg="JKLMN" id="OGA_U"/>	
+		<rproduct cfg="JKLMN" id="Glu_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="HGFE" id="Fum_U"/>	
+		<rproduct cfg="BCDI" id="AcetoAc_U"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Phe_U">		
+		<reduct cfg="ABCEFGHIJ" id="Phe_U"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Tyr_U">		
+		<reduct cfg="ABCEFGHIJ" id="Tyr_U"/>	
+	</reaction>		
+	<reaction id="IN_Trp_U">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_IN"/>	
+		<rproduct cfg="ABCDEFGHIJK" id="Trp_U"/>	
+	</reaction>		
+	<reaction id="Trp_degradation_U">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_U"/>	
+		<rproduct cfg="E" id="FTHF_U"/>	
+		<rproduct cfg="ABC" id="Ala_U"/>	
+		<rproduct cfg="D" id="CO2_U"/>	
+		<rproduct cfg="H" id="CO2_U"/>	
+		<rproduct cfg="I" id="CO2_U"/>	
+		<rproduct cfg="GF" id="AcCoA_U"/>	
+		<rproduct cfg="KJ" id="AcCoA_U"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Trp_U">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_U"/>	
+	</reaction>		
+	<reaction id="IN_Thr_U">		
+		<reduct cfg="ABCD" id="Thr_IN"/>	
+		<rproduct cfg="ABCD" id="Thr_U"/>	
+	</reaction>		
+	<reaction id="OAA_Gly_U">		
+		<reduct cfg="ABCD" id="Thr_U"/>	
+		<rproduct cfg="AB" id="Gly_U"/>	
+		<rproduct cfg="CD" id="AcCoA_U"/>	
+	</reaction>		
+	<reaction id="OGA_Glu_U">		
+		<reduct cfg="ABCDE" id="OGA_U"/>	
+		<rproduct cfg="ABCDE" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="OGA_Pro_U">		
+		<reduct cfg="ABCDE" id="Glu_U"/>	
+		<rproduct cfg="ABCDE" id="Pro_U"/>	
+	</reaction>		
+	<reaction id="IN_Gln_U">		
+		<reduct cfg="ABCDE" id="Gln_IN"/>	
+		<rproduct cfg="ABCDE" id="Gln_U"/>	
+	</reaction>		
+	<reaction id="OGA_Gln_U">		
+		<reduct cfg="ABCDE" id="Glu_U"/>	
+		<rproduct cfg="ABCDE" id="Gln_U"/>	
+	</reaction>		
+	<reaction id="OGA_Succ_U">		
+		<reduct cfg="ABCDE" id="Glu_U"/>	
+		<reduct cfg="FGHIJ" id="OGA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="FGHIJ" id="Glu_U"/>	
+		<rproduct cfg="EDCB" id="Succ_U"/>	
+	</reaction>		
+	<reaction id="OGA_OAT_U">		
+		<reduct cfg="ABCDE" id="Glu_U"/>	
+		<reduct cfg="FGHIJ" id="Glu_U"/>	
+		<rproduct cfg="FGHIJ" id="ORN_U"/>	
+		<rproduct cfg="ABCDE" id="OGA_U"/>	
+	</reaction>		
+	<reaction id="OGA_CITRL_U">		
+		<reduct cfg="ABCDE" id="ORN_U"/>	
+		<reduct cfg="f" id="CO2_U"/>	
+		<rproduct cfg="ABCDEf" id="CITRL_U"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgA_U">		
+		<reduct cfg="ABCDEF" id="CITRL_U"/>	
+		<reduct cfg="GHIJ" id="Asp_U"/>	
+		<rproduct cfg="ABCDEF" id="Arg_U"/>	
+		<rproduct cfg="GHIJ" id="Fum_U"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgB_U">		
+		<reduct cfg="ABCDEF" id="CITRL_U"/>	
+		<reduct cfg="GHIJ" id="Asp_U"/>	
+		<rproduct cfg="ABCDEF" id="Arg_U"/>	
+		<rproduct cfg="JIHG" id="Fum_U"/>	
+	</reaction>		
+	<reaction id="IN_Arg_U">		
+		<reduct cfg="ABCDEF" id="Arg_IN"/>	
+		<rproduct cfg="ABCDEF" id="Arg_U"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Glu_U">		
+		<reduct cfg="ABCDE" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Pro_U">		
+		<reduct cfg="ABCDE" id="Pro_U"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Gln_U">		
+		<reduct cfg="ABCDE" id="Gln_U"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Arg_U">		
+		<reduct cfg="ABCDEF" id="Arg_U"/>	
+	</reaction>		
+	<reaction id="IN_His_U">		
+		<reduct cfg="ABCDEF" id="His_IN"/>	
+		<rproduct cfg="ABCDEF" id="His_U"/>	
+	</reaction>		
+	<reaction id="His_GluF_U">		
+		<reduct cfg="ABCDEF" id="His_U"/>	
+		<rproduct cfg="EDCBA" id="Glu_U"/>	
+		<rproduct cfg="F" id="FTHF_U"/>	
+	</reaction>		
+	<reaction id="R5P_PRPP_U">		
+		<reduct cfg="ABCDE" id="R5P_U"/>	
+		<rproduct cfg="ABCDE" id="PRPP_U"/>	
+	</reaction>		
+	<reaction id="R5P_AICAR_U">		
+		<reduct cfg="ABCDE" id="PRPP_U"/>	
+		<reduct cfg="fg" id="Gly_U"/>	
+		<reduct cfg="h" id="FTHF_U"/>	
+		<reduct cfg="i" id="CO2_U"/>	
+		<reduct cfg="abcde" id="Gln_U"/>	
+		<reduct cfg="klmno" id="Gln_U"/>	
+		<reduct cfg="pqrs" id="Asp_U"/>	
+		<rproduct cfg="ABCDEhfgi" id="AICAR_U"/>	
+		<rproduct cfg="abcde" id="Glu_U"/>	
+		<rproduct cfg="klmno" id="Glu_U"/>	
+		<rproduct cfg="pqrs" id="Fum_U"/>	
+	</reaction>		
+	<reaction id="R5P_ATP_U">		
+		<reduct cfg="abcdefghi" id="AICAR_U"/>	
+		<reduct cfg="J" id="FTHF_U"/>	
+		<rproduct cfg="abcdefghiJ" id="ATP_U"/>	
+	</reaction>		
+	<reaction id="EX_R5P_ATP_U">		
+		<reduct cfg="ABCDEFGHIJ" id="ATP_U"/>	
+	</reaction>		
+	<reaction id="EX_R5P_His_U">		
+		<reduct cfg="ABCDEF" id="His_U"/>	
+	</reaction>		
+	<reaction id="OAA_AspShuttle_U">		
+		<reduct cfg="ABCD" id="OAA_U"/>	
+		<reduct cfg="EFGHI" id="Glu_U"/>	
+		<rproduct cfg="ABCD" id="Asp_U"/>	
+		<rproduct cfg="EFGHI" id="OGA_U"/>	
+	</reaction>		
+	<reaction id="OAA_Asns_U">		
+		<reduct cfg="ABCD" id="Asp_U"/>	
+		<reduct cfg="EFGHI" id="Gln_U"/>	
+		<rproduct cfg="ABCD" id="Asn_U"/>	
+		<rproduct cfg="EFGHI" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="IN_Ile_U">		
+		<reduct cfg="ABCDEF" id="Ile_IN"/>	
+		<rproduct cfg="ABCDEF" id="Ile_U"/>	
+	</reaction>		
+	<reaction id="Ile_degradation_U">		
+		<reduct cfg="GABEFD" id="Ile_U"/>	
+		<reduct cfg="C" id="CO2_U"/>	
+		<reduct cfg="MNOPQ" id="OGA_U"/>	
+		<rproduct cfg="G" id="CO2_U"/>	
+		<rproduct cfg="EF" id="AcCoA_U"/>	
+		<rproduct cfg="ADBC" id="SuccCoA_U"/>	
+		<rproduct cfg="MNOPQ" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="IN_Met_U">		
+		<reduct cfg="ABCDE" id="Met_IN"/>	
+		<rproduct cfg="ABCDE" id="Met_U"/>	
+	</reaction>		
+	<reaction id="Met_degradation_U">		
+		<reduct cfg="ABCDE" id="Met_U"/>	
+		<reduct cfg="I" id="CO2_U"/>	
+		<reduct cfg="abc" id="Ser_U"/>	
+		<rproduct cfg="E" id="FTHF_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="BDCI" id="SuccCoA_U"/>	
+		<rproduct cfg="abc" id="Cys_U"/>	
+	</reaction>		
+	<reaction id="IN_Lys_U">		
+		<reduct cfg="ABCDEF" id="Lys_IN"/>	
+		<rproduct cfg="ABCDEF" id="Lys_U"/>	
+	</reaction>		
+	<reaction id="Lys_degradation_U">		
+		<reduct cfg="ABCDEF" id="Lys_U"/>	
+		<reduct cfg="abcde" id="OGA_U"/>	
+		<reduct cfg="fghij" id="OGA_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+		<rproduct cfg="F" id="CO2_U"/>	
+		<rproduct cfg="BC" id="AcCoA_U"/>	
+		<rproduct cfg="DE" id="AcCoA_U"/>	
+		<rproduct cfg="abcde" id="Glu_U"/>	
+		<rproduct cfg="fghij" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Lys_U">		
+		<reduct cfg="ABCDEF" id="Lys_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asp_U">		
+		<reduct cfg="ABCD" id="Asp_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Thr_U">		
+		<reduct cfg="ABCD" id="Thr_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Ile_U">		
+		<reduct cfg="ABCDEF" id="Ile_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asn_U">		
+		<reduct cfg="ABCD" id="Asn_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Met_U">		
+		<reduct cfg="ABCDE" id="Met_U"/>	
+	</reaction>		
+	<reaction id="OAA_CBASP_U">		
+		<reduct cfg="ABCD" id="Asp_U"/>	
+		<reduct cfg="E" id="CO2_U"/>	
+		<rproduct cfg="ABCDE" id="CBASP_U"/>	
+	</reaction>		
+	<reaction id="OAA_OROT_U">		
+		<reduct cfg="ABCDE" id="CBASP_U"/>	
+		<rproduct cfg="ABCDE" id="OROT_U"/>	
+	</reaction>		
+	<reaction id="OAA_UMP_U">		
+		<reduct cfg="ABCDE" id="OROT_U"/>	
+		<reduct cfg="abcde" id="PRPP_U"/>	
+		<rproduct cfg="abcdeBCDE" id="UMP_U"/>	
+		<rproduct cfg="A" id="CO2_U"/>	
+	</reaction>		
+	<reaction id="OAA_dTTP_Gln_U">		
+		<reduct cfg="abcdeBCDE" id="UMP_U"/>	
+		<reduct cfg="f" id="FTHF_U"/>	
+		<reduct cfg="mnopq" id="Gln_U"/>	
+		<rproduct cfg="abcdeBCDEf" id="dTTP_U"/>	
+		<rproduct cfg="mnopq" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_UMP_U">		
+		<reduct cfg="abcdeBCDE" id="UMP_U"/>	
+	</reaction>		
+	<reaction id="EX_OAA_dTTP_U">		
+		<reduct cfg="abcdeBCDEf" id="dTTP_U"/>	
+	</reaction>		
+	<reaction id="F6P_gfpt_U">		
+		<reduct cfg="ABCDEF" id="F6P_U"/>	
+		<reduct cfg="GHIJK" id="Gln_U"/>	
+		<rproduct cfg="ABCDEF" id="GAM6P_U"/>	
+		<rproduct cfg="GHIJK" id="Glu_U"/>	
+	</reaction>		
+	<reaction id="F6P_ACGAM1P_U">		
+		<reduct cfg="ABCDEF" id="GAM6P_U"/>	
+		<reduct cfg="ab" id="AcCoA_U"/>	
+		<rproduct cfg="ABCDEFab" id="ACGAM1P_U"/>	
+	</reaction>		
+	<reaction id="EX_F6P_ACGAM1P_U">		
+		<reduct cfg="ABCDEFab" id="ACGAM1P_U"/>	
+	</reaction>		
+	<reaction id="DHAP_GLYC3P_U">		
+		<reduct cfg="ABC" id="DHAP_U"/>	
+		<rproduct cfg="ABC" id="GLYC3P_U"/>	
+	</reaction>		
+	<reaction id="EX_DHAP_GLYC3P_U">		
+		<reduct cfg="ABC" id="GLYC3P_U"/>	
+	</reaction>		
+	<reaction id="EX_AC_cyt_U">		
+		<reduct cfg="AB" id="AcCoA_cyt_U"/>	
+	</reaction>		
+	<reaction id="AC_ketolysis_U">		
+		<reduct cfg="ABCD" id="SuccCoA_U"/>	
+		<reduct cfg="EFGH" id="AcetoAc_U"/>	
+		<rproduct cfg="ABCD" id="Succ_U"/>	
+		<rproduct cfg="EF" id="AcCoA_U"/>	
+		<rproduct cfg="GH" id="AcCoA_U"/>	
+	</reaction>		
+	<reaction id="EX_AcetoAc_U">		
+		<reduct cfg="ABCD" id="AcetoAc_U"/>	
+	</reaction>		
+			
+			
+	<reaction id="IN_CO2_UGln">		
+		<reduct cfg="A" id="CO2_IN"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="EX_CO2_UGln">		
+		<reduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="IN_upt0">		
+		<reduct cfg="ABCDEF" id="GLC0_IN"/>	
+		<rproduct cfg="ABCDEF" id="GLC_UGln"/>	
+	</reaction>		
+	<reaction id="upt_UGln">		
+		<reduct cfg="ABCDEF" id="GLC_UGln"/>	
+		<rproduct cfg="ABCDEF" id="G6P_UGln"/>	
+	</reaction>		
+	<reaction id="pgi_UGln">		
+		<reduct cfg="ABCDEF" id="G6P_UGln"/>	
+		<rproduct cfg="ABCDEF" id="F6P_UGln"/>	
+	</reaction>		
+	<reaction id="pfk_UGln">		
+		<reduct cfg="ABCDEF" id="F6P_UGln"/>	
+		<rproduct cfg="ABCDEF" id="FBP_UGln"/>	
+	</reaction>		
+	<reaction id="fba_UGln">		
+		<reduct cfg="ABCDEF" id="FBP_UGln"/>	
+		<rproduct cfg="CBA" id="DHAP_UGln"/>	
+		<rproduct cfg="DEF" id="GAP_UGln"/>	
+	</reaction>		
+	<reaction id="tpi_UGln">		
+		<reduct cfg="ABC" id="DHAP_UGln"/>	
+		<rproduct cfg="ABC" id="GAP_UGln"/>	
+	</reaction>		
+	<reaction id="gapd_UGln">		
+		<reduct cfg="ABC" id="GAP_UGln"/>	
+		<rproduct cfg="ABC" id="BPG_UGln"/>	
+	</reaction>		
+	<reaction id="pgk_UGln">		
+		<reduct cfg="ABC" id="BPG_UGln"/>	
+		<rproduct cfg="ABC" id="PGA_UGln"/>	
+	</reaction>		
+	<reaction id="eno_UGln">		
+		<reduct cfg="ABC" id="PGA_UGln"/>	
+		<rproduct cfg="ABC" id="PEP_UGln"/>	
+	</reaction>		
+	<reaction id="pyk_UGln">		
+		<reduct cfg="ABC" id="PEP_UGln"/>	
+		<rproduct cfg="ABC" id="PYR_UGln"/>	
+	</reaction>		
+	<reaction id="EX_GAP_UGln">		
+		<reduct cfg="ABC" id="GAP_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PGA_UGln">		
+		<reduct cfg="ABC" id="PGA_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PEP_UGln">		
+		<reduct cfg="ABC" id="PEP_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PYR_UGln">		
+		<reduct cfg="ABC" id="PYR_UGln"/>	
+	</reaction>		
+	<reaction id="EX_G6P_UGln">		
+		<reduct cfg="ABCDEF" id="G6P_UGln"/>	
+	</reaction>		
+	<reaction id="ppck_UGln">		
+		<reduct cfg="ABCD" id="OAA_UGln"/>	
+		<rproduct cfg="ABC" id="PEP_UGln"/>	
+		<rproduct cfg="D" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="me_UGln">		
+		<reduct cfg="ABCD" id="MAL_UGln"/>	
+		<rproduct cfg="ABC" id="PYR_UGln"/>	
+		<rproduct cfg="D" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="pc_UGln">		
+		<reduct cfg="ABC" id="PYR_UGln"/>	
+		<reduct cfg="D" id="CO2_UGln"/>	
+		<rproduct cfg="ABCD" id="OAA_UGln"/>	
+	</reaction>		
+	<reaction id="g6pdh_UGln">		
+		<reduct cfg="ABCDEF" id="G6P_UGln"/>	
+		<rproduct cfg="ABCDEF" id="m6PG_UGln"/>	
+	</reaction>		
+	<reaction id="gnd_UGln">		
+		<reduct cfg="ABCDEF" id="m6PG_UGln"/>	
+		<rproduct cfg="BCDEF" id="Ru5P_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="rpi_UGln">		
+		<reduct cfg="ABCDE" id="Ru5P_UGln"/>	
+		<rproduct cfg="ABCDE" id="R5P_UGln"/>	
+	</reaction>		
+	<reaction id="rpe_UGln">		
+		<reduct cfg="ABCDE" id="Ru5P_UGln"/>	
+		<rproduct cfg="ABCDE" id="X5P_UGln"/>	
+	</reaction>		
+	<reaction id="tkt2_UGln">		
+		<reduct cfg="ABCDE" id="X5P_UGln"/>	
+		<reduct cfg="abcd" id="E4P_UGln"/>	
+		<rproduct cfg="CDE" id="GAP_UGln"/>	
+		<rproduct cfg="ABabcd" id="F6P_UGln"/>	
+	</reaction>		
+	<reaction id="tkt1_UGln">		
+		<reduct cfg="ABCDE" id="X5P_UGln"/>	
+		<reduct cfg="abcde" id="R5P_UGln"/>	
+		<rproduct cfg="ABabcde" id="S7P_UGln"/>	
+		<rproduct cfg="CDE" id="GAP_UGln"/>	
+	</reaction>		
+	<reaction id="tal_UGln">		
+		<reduct cfg="ABC" id="GAP_UGln"/>	
+		<reduct cfg="abcdefg" id="S7P_UGln"/>	
+		<rproduct cfg="defg" id="E4P_UGln"/>	
+		<rproduct cfg="abcABC" id="F6P_UGln"/>	
+	</reaction>		
+	<reaction id="EX_R5P_UGln">		
+		<reduct cfg="ABCDE" id="R5P_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_UGln">		
+		<reduct cfg="ABCD" id="OAA_UGln"/>	
+	</reaction>		
+	<reaction id="pdh_UGln">		
+		<reduct cfg="ABC" id="PYR_UGln"/>	
+		<rproduct cfg="BC" id="AcCoA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="IN_AC_UGln">		
+		<reduct cfg="ab" id="AC_IN"/>	
+		<rproduct cfg="ab" id="AcCoA_UGln"/>	
+	</reaction>		
+	<reaction id="cs_UGln">		
+		<reduct cfg="ABCD" id="OAA_UGln"/>	
+		<reduct cfg="ab" id="AcCoA_UGln"/>	
+		<rproduct cfg="DCBAba" id="CitICit_UGln"/>	
+	</reaction>		
+	<reaction id="acitl_UGln">		
+		<reduct cfg="DCBAba" id="CitICit_UGln"/>	
+		<rproduct cfg="ABCD" id="MAL_UGln"/>	
+		<rproduct cfg="ab" id="AcCoA_cyt_UGln"/>	
+	</reaction>		
+	<reaction id="icdh_UGln">		
+		<reduct cfg="ABCDEF" id="CitICit_UGln"/>	
+		<rproduct cfg="ABCEF" id="OGA_UGln"/>	
+		<rproduct cfg="D" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="akgdh_UGln">		
+		<reduct cfg="ABCDE" id="OGA_UGln"/>	
+		<rproduct cfg="BCDE" id="SuccCoA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="sucoasA_UGln">		
+		<reduct cfg="ABCD" id="SuccCoA_UGln"/>	
+		<rproduct cfg="ABCD" id="Succ_UGln"/>	
+	</reaction>		
+	<reaction id="sucoasB_UGln">		
+		<reduct cfg="ABCD" id="SuccCoA_UGln"/>	
+		<rproduct cfg="DCBA" id="Succ_UGln"/>	
+	</reaction>		
+	<reaction id="sucd_UGln">		
+		<reduct cfg="ABCD" id="Succ_UGln"/>	
+		<rproduct cfg="ABCD" id="Fum_UGln"/>	
+	</reaction>		
+	<reaction id="fumA_UGln">		
+		<reduct cfg="ABCD" id="Fum_UGln"/>	
+		<rproduct cfg="ABCD" id="MAL_UGln"/>	
+	</reaction>		
+	<reaction id="fumB_UGln">		
+		<reduct cfg="ABCD" id="Fum_UGln"/>	
+		<rproduct cfg="DCBA" id="MAL_UGln"/>	
+	</reaction>		
+	<reaction id="mdh_UGln">		
+		<reduct cfg="ABCD" id="MAL_UGln"/>	
+		<rproduct cfg="ABCD" id="OAA_UGln"/>	
+	</reaction>		
+	<reaction id="EX_FUM_UGln">		
+		<reduct cfg="ABCD" id="Fum_UGln"/>	
+	</reaction>		
+	<reaction id="EX_SUCC_UGln">		
+		<reduct cfg="ABCD" id="Succ_UGln"/>	
+	</reaction>		
+	<reaction id="EX_MAL_UGln">		
+		<reduct cfg="ABCD" id="MAL_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OGA_UGln">		
+		<reduct cfg="ABCDE" id="OGA_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Ser_UGln">		
+		<reduct cfg="ABC" id="Ser_IN"/>	
+		<rproduct cfg="ABC" id="Ser_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_PSer_UGln">		
+		<reduct cfg="ABC" id="PGA_UGln"/>	
+		<reduct cfg="DEFGH" id="Glu_UGln"/>	
+		<rproduct cfg="ABC" id="PSer_UGln"/>	
+		<rproduct cfg="DEFGH" id="OGA_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_Ser_UGln">		
+		<reduct cfg="ABC" id="PSer_UGln"/>	
+		<rproduct cfg="ABC" id="Ser_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Ser_UGln">		
+		<reduct cfg="ABC" id="Ser_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_serd_UGln">		
+		<reduct cfg="ABC" id="Ser_UGln"/>	
+		<rproduct cfg="ABC" id="PYR_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Gly_UGln">		
+		<reduct cfg="AB" id="Gly_IN"/>	
+		<rproduct cfg="AB" id="Gly_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_Gly_UGln">		
+		<reduct cfg="ABC" id="Ser_UGln"/>	
+		<rproduct cfg="AB" id="Gly_UGln"/>	
+		<rproduct cfg="C" id="FTHF_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_glycl_UGln">		
+		<reduct cfg="AB" id="Gly_UGln"/>	
+		<rproduct cfg="B" id="FTHF_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="EX_FTHF_UGln">		
+		<reduct cfg="A" id="FTHF_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Gly_UGln">		
+		<reduct cfg="AB" id="Gly_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Cys_UGln">		
+		<reduct cfg="ABC" id="Cys_IN"/>	
+		<rproduct cfg="ABC" id="Cys_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_Cys_UGln">		
+		<reduct cfg="ABC" id="Ser_UGln"/>	
+		<rproduct cfg="ABC" id="Cys_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PGA_Cys_UGln">		
+		<reduct cfg="ABC" id="Cys_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_nifs_UGln">		
+		<reduct cfg="ABC" id="Cys_UGln"/>	
+		<rproduct cfg="ABC" id="Ala_UGln"/>	
+	</reaction>		
+	<reaction id="PGA_cysds_UGln">		
+		<reduct cfg="ABC" id="Cys_UGln"/>	
+		<reduct cfg="DEFGH" id="OGA_UGln"/>	
+		<rproduct cfg="ABC" id="PYR_UGln"/>	
+		<rproduct cfg="DEFGH" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="PYR_Ala_UGln">		
+		<reduct cfg="ABC" id="PYR_UGln"/>	
+		<reduct cfg="DEFGH" id="Glu_UGln"/>	
+		<rproduct cfg="ABC" id="Ala_UGln"/>	
+		<rproduct cfg="DEFGH" id="OGA_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Val_UGln">		
+		<reduct cfg="ABCDE" id="Val_IN"/>	
+		<rproduct cfg="ABCDE" id="Val_UGln"/>	
+	</reaction>		
+	<reaction id="Val_degradation_UGln">		
+		<reduct cfg="ABCDE" id="Val_UGln"/>	
+		<reduct cfg="F" id="CO2_UGln"/>	
+		<reduct cfg="GHIJK" id="OGA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="B" id="CO2_UGln"/>	
+		<rproduct cfg="EDCF" id="SuccCoA_UGln"/>	
+		<rproduct cfg="GHIJK" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Val_UGln">		
+		<reduct cfg="ABCDE" id="Val_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Ala_UGln">		
+		<reduct cfg="ABC" id="Ala_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Leu_UGln">		
+		<reduct cfg="ABCDEF" id="Leu_IN"/>	
+		<rproduct cfg="ABCDEF" id="Leu_UGln"/>	
+	</reaction>		
+	<reaction id="Leu_degradation_UGln">		
+		<reduct cfg="ABCDEF" id="Leu_UGln"/>	
+		<reduct cfg="G" id="CO2_UGln"/>	
+		<reduct cfg="HIJKL" id="OGA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="GEDF" id="AcetoAc_UGln"/>	
+		<rproduct cfg="BC" id="AcCoA_UGln"/>	
+		<rproduct cfg="HIJKL" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PYR_Leu_UGln">		
+		<reduct cfg="ABCDEF" id="Leu_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Phe_UGln">		
+		<reduct cfg="ABCDEFGHI" id="Phe_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Phe_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Tyr_UGln">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_IN"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_UGln"/>	
+	</reaction>		
+	<reaction id="pah_PheTyr_UGln">		
+		<reduct cfg="ABCDEFGHI" id="Phe_UGln"/>	
+		<rproduct cfg="ABCDEFGHI" id="Tyr_UGln"/>	
+	</reaction>		
+	<reaction id="Tyr_degradation_UGln">		
+		<reduct cfg="ABCDEFGHI" id="Tyr_UGln"/>	
+		<reduct cfg="JKLMN" id="OGA_UGln"/>	
+		<rproduct cfg="JKLMN" id="Glu_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="HGFE" id="Fum_UGln"/>	
+		<rproduct cfg="BCDI" id="AcetoAc_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Phe_UGln">		
+		<reduct cfg="ABCEFGHIJ" id="Phe_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Tyr_UGln">		
+		<reduct cfg="ABCEFGHIJ" id="Tyr_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Trp_UGln">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_IN"/>	
+		<rproduct cfg="ABCDEFGHIJK" id="Trp_UGln"/>	
+	</reaction>		
+	<reaction id="Trp_degradation_UGln">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_UGln"/>	
+		<rproduct cfg="E" id="FTHF_UGln"/>	
+		<rproduct cfg="ABC" id="Ala_UGln"/>	
+		<rproduct cfg="D" id="CO2_UGln"/>	
+		<rproduct cfg="H" id="CO2_UGln"/>	
+		<rproduct cfg="I" id="CO2_UGln"/>	
+		<rproduct cfg="GF" id="AcCoA_UGln"/>	
+		<rproduct cfg="KJ" id="AcCoA_UGln"/>	
+	</reaction>		
+	<reaction id="EX_PEP_Trp_UGln">		
+		<reduct cfg="ABCDEFGHIJK" id="Trp_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Thr_UGln">		
+		<reduct cfg="ABCD" id="Thr_IN"/>	
+		<rproduct cfg="ABCD" id="Thr_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_Gly_UGln">		
+		<reduct cfg="ABCD" id="Thr_UGln"/>	
+		<rproduct cfg="AB" id="Gly_UGln"/>	
+		<rproduct cfg="CD" id="AcCoA_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_Glu_UGln">		
+		<reduct cfg="ABCDE" id="OGA_UGln"/>	
+		<rproduct cfg="ABCDE" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_Pro_UGln">		
+		<reduct cfg="ABCDE" id="Glu_UGln"/>	
+		<rproduct cfg="ABCDE" id="Pro_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Gln_UGln">		
+		<reduct cfg="ABCDE" id="GlnU_IN"/>	
+		<rproduct cfg="ABCDE" id="Gln_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_Gln_UGln">		
+		<reduct cfg="ABCDE" id="Glu_UGln"/>	
+		<rproduct cfg="ABCDE" id="Gln_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_Succ_UGln">		
+		<reduct cfg="ABCDE" id="Glu_UGln"/>	
+		<reduct cfg="FGHIJ" id="OGA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="FGHIJ" id="Glu_UGln"/>	
+		<rproduct cfg="EDCB" id="Succ_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_OAT_UGln">		
+		<reduct cfg="ABCDE" id="Glu_UGln"/>	
+		<reduct cfg="FGHIJ" id="Glu_UGln"/>	
+		<rproduct cfg="FGHIJ" id="ORN_UGln"/>	
+		<rproduct cfg="ABCDE" id="OGA_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_CITRL_UGln">		
+		<reduct cfg="ABCDE" id="ORN_UGln"/>	
+		<reduct cfg="f" id="CO2_UGln"/>	
+		<rproduct cfg="ABCDEf" id="CITRL_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgA_UGln">		
+		<reduct cfg="ABCDEF" id="CITRL_UGln"/>	
+		<reduct cfg="GHIJ" id="Asp_UGln"/>	
+		<rproduct cfg="ABCDEF" id="Arg_UGln"/>	
+		<rproduct cfg="GHIJ" id="Fum_UGln"/>	
+	</reaction>		
+	<reaction id="OGA_CITRLArgB_UGln">		
+		<reduct cfg="ABCDEF" id="CITRL_UGln"/>	
+		<reduct cfg="GHIJ" id="Asp_UGln"/>	
+		<rproduct cfg="ABCDEF" id="Arg_UGln"/>	
+		<rproduct cfg="JIHG" id="Fum_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Arg_UGln">		
+		<reduct cfg="ABCDEF" id="Arg_IN"/>	
+		<rproduct cfg="ABCDEF" id="Arg_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Glu_UGln">		
+		<reduct cfg="ABCDE" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Pro_UGln">		
+		<reduct cfg="ABCDE" id="Pro_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Gln_UGln">		
+		<reduct cfg="ABCDE" id="Gln_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OGA_Arg_UGln">		
+		<reduct cfg="ABCDEF" id="Arg_UGln"/>	
+	</reaction>		
+	<reaction id="IN_His_UGln">		
+		<reduct cfg="ABCDEF" id="His_IN"/>	
+		<rproduct cfg="ABCDEF" id="His_UGln"/>	
+	</reaction>		
+	<reaction id="His_GluF_UGln">		
+		<reduct cfg="ABCDEF" id="His_UGln"/>	
+		<rproduct cfg="EDCBA" id="Glu_UGln"/>	
+		<rproduct cfg="F" id="FTHF_UGln"/>	
+	</reaction>		
+	<reaction id="R5P_PRPP_UGln">		
+		<reduct cfg="ABCDE" id="R5P_UGln"/>	
+		<rproduct cfg="ABCDE" id="PRPP_UGln"/>	
+	</reaction>		
+	<reaction id="R5P_AICAR_UGln">		
+		<reduct cfg="ABCDE" id="PRPP_UGln"/>	
+		<reduct cfg="fg" id="Gly_UGln"/>	
+		<reduct cfg="h" id="FTHF_UGln"/>	
+		<reduct cfg="i" id="CO2_UGln"/>	
+		<reduct cfg="abcde" id="Gln_UGln"/>	
+		<reduct cfg="klmno" id="Gln_UGln"/>	
+		<reduct cfg="pqrs" id="Asp_UGln"/>	
+		<rproduct cfg="ABCDEhfgi" id="AICAR_UGln"/>	
+		<rproduct cfg="abcde" id="Glu_UGln"/>	
+		<rproduct cfg="klmno" id="Glu_UGln"/>	
+		<rproduct cfg="pqrs" id="Fum_UGln"/>	
+	</reaction>		
+	<reaction id="R5P_ATP_UGln">		
+		<reduct cfg="abcdefghi" id="AICAR_UGln"/>	
+		<reduct cfg="J" id="FTHF_UGln"/>	
+		<rproduct cfg="abcdefghiJ" id="ATP_UGln"/>	
+	</reaction>		
+	<reaction id="EX_R5P_ATP_UGln">		
+		<reduct cfg="ABCDEFGHIJ" id="ATP_UGln"/>	
+	</reaction>		
+	<reaction id="EX_R5P_His_UGln">		
+		<reduct cfg="ABCDEF" id="His_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_AspShuttle_UGln">		
+		<reduct cfg="ABCD" id="OAA_UGln"/>	
+		<reduct cfg="EFGHI" id="Glu_UGln"/>	
+		<rproduct cfg="ABCD" id="Asp_UGln"/>	
+		<rproduct cfg="EFGHI" id="OGA_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_Asns_UGln">		
+		<reduct cfg="ABCD" id="Asp_UGln"/>	
+		<reduct cfg="EFGHI" id="Gln_UGln"/>	
+		<rproduct cfg="ABCD" id="Asn_UGln"/>	
+		<rproduct cfg="EFGHI" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Ile_UGln">		
+		<reduct cfg="ABCDEF" id="Ile_IN"/>	
+		<rproduct cfg="ABCDEF" id="Ile_UGln"/>	
+	</reaction>		
+	<reaction id="Ile_degradation_UGln">		
+		<reduct cfg="GABEFD" id="Ile_UGln"/>	
+		<reduct cfg="C" id="CO2_UGln"/>	
+		<reduct cfg="MNOPQ" id="OGA_UGln"/>	
+		<rproduct cfg="G" id="CO2_UGln"/>	
+		<rproduct cfg="EF" id="AcCoA_UGln"/>	
+		<rproduct cfg="ADBC" id="SuccCoA_UGln"/>	
+		<rproduct cfg="MNOPQ" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Met_UGln">		
+		<reduct cfg="ABCDE" id="Met_IN"/>	
+		<rproduct cfg="ABCDE" id="Met_UGln"/>	
+	</reaction>		
+	<reaction id="Met_degradation_UGln">		
+		<reduct cfg="ABCDE" id="Met_UGln"/>	
+		<reduct cfg="I" id="CO2_UGln"/>	
+		<reduct cfg="abc" id="Ser_UGln"/>	
+		<rproduct cfg="E" id="FTHF_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="BDCI" id="SuccCoA_UGln"/>	
+		<rproduct cfg="abc" id="Cys_UGln"/>	
+	</reaction>		
+	<reaction id="IN_Lys_UGln">		
+		<reduct cfg="ABCDEF" id="Lys_IN"/>	
+		<rproduct cfg="ABCDEF" id="Lys_UGln"/>	
+	</reaction>		
+	<reaction id="Lys_degradation_UGln">		
+		<reduct cfg="ABCDEF" id="Lys_UGln"/>	
+		<reduct cfg="abcde" id="OGA_UGln"/>	
+		<reduct cfg="fghij" id="OGA_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+		<rproduct cfg="F" id="CO2_UGln"/>	
+		<rproduct cfg="BC" id="AcCoA_UGln"/>	
+		<rproduct cfg="DE" id="AcCoA_UGln"/>	
+		<rproduct cfg="abcde" id="Glu_UGln"/>	
+		<rproduct cfg="fghij" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Lys_UGln">		
+		<reduct cfg="ABCDEF" id="Lys_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asp_UGln">		
+		<reduct cfg="ABCD" id="Asp_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Thr_UGln">		
+		<reduct cfg="ABCD" id="Thr_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Ile_UGln">		
+		<reduct cfg="ABCDEF" id="Ile_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Asn_UGln">		
+		<reduct cfg="ABCD" id="Asn_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_Met_UGln">		
+		<reduct cfg="ABCDE" id="Met_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_CBASP_UGln">		
+		<reduct cfg="ABCD" id="Asp_UGln"/>	
+		<reduct cfg="E" id="CO2_UGln"/>	
+		<rproduct cfg="ABCDE" id="CBASP_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_OROT_UGln">		
+		<reduct cfg="ABCDE" id="CBASP_UGln"/>	
+		<rproduct cfg="ABCDE" id="OROT_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_UMP_UGln">		
+		<reduct cfg="ABCDE" id="OROT_UGln"/>	
+		<reduct cfg="abcde" id="PRPP_UGln"/>	
+		<rproduct cfg="abcdeBCDE" id="UMP_UGln"/>	
+		<rproduct cfg="A" id="CO2_UGln"/>	
+	</reaction>		
+	<reaction id="OAA_dTTP_Gln_UGln">		
+		<reduct cfg="abcdeBCDE" id="UMP_UGln"/>	
+		<reduct cfg="f" id="FTHF_UGln"/>	
+		<reduct cfg="mnopq" id="Gln_UGln"/>	
+		<rproduct cfg="abcdeBCDEf" id="dTTP_UGln"/>	
+		<rproduct cfg="mnopq" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_UMP_UGln">		
+		<reduct cfg="abcdeBCDE" id="UMP_UGln"/>	
+	</reaction>		
+	<reaction id="EX_OAA_dTTP_UGln">		
+		<reduct cfg="abcdeBCDEf" id="dTTP_UGln"/>	
+	</reaction>		
+	<reaction id="F6P_gfpt_UGln">		
+		<reduct cfg="ABCDEF" id="F6P_UGln"/>	
+		<reduct cfg="GHIJK" id="Gln_UGln"/>	
+		<rproduct cfg="ABCDEF" id="GAM6P_UGln"/>	
+		<rproduct cfg="GHIJK" id="Glu_UGln"/>	
+	</reaction>		
+	<reaction id="F6P_ACGAM1P_UGln">		
+		<reduct cfg="ABCDEF" id="GAM6P_UGln"/>	
+		<reduct cfg="ab" id="AcCoA_UGln"/>	
+		<rproduct cfg="ABCDEFab" id="ACGAM1P_UGln"/>	
+	</reaction>		
+	<reaction id="EX_F6P_ACGAM1P_UGln">		
+		<reduct cfg="ABCDEFab" id="ACGAM1P_UGln"/>	
+	</reaction>		
+	<reaction id="DHAP_GLYC3P_UGln">		
+		<reduct cfg="ABC" id="DHAP_UGln"/>	
+		<rproduct cfg="ABC" id="GLYC3P_UGln"/>	
+	</reaction>		
+	<reaction id="EX_DHAP_GLYC3P_UGln">		
+		<reduct cfg="ABC" id="GLYC3P_UGln"/>	
+	</reaction>		
+	<reaction id="EX_AC_cyt_UGln">		
+		<reduct cfg="AB" id="AcCoA_cyt_UGln"/>	
+	</reaction>		
+	<reaction id="AC_ketolysis_UGln">		
+		<reduct cfg="ABCD" id="SuccCoA_UGln"/>	
+		<reduct cfg="EFGH" id="AcetoAc_UGln"/>	
+		<rproduct cfg="ABCD" id="Succ_UGln"/>	
+		<rproduct cfg="EF" id="AcCoA_UGln"/>	
+		<rproduct cfg="GH" id="AcCoA_UGln"/>	
+	</reaction>		
+	<reaction id="EX_AcetoAc_UGln">		
+		<reduct cfg="ABCD" id="AcetoAc_UGln"/>	
+	</reaction>		
+			
+</reactionnetwork>			
+<constraints>							
+	<net>						
+		<textual>					
+			sucoasB_12	=	sucoasA_12	;	
+			fumB_12	=	fumA_12	;	
+			OGA_CITRLArgB_12	=	OGA_CITRLArgA_12	;	
+							
+			EX_GAP_12	=	0	;	
+			EX_PGA_12	=	0	;	
+			EX_PEP_12	=	0	;	
+			EX_G6P_12	=	0.016219998	;	
+			EX_R5P_12	=	0	;	
+			EX_OAA_12	=	0	;	
+			EX_FUM_12	=	0	;	
+			EX_SUCC_12	=	0	;	
+			EX_MAL_12	=	0	;	
+			EX_OGA_12	=	0	;	
+			EX_PYR_Ala_12	=	0.0298023817097385+0.0204081632653061	;	
+			EX_OGA_Glu_12	=	0.022743597	;	
+			EX_OGA_Pro_12	=	0.024312019	;	
+			EX_R5P_ATP_12	=	0.006654331	;	
+			EX_OAA_Asp_12	=	0.020783217	;	
+			EX_OAA_Asn_12	=	0.016469318	;	
+			EX_OAA_UMP_12	=	0.006007511	;	
+			EX_OAA_dTTP_12	=	0.000771598	;	
+			EX_F6P_ACGAM1P_12	=	0.0001	;	
+			EX_DHAP_GLYC3P_12	=	0.016490537	;	
+			EX_AcetoAc_12	=	0	;	
+			ppck_12	=	0	;	
+														
+							
+			sucoasA_U	=	sucoasB_U	;	
+			fumA_U	=	fumB_U	;	
+			OGA_CITRLArgA_U	=	OGA_CITRLArgB_U	;	
+							
+			EX_GAP_U	=	EX_GAP_12	;	
+			EX_PGA_U	=	EX_PGA_12	;	
+			EX_PEP_U	=	EX_PEP_12	;	
+			EX_PYR_U	=	EX_PYR_12	;	
+			EX_G6P_U	=	EX_G6P_12	;	
+			EX_R5P_U	=	EX_R5P_12	;	
+			EX_OAA_U	=	EX_OAA_12	;	
+			EX_FUM_U	=	EX_FUM_12	;	
+			EX_SUCC_U	=	EX_SUCC_12	;	
+			EX_MAL_U	=	EX_MAL_12	;	
+			EX_OGA_U	=	EX_OGA_12	;	
+			EX_PYR_Ala_U	=	EX_PYR_Ala_12	;	
+			EX_OGA_Glu_U	=	EX_OGA_Glu_12	;	
+			EX_OGA_Pro_U	=	EX_OGA_Pro_12	;	
+			EX_R5P_ATP_U	=	EX_R5P_ATP_12	;	
+			EX_OAA_Asp_U	=	EX_OAA_Asp_12	;	
+			EX_OAA_Asn_U	=	EX_OAA_Asn_12	;	
+			EX_OAA_UMP_U	=	EX_OAA_UMP_12	;	
+			EX_OAA_dTTP_U	=	EX_OAA_dTTP_12	;	
+			EX_F6P_ACGAM1P_U	=	EX_F6P_ACGAM1P_12	;	
+			EX_DHAP_GLYC3P_U	=	EX_DHAP_GLYC3P_12	;	
+			EX_AcetoAc_U	=	EX_AcetoAc_12	;	
+							
+			g6pdh_U	=	g6pdh_12	;	
+			ppck_U	=	ppck_12	;	
+			akgdh_U	=	akgdh_12	;	
+			mdh_U	=	mdh_12	;	
+			PGA_cysds_U	=	PGA_cysds_12	;	
+			PYR_Ala_U	=	PYR_Ala_12	;	
+			OGA_Glu_U	=	OGA_Glu_12	;	
+							
+			IN_CO2_U	=	IN_CO2_12	;	
+			IN_Ser_U	=	IN_Ser_12	;	
+			IN_Gly_U	=	IN_Gly_12	;	
+			IN_Cys_U	=	IN_Cys_12	;	
+			IN_Val_U	=	IN_Val_12	;	
+			IN_Leu_U	=	IN_Leu_12	;	
+			IN_Phe_U	=	IN_Phe_12	;	
+			IN_Tyr_U	=	IN_Tyr_12	;	
+			IN_Trp_U	=	IN_Trp_12	;	
+			IN_Thr_U	=	IN_Thr_12	;	
+			IN_Gln_U	=	IN_Gln_12	;	
+			IN_Arg_U	=	IN_Arg_12	;	
+			IN_His_U	=	IN_His_12	;	
+			IN_Ile_U	=	IN_Ile_12	;	
+			IN_Met_U	=	IN_Met_12	;	
+			IN_Lys_U	=	IN_Lys_12	;	
+			IN_AC_U	=	IN_AC_12	;	
+							
+			EX_CO2_U	=	EX_CO2_12	;	
+			EX_PGA_Ser_U	=	EX_PGA_Ser_12	;	
+			EX_OAA_Gly_U	=	EX_OAA_Gly_12	;	
+			EX_PGA_Cys_U	=	EX_PGA_Cys_12	;	
+			EX_PYR_Val_U	=	EX_PYR_Val_12	;	
+			EX_PYR_Leu_U	=	EX_PYR_Leu_12	;	
+			EX_PEP_Phe_U	=	EX_PEP_Phe_12	;	
+			EX_PEP_Tyr_U	=	EX_PEP_Tyr_12	;	
+			EX_PEP_Trp_U	=	EX_PEP_Trp_12	;	
+			EX_OGA_Gln_U	=	EX_OGA_Gln_12	;	
+			EX_OGA_Arg_U	=	EX_OGA_Arg_12	;	
+			EX_R5P_His_U	=	EX_R5P_His_12	;	
+			EX_OAA_Lys_U	=	EX_OAA_Lys_12	;	
+			EX_OAA_Thr_U	=	EX_OAA_Thr_12	;	
+			EX_OAA_Ile_U	=	EX_OAA_Ile_12	;	
+			EX_OAA_Met_U	=	EX_OAA_Met_12	;	
+			EX_FTHF_U	=	EX_FTHF_12	;	
+			EX_AC_cyt_U	=	EX_AC_cyt_12	;	
+							
+							
+			sucoasB_UGln	=	sucoasA_UGln	;	
+			fumB_UGln	=	fumA_UGln	;	
+			OGA_CITRLArgB_UGln	=	OGA_CITRLArgA_UGln	;	
+							
+			EX_GAP_UGln	=	EX_GAP_12	;	
+			EX_PGA_UGln	=	EX_PGA_12	;	
+			EX_PEP_UGln	=	EX_PEP_12	;	
+			EX_PYR_UGln	=	EX_PYR_12	;	
+			EX_G6P_UGln	=	EX_G6P_12	;	
+			EX_R5P_UGln	=	EX_R5P_12	;	
+			EX_OAA_UGln	=	EX_OAA_12	;	
+			EX_FUM_UGln	=	EX_FUM_12	;	
+			EX_SUCC_UGln	=	EX_SUCC_12	;	
+			EX_MAL_UGln	=	EX_MAL_12	;	
+			EX_OGA_UGln	=	EX_OGA_12	;	
+			EX_PYR_Ala_UGln	=	EX_PYR_Ala_12	;	
+			EX_OGA_Glu_UGln	=	EX_OGA_Glu_12	;	
+			EX_OGA_Pro_UGln	=	EX_OGA_Pro_12	;	
+			EX_R5P_ATP_UGln	=	EX_R5P_ATP_12	;	
+			EX_OAA_Asp_UGln	=	EX_OAA_Asp_12	;	
+			EX_OAA_Asn_UGln	=	EX_OAA_Asn_12	;	
+			EX_OAA_UMP_UGln	=	EX_OAA_UMP_12	;	
+			EX_OAA_dTTP_UGln	=	EX_OAA_dTTP_12	;	
+			EX_F6P_ACGAM1P_UGln	=	EX_F6P_ACGAM1P_12	;	
+			EX_DHAP_GLYC3P_UGln	=	EX_DHAP_GLYC3P_12	;	
+			EX_AcetoAc_UGln	=	EX_AcetoAc_12	;	
+							
+			g6pdh_UGln	=	g6pdh_12	;	
+			ppck_UGln	=	ppck_12	;	
+			akgdh_UGln	=	akgdh_12	;	
+			mdh_UGln	=	mdh_12	;	
+			PGA_cysds_UGln	=	PGA_cysds_12	;	
+			PYR_Ala_UGln	=	PYR_Ala_12	;	
+			OGA_Glu_UGln	=	OGA_Glu_12	;	
+							
+			IN_CO2_UGln	=	IN_CO2_12	;	
+			IN_Ser_UGln	=	IN_Ser_12	;	
+			IN_Gly_UGln	=	IN_Gly_12	;	
+			IN_Cys_UGln	=	IN_Cys_12	;	
+			IN_Val_UGln	=	IN_Val_12	;	
+			IN_Leu_UGln	=	IN_Leu_12	;	
+			IN_Phe_UGln	=	IN_Phe_12	;	
+			IN_Tyr_UGln	=	IN_Tyr_12	;	
+			IN_Trp_UGln	=	IN_Trp_12	;	
+			IN_Thr_UGln	=	IN_Thr_12	;	
+			IN_Gln_UGln	=	IN_Gln_12	;	
+			IN_Arg_UGln	=	IN_Arg_12	;	
+			IN_His_UGln	=	IN_His_12	;	
+			IN_Ile_UGln	=	IN_Ile_12	;	
+			IN_Met_UGln	=	IN_Met_12	;	
+			IN_Lys_UGln	=	IN_Lys_12	;	
+			IN_AC_UGln	=	IN_AC_12	;	
+							
+			EX_CO2_UGln	=	EX_CO2_12	;	
+			EX_PGA_Ser_UGln	=	EX_PGA_Ser_12	;	
+			EX_OAA_Gly_UGln	=	EX_OAA_Gly_12	;	
+			EX_PGA_Cys_UGln	=	EX_PGA_Cys_12	;	
+			EX_PYR_Val_UGln	=	EX_PYR_Val_12	;	
+			EX_PYR_Leu_UGln	=	EX_PYR_Leu_12	;	
+			EX_PEP_Phe_UGln	=	EX_PEP_Phe_12	;	
+			EX_PEP_Tyr_UGln	=	EX_PEP_Tyr_12	;	
+			EX_PEP_Trp_UGln	=	EX_PEP_Trp_12	;	
+			EX_OGA_Gln_UGln	=	EX_OGA_Gln_12	;	
+			EX_OGA_Arg_UGln	=	EX_OGA_Arg_12	;	
+			EX_R5P_His_UGln	=	EX_R5P_His_12	;	
+			EX_OAA_Lys_UGln	=	EX_OAA_Lys_12	;	
+			EX_OAA_Thr_UGln	=	EX_OAA_Thr_12	;	
+			EX_OAA_Ile_UGln	=	EX_OAA_Ile_12	;	
+			EX_OAA_Met_UGln	=	EX_OAA_Met_12	;	
+			EX_FTHF_UGln	=	EX_FTHF_12	;	
+			EX_AC_cyt_UGln	=	EX_AC_cyt_12	;	
+							
+		</textual>					
+	</net>						
+	<xch>						
+		<textual>					
+			sucoasB_12	=	sucoasA_12	;	
+			fumB_12	=	fumA_12	;	
+			OGA_CITRLArgB_12	=	OGA_CITRLArgA_12	;	
+							
+			upt_12	=	0	;	
+			ppck_12	=	0	;	
+			me_12	=	0	;	
+			pc_12	=	0	;	
+			g6pdh_12	=	0	;	
+			acitl_12	=	0	;	
+			cs_12	=	0	;	
+			PGA_PSer_12	=	0	;	
+			OGA_Pro_12	=	0	;	
+			OGA_Succ_12	=	0	;	
+			His_GluF_12	=	0	;	
+			R5P_PRPP_12	=	0	;	
+			R5P_AICAR_12	=	0	;	
+			R5P_ATP_12	=	0	;	
+			OAA_dTTP_Gln_12	=	0	;	
+			F6P_gfpt_12	=	0	;	
+			F6P_ACGAM1P_12	=	0	;	
+			DHAP_GLYC3P_12	=	0	;	
+							
+			Val_degradation_12	=	0	;	
+			Leu_degradation_12	=	0	;	
+			Tyr_degradation_12	=	0	;	
+			Trp_degradation_12	=	0	;	
+			Ile_degradation_12	=	0	;	
+			Met_degradation_12	=	0	;	
+			Lys_degradation_12	=	0	;	
+							
+							
+			sucoasA_U	=	sucoasA_12	;	
+			sucoasB_U	=	sucoasB_12	;	
+			fumA_U	=	fumA_12	;	
+			fumB_U	=	fumB_12	;	
+			OGA_CITRLArgA_U	=	OGA_CITRLArgA_12	;	
+			OGA_CITRLArgB_U	=	OGA_CITRLArgB_12	;	
+							
+			upt_U	=	upt_12	;	
+			pgi_U	=	pgi_12	;	
+			pfk_U	=	pfk_12	;	
+			fba_U	=	fba_12	;	
+			tpi_U	=	tpi_12	;	
+			gapd_U	=	gapd_12	;	
+			pgk_U	=	pgk_12	;	
+			eno_U	=	eno_12	;	
+			pyk_U	=	pyk_12	;	
+			ppck_U	=	ppck_12	;	
+			me_U	=	me_12	;	
+			pc_U	=	pc_12	;	
+			g6pdh_U	=	g6pdh_12	;	
+			gnd_U	=	gnd_12	;	
+			rpi_U	=	rpi_12	;	
+			rpe_U	=	rpe_12	;	
+			tkt2_U	=	tkt2_12	;	
+			tkt1_U	=	tkt1_12	;	
+			tal_U	=	tal_12	;	
+			pdh_U	=	pdh_12	;	
+			acitl_U	=	acitl_12	;	
+			cs_U	=	cs_12	;	
+			icdh_U	=	icdh_12	;	
+			akgdh_U	=	akgdh_12	;	
+			sucd_U	=	sucd_12	;	
+			mdh_U	=	mdh_12	;	
+			PGA_PSer_U	=	PGA_PSer_12	;	
+			PGA_Ser_U	=	PGA_Ser_12	;	
+			PGA_serd_U	=	PGA_serd_12	;	
+			PGA_Gly_U	=	PGA_Gly_12	;	
+			OAA_glycl_U	=	OAA_glycl_12	;	
+			PGA_Cys_U	=	PGA_Cys_12	;	
+			PGA_nifs_U	=	PGA_nifs_12	;	
+			PGA_cysds_U	=	PGA_cysds_12	;	
+			PYR_Ala_U	=	PYR_Ala_12	;	
+			pah_PheTyr_U	=	pah_PheTyr_12	;	
+			OAA_Gly_U	=	OAA_Gly_12	;	
+			OGA_Glu_U	=	OGA_Glu_12	;	
+			OGA_Pro_U	=	OGA_Pro_12	;	
+			OGA_Gln_U	=	OGA_Gln_12	;	
+			OGA_Succ_U	=	OGA_Succ_12	;	
+			OGA_OAT_U	=	OGA_OAT_12	;	
+			OGA_CITRL_U	=	OGA_CITRL_12	;	
+			His_GluF_U	=	His_GluF_12	;	
+			R5P_PRPP_U	=	R5P_PRPP_12	;	
+			R5P_AICAR_U	=	R5P_AICAR_12	;	
+			R5P_ATP_U	=	R5P_ATP_12	;	
+			OAA_AspShuttle_U	=	OAA_AspShuttle_12	;	
+			OAA_Asns_U	=	OAA_Asns_12	;	
+			OAA_CBASP_U	=	OAA_CBASP_12	;	
+			OAA_OROT_U	=	OAA_OROT_12	;	
+			OAA_UMP_U	=	OAA_UMP_12	;	
+			OAA_dTTP_Gln_U	=	OAA_dTTP_Gln_12	;	
+			F6P_gfpt_U	=	F6P_gfpt_12	;	
+			F6P_ACGAM1P_U	=	F6P_ACGAM1P_12	;	
+			DHAP_GLYC3P_U	=	DHAP_GLYC3P_12	;	
+			AC_ketolysis_U	=	AC_ketolysis_12	;	
+							
+			Val_degradation_U	=	Val_degradation_12	;	
+			Leu_degradation_U	=	Leu_degradation_12	;	
+			Tyr_degradation_U	=	Tyr_degradation_12	;	
+			Trp_degradation_U	=	Trp_degradation_12	;	
+			Ile_degradation_U	=	Ile_degradation_12	;	
+			Met_degradation_U	=	Met_degradation_12	;	
+			Lys_degradation_U	=	Lys_degradation_12	;	
+							
+							
+			sucoasA_UGln	=	sucoasA_12	;	
+			sucoasB_UGln	=	sucoasB_12	;	
+			fumA_UGln	=	fumA_12	;	
+			fumB_UGln	=	fumB_12	;	
+			OGA_CITRLArgA_UGln	=	OGA_CITRLArgA_12	;	
+			OGA_CITRLArgB_UGln	=	OGA_CITRLArgB_12	;	
+							
+			upt_UGln	=	upt_12	;	
+			pgi_UGln	=	pgi_12	;	
+			pfk_UGln	=	pfk_12	;	
+			fba_UGln	=	fba_12	;	
+			tpi_UGln	=	tpi_12	;	
+			gapd_UGln	=	gapd_12	;	
+			pgk_UGln	=	pgk_12	;	
+			eno_UGln	=	eno_12	;	
+			pyk_UGln	=	pyk_12	;	
+			ppck_UGln	=	ppck_12	;	
+			me_UGln	=	me_12	;	
+			pc_UGln	=	pc_12	;	
+			g6pdh_UGln	=	g6pdh_12	;	
+			gnd_UGln	=	gnd_12	;	
+			rpi_UGln	=	rpi_12	;	
+			rpe_UGln	=	rpe_12	;	
+			tkt2_UGln	=	tkt2_12	;	
+			tkt1_UGln	=	tkt1_12	;	
+			tal_UGln	=	tal_12	;	
+			pdh_UGln	=	pdh_12	;	
+			acitl_UGln	=	acitl_12	;	
+			cs_UGln	=	cs_12	;	
+			icdh_UGln	=	icdh_12	;	
+			akgdh_UGln	=	akgdh_12	;	
+			sucd_UGln	=	sucd_12	;	
+			mdh_UGln	=	mdh_12	;	
+			PGA_PSer_UGln	=	PGA_PSer_12	;	
+			PGA_Ser_UGln	=	PGA_Ser_12	;	
+			PGA_serd_UGln	=	PGA_serd_12	;	
+			PGA_Gly_UGln	=	PGA_Gly_12	;	
+			OAA_glycl_UGln	=	OAA_glycl_12	;	
+			PGA_Cys_UGln	=	PGA_Cys_12	;	
+			PGA_nifs_UGln	=	PGA_nifs_12	;	
+			PGA_cysds_UGln	=	PGA_cysds_12	;	
+			PYR_Ala_UGln	=	PYR_Ala_12	;	
+			pah_PheTyr_UGln	=	pah_PheTyr_12	;	
+			OAA_Gly_UGln	=	OAA_Gly_12	;	
+			OGA_Glu_UGln	=	OGA_Glu_12	;	
+			OGA_Pro_UGln	=	OGA_Pro_12	;	
+			OGA_Gln_UGln	=	OGA_Gln_12	;	
+			OGA_Succ_UGln	=	OGA_Succ_12	;	
+			OGA_OAT_UGln	=	OGA_OAT_12	;	
+			OGA_CITRL_UGln	=	OGA_CITRL_12	;	
+			His_GluF_UGln	=	His_GluF_12	;	
+			R5P_PRPP_UGln	=	R5P_PRPP_12	;	
+			R5P_AICAR_UGln	=	R5P_AICAR_12	;	
+			R5P_ATP_UGln	=	R5P_ATP_12	;	
+			OAA_AspShuttle_UGln	=	OAA_AspShuttle_12	;	
+			OAA_Asns_UGln	=	OAA_Asns_12	;	
+			OAA_CBASP_UGln	=	OAA_CBASP_12	;	
+			OAA_OROT_UGln	=	OAA_OROT_12	;	
+			OAA_UMP_UGln	=	OAA_UMP_12	;	
+			OAA_dTTP_Gln_UGln	=	OAA_dTTP_Gln_12	;	
+			F6P_gfpt_UGln	=	F6P_gfpt_12	;	
+			F6P_ACGAM1P_UGln	=	F6P_ACGAM1P_12	;	
+			DHAP_GLYC3P_UGln	=	DHAP_GLYC3P_12	;	
+			AC_ketolysis_UGln	=	AC_ketolysis_12	;	
+							
+			Val_degradation_UGln	=	Val_degradation_12	;	
+			Leu_degradation_UGln	=	Leu_degradation_12	;	
+			Tyr_degradation_UGln	=	Tyr_degradation_12	;	
+			Trp_degradation_UGln	=	Trp_degradation_12	;	
+			Ile_degradation_UGln	=	Ile_degradation_12	;	
+			Met_degradation_UGln	=	Met_degradation_12	;	
+			Lys_degradation_UGln	=	Lys_degradation_12	;	
+							
+		</textual>					
+	</xch>						
+</constraints>							
+<configuration name="default" stationary="true">							
+	<input pool="CO2_IN" type="isotopomer">						
+		<label cfg="0">1.0</label>					
+	</input>						
+	<input pool="GLC12_IN" type="isotopomer">						
+		<label cfg="110000">1.0</label>					
+	</input>						
+	<input pool="Ser_IN" type="isotopomer">						
+		<label cfg="000">1.0</label>					
+	</input>						
+	<input pool="Gly_IN" type="isotopomer">						
+		<label cfg="00">1.0</label>					
+	</input>						
+	<input pool="Cys_IN" type="isotopomer">						
+		<label cfg="000">1.0</label>					
+	</input>						
+	<input pool="Val_IN" type="isotopomer">						
+		<label cfg="00000">1.0</label>					
+	</input>						
+	<input pool="Leu_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="Phe_IN" type="isotopomer">						
+		<label cfg="000000000">1.0</label>					
+	</input>						
+	<input pool="Tyr_IN" type="isotopomer">						
+		<label cfg="000000000">1.0</label>					
+	</input>						
+	<input pool="Trp_IN" type="isotopomer">						
+		<label cfg="00000000000">1.0</label>					
+	</input>						
+	<input pool="Thr_IN" type="isotopomer">						
+		<label cfg="0000">1.0</label>					
+	</input>						
+	<input pool="Gln_IN" type="isotopomer">						
+		<label cfg="00000">1.0</label>					
+	</input>						
+	<input pool="Arg_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="His_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="Ile_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="Met_IN" type="isotopomer">						
+		<label cfg="00000">1.0</label>					
+	</input>						
+	<input pool="Lys_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="AC_IN" type="isotopomer">						
+		<label cfg="00">1.0</label>					
+	</input>						
+	<input pool="GLCU_IN" type="isotopomer">						
+		<label cfg="111111">1.0</label>					
+	</input>						
+	<input pool="GLC0_IN" type="isotopomer">						
+		<label cfg="000000">1.0</label>					
+	</input>						
+	<input pool="GlnU_IN" type="isotopomer">						
+		<label cfg="11111">1.0</label>					
+	</input>						
+							
+	<measurement>						
+		<model>					
+			<labelingmeasurement>				
+				<group id="ms_G6P_12" scale="auto">			
+					<textual>G6P_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_F6P_12" scale="auto">			
+					<textual>F6P_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_FBP_12" scale="auto">			
+					<textual>FBP_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_DHAP_12" scale="auto">			
+					<textual>DHAP_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PGA_12" scale="auto">			
+					<textual>PGA_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PEP_12" scale="auto">			
+					<textual>PEP_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PYR_12" scale="auto">			
+					<textual>PYR_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_GLYC3P_12" scale="auto">			
+					<textual>GLYC3P_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_CitICit_12" scale="auto">			
+					<textual>CitICit_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_OGA_12" scale="auto">			
+					<textual>OGA_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Succ_12" scale="auto">			
+					<textual>Succ_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_Fum_12" scale="auto">			
+					<textual>Fum_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_MAL_12" scale="auto">			
+					<textual>MAL_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_m6PG_12" scale="auto">			
+					<textual>m6PG_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_R5P_12" scale="auto">			
+					<textual>R5P_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_X5P_12" scale="auto">			
+					<textual>X5P_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Ru5P_12" scale="auto">	
+					<textual>Ru5P_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_S7P_12" scale="auto">			
+					<textual>S7P_12[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>		
+				</group>			
+				<group id="ms_Asp_12" scale="auto">			
+					<textual>Asp_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_CBASP_12" scale="auto">			
+					<textual>CBASP_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_UMP_12" scale="auto">			
+					<textual>UMP_12[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_Phe_12" scale="auto">			
+					<textual>Phe_12[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_Trp_12" scale="auto">			
+					<textual>Trp_12[1,2,3,4,5,6,7,8,9,10,11]#M0,1,2,3,4,5,6,7,8,9,10,11</textual>		
+				</group>			
+				<group id="ms_Tyr_12" scale="auto">			
+					<textual>Tyr_12[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_Glu_12" scale="auto">			
+					<textual>Glu_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_PSer_12" scale="auto">			
+					<textual>PSer_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_Ser_12" scale="auto">			
+					<textual>Ser_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_ATP_12" scale="auto">			
+					<textual>ATP_12[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>		
+				</group>			
+				<group id="ms_AcCoA_12" scale="auto">			
+					<textual>AcCoA_12[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Gly_12" scale="auto">			
+					<textual>Gly_12[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Thr_12" scale="auto">			
+					<textual>Thr_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_Asn_12" scale="auto">			
+					<textual>Asn_12[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_Leu_12" scale="auto">			
+					<textual>Leu_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_Ile_12" scale="auto">			
+					<textual>Ile_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_His_12" scale="auto">			
+					<textual>His_12[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_Met_12" scale="auto">			
+					<textual>Met_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Val_12" scale="auto">			
+					<textual>Val_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Pro_12" scale="auto">			
+					<textual>Pro_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Gln_12" scale="auto">			
+					<textual>Gln_12[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Ala_12" scale="auto">			
+					<textual>Ala_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_Cys_12" scale="auto">			
+					<textual>Cys_12[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+							
+							
+				<group id="ms_FBP_U" scale="auto">			
+					<textual>FBP_U[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_DHAP_U" scale="auto">			
+					<textual>DHAP_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PGA_U" scale="auto">			
+					<textual>PGA_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PEP_U" scale="auto">			
+					<textual>PEP_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PYR_U" scale="auto">			
+					<textual>PYR_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_CitICit_U" scale="auto">			
+					<textual>CitICit_U[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_OGA_U" scale="auto">			
+					<textual>OGA_U[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Succ_U" scale="auto">			
+					<textual>Succ_U[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_Fum_U" scale="auto">			
+					<textual>Fum_U[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_MAL_U" scale="auto">			
+					<textual>MAL_U[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_m6PG_U" scale="auto">			
+					<textual>m6PG_U[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_R5P_U" scale="auto">			
+					<textual>R5P_U[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_X5P_U" scale="auto">			
+					<textual>X5P_U[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_S7P_U" scale="auto">			
+					<textual>S7P_U[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>		
+				</group>			
+				<group id="ms_Asp_U" scale="auto">			
+					<textual>Asp_U[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_CBASP_U" scale="auto">			
+					<textual>CBASP_U[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_UMP_U" scale="auto">			
+					<textual>UMP_U[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_dTTP_U" scale="auto">			
+					<textual>dTTP_U[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>		
+				</group>			
+				<group id="ms_Phe_U" scale="auto">			
+					<textual>Phe_U[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_Trp_U" scale="auto">			
+					<textual>Trp_U[1,2,3,4,5,6,7,8,9,10,11]#M0,1,2,3,4,5,6,7,8,9,10,11</textual>		
+				</group>			
+				<group id="ms_Glu_U" scale="auto">			
+					<textual>Glu_U[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_PSer_U" scale="auto">			
+					<textual>PSer_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_ATP_U" scale="auto">			
+					<textual>ATP_U[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>		
+				</group>			
+				<group id="ms_AcCoA_U" scale="auto">			
+					<textual>AcCoA_U[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Gly_U" scale="auto">			
+					<textual>Gly_U[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Ala_U" scale="auto">			
+					<textual>Ala_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_Cys_U" scale="auto">			
+					<textual>Cys_U[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+							
+							
+				<group id="ms_FBP_UGln" scale="auto">			
+					<textual>FBP_UGln[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_DHAP_UGln" scale="auto">			
+					<textual>DHAP_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PGA_UGln" scale="auto">			
+					<textual>PGA_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PEP_UGln" scale="auto">			
+					<textual>PEP_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_PYR_UGln" scale="auto">			
+					<textual>PYR_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_CitICit_UGln" scale="auto">			
+					<textual>CitICit_UGln[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_OGA_UGln" scale="auto">			
+					<textual>OGA_UGln[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_Fum_UGln" scale="auto">			
+					<textual>Fum_UGln[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_MAL_UGln" scale="auto">			
+					<textual>MAL_UGln[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_m6PG_UGln" scale="auto">			
+					<textual>m6PG_UGln[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>		
+				</group>			
+				<group id="ms_R5P_UGln" scale="auto">			
+					<textual>R5P_UGln[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_X5P_UGln" scale="auto">			
+					<textual>X5P_UGln[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_S7P_UGln" scale="auto">			
+					<textual>S7P_UGln[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>		
+				</group>			
+				<group id="ms_Asp_UGln" scale="auto">			
+					<textual>Asp_UGln[1,2,3,4]#M0,1,2,3,4</textual>		
+				</group>			
+				<group id="ms_CBASP_UGln" scale="auto">			
+					<textual>CBASP_UGln[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_UMP_UGln" scale="auto">			
+					<textual>UMP_UGln[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_dTTP_UGln" scale="auto">			
+					<textual>dTTP_UGln[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>		
+				</group>			
+				<group id="ms_Phe_UGln" scale="auto">			
+					<textual>Phe_UGln[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>		
+				</group>			
+				<group id="ms_Trp_UGln" scale="auto">			
+					<textual>Trp_UGln[1,2,3,4,5,6,7,8,9,10,11]#M0,1,2,3,4,5,6,7,8,9,10,11</textual>		
+				</group>			
+				<group id="ms_Glu_UGln" scale="auto">			
+					<textual>Glu_UGln[1,2,3,4,5]#M0,1,2,3,4,5</textual>		
+				</group>			
+				<group id="ms_PSer_UGln" scale="auto">			
+					<textual>PSer_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_ATP_UGln" scale="auto">			
+					<textual>ATP_UGln[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>		
+				</group>			
+				<group id="ms_AcCoA_UGln" scale="auto">			
+					<textual>AcCoA_UGln[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Gly_UGln" scale="auto">			
+					<textual>Gly_UGln[1,2]#M0,1,2</textual>		
+				</group>			
+				<group id="ms_Ala_UGln" scale="auto">			
+					<textual>Ala_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+				<group id="ms_Cys_UGln" scale="auto">			
+					<textual>Cys_UGln[1,2,3]#M0,1,2,3</textual>		
+				</group>			
+							
+			</labelingmeasurement>				
+			<fluxmeasurement>				
+				<netflux id="GLC_uptake">			
+					<textual>	upt_12	</textual>
+				</netflux>			
+				<netflux id="LAC_secretion">			
+					<textual>	EX_PYR_12	</textual>
+				</netflux>			
+				<netflux id="Gln_uptake">			
+					<textual>	IN_Gln_12 - EX_OGA_Gln_12 + 0.0192147942910325	</textual>
+				</netflux>			
+				<netflux id="Ser_uptake">			
+					<textual>	IN_Ser_12 - EX_PGA_Ser_12 + 0.024510356232989	</textual>
+				</netflux>			
+				<netflux id="FA_denovosyn">			
+					<textual>	EX_AC_cyt_12	</textual>
+				</netflux>			
+			</fluxmeasurement>				
+		</model>					
+		<data>			
+		<!-- dummy labeling data -->
+			<datum id="GLC_uptake" stddev="0.08">	1	</datum>
+			<datum id="LAC_secretion" stddev="0.15">	1.612	</datum>
+			<datum id="Gln_uptake" stddev="0.08">	0.408	</datum>
+			<datum id="Ser_uptake" stddev="0.006">	0.0531	</datum>
+			<datum id="FA_denovosyn" stddev="0.005">	0.030612245	</datum>
+					
+			<datum id="ms_G6P_12" stddev="0.020" weight="0">	0.035454349	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="1">	0.000414915	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="2">	0.904758733	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="3">	0.00108324	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="4">	0.057307437	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="5">	0.000778586	</datum>
+			<datum id="ms_G6P_12" stddev="0.020" weight="6">	0.000202741	</datum>
+					
+			<datum id="ms_F6P_12" stddev="0.020" weight="0">	0.035454349	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="1">	0.000414915	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="2">	0.904758733	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="3">	0.00108324	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="4">	0.057307437	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="5">	0.000778586	</datum>
+			<datum id="ms_F6P_12" stddev="0.020" weight="6">	0.000202741	</datum>
+					
+			<datum id="ms_FBP_12" stddev="0.020" weight="0">	0.010090916	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="1">	0.002556136	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="2">	0.913102364	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="3">	0.003404974	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="4">	0.070381484	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="5">	0.000241054	</datum>
+			<datum id="ms_FBP_12" stddev="0.020" weight="6">	0.000223071	</datum>
+					
+			<datum id="ms_DHAP_12" stddev="0.020" weight="0">	0.362747603	</datum>
+			<datum id="ms_DHAP_12" stddev="0.020" weight="1">	0.001687372	</datum>
+			<datum id="ms_DHAP_12" stddev="0.020" weight="2">	6.36E-01	</datum>
+			<datum id="ms_DHAP_12" stddev="0.020" weight="3">	4.16737E-06	</datum>
+					
+			<datum id="ms_PGA_12" stddev="0.020" weight="0">	0.489779421	</datum>
+			<datum id="ms_PGA_12" stddev="0.020" weight="1">	0.000467677	</datum>
+			<datum id="ms_PGA_12" stddev="0.020" weight="2">	0.509730267	</datum>
+			<datum id="ms_PGA_12" stddev="0.020" weight="3">	2.26352E-05	</datum>
+					
+			<datum id="ms_PEP_12" stddev="0.020" weight="0">	0.489779421	</datum>
+			<datum id="ms_PEP_12" stddev="0.020" weight="1">	0.000467677	</datum>
+			<datum id="ms_PEP_12" stddev="0.020" weight="2">	0.509730267	</datum>
+			<datum id="ms_PEP_12" stddev="0.020" weight="3">	2.26352E-05	</datum>
+
+			<datum id="ms_PYR_12" stddev="0.020" weight="0">	0.489543562	</datum>
+			<datum id="ms_PYR_12" stddev="0.020" weight="1">	0.011466225	</datum>
+			<datum id="ms_PYR_12" stddev="0.020" weight="2">	0.496972891	</datum>
+			<datum id="ms_PYR_12" stddev="0.020" weight="3">	0.002017322	</datum>
+					
+			<datum id="ms_GLYC3P_12" stddev="0.020" weight="0">	0.489543562	</datum>
+			<datum id="ms_GLYC3P_12" stddev="0.020" weight="1">	0.011466225	</datum>
+			<datum id="ms_GLYC3P_12" stddev="0.020" weight="2">	0.496972891	</datum>
+			<datum id="ms_GLYC3P_12" stddev="0.020" weight="3">	0.002017322	</datum>
+					
+			<datum id="ms_CitICit_12" stddev="0.020" weight="0">	0.648277856	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="1">	0.024795827	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="2">	0.269456324	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="3">	0.014902856	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="4">	0.039319994	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="5">	0.002618266	</datum>
+			<datum id="ms_CitICit_12" stddev="0.020" weight="6">	0.000628877	</datum>
+					
+			<datum id="ms_OGA_12" stddev="0.020" weight="0">	0.844145725	</datum>
+			<datum id="ms_OGA_12" stddev="0.020" weight="1">	0.01770676	</datum>
+			<datum id="ms_OGA_12" stddev="0.020" weight="2">	0.119917988	</datum>
+			<datum id="ms_OGA_12" stddev="0.020" weight="3">	0.009442716	</datum>
+			<datum id="ms_OGA_12" stddev="0.020" weight="4">	0.008240652	</datum>
+			<datum id="ms_OGA_12" stddev="0.020" weight="5">	0.000546158	</datum>
+					
+			<datum id="ms_Succ_12" stddev="0.020" weight="0">	0.889986693	</datum>
+			<datum id="ms_Succ_12" stddev="0.020" weight="1">	0.014803613	</datum>
+			<datum id="ms_Succ_12" stddev="0.020" weight="2">	0.082837351	</datum>
+			<datum id="ms_Succ_12" stddev="0.020" weight="3">	0.008996389	</datum>
+			<datum id="ms_Succ_12" stddev="0.020" weight="4">	0.003375954	</datum>
+					
+			<datum id="ms_Fum_12" stddev="0.020" weight="0">	0.853931223	</datum>
+			<datum id="ms_Fum_12" stddev="0.020" weight="1">	0.015422658	</datum>
+			<datum id="ms_Fum_12" stddev="0.020" weight="2">	0.12351436	</datum>
+			<datum id="ms_Fum_12" stddev="0.020" weight="3">	0.006728309	</datum>
+			<datum id="ms_Fum_12" stddev="0.020" weight="4">	0.000403451	</datum>
+					
+			<datum id="ms_MAL_12" stddev="0.020" weight="0">	0.798860508	</datum>
+			<datum id="ms_MAL_12" stddev="0.020" weight="1">	0.034410684	</datum>
+			<datum id="ms_MAL_12" stddev="0.020" weight="2">	0.145412265	</datum>
+			<datum id="ms_MAL_12" stddev="0.020" weight="3">	0.01604523	</datum>
+			<datum id="ms_MAL_12" stddev="0.020" weight="4">	0.005271313	</datum>
+					
+			<datum id="ms_m6PG_12" stddev="0.020" weight="0">	6.90524E-06	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="1">	0.004957712	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="2">	0.97613111	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="3">	6.93152E-08	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="4">	0.018888204	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="5">	8.30843E-06	</datum>
+			<datum id="ms_m6PG_12" stddev="0.020" weight="6">	7.69089E-06	</datum>
+					
+			<datum id="ms_R5P_12" stddev="0.020" weight="0">	0.027061295	</datum>
+			<datum id="ms_R5P_12" stddev="0.020" weight="1">	0.426563128	</datum>
+			<datum id="ms_R5P_12" stddev="0.020" weight="2">	0.160896075	</datum>
+			<datum id="ms_R5P_12" stddev="0.020" weight="3">	0.251469264	</datum>
+			<datum id="ms_R5P_12" stddev="0.020" weight="4">	0.133798311	</datum>
+			<datum id="ms_R5P_12" stddev="0.020" weight="5">	0.000211928	</datum>
+					
+			<datum id="ms_X5P_12" stddev="0.020" weight="0">	0.006540396	</datum>
+			<datum id="ms_X5P_12" stddev="0.020" weight="1">	0.306150087	</datum>
+			<datum id="ms_X5P_12" stddev="0.020" weight="2">	0.391039	</datum>
+			<datum id="ms_X5P_12" stddev="0.020" weight="3">	0.191790012	</datum>
+			<datum id="ms_X5P_12" stddev="0.020" weight="4">	0.104276142	</datum>
+			<datum id="ms_X5P_12" stddev="0.020" weight="5">	0.000204364	</datum>
+			
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="0">	0.006540396	</datum>
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="1">	0.306150087	</datum>
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="2">	0.391039	</datum>
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="3">	0.191790012	</datum>
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="4">	0.104276142	</datum>
+			<datum id="ms_Ru5P_12" stddev="0.020" weight="5">	0.000204364	</datum>
+			
+			<datum id="ms_S7P_12" stddev="0.020" weight="0">	0.000213188	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="1">	0.004857966	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="2">	0.689272957	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="3">	0.092362506	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="4">	0.145537084	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="5">	0.06064712	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="6">	0.005044497	</datum>
+			<datum id="ms_S7P_12" stddev="0.020" weight="7">	0.002064682	</datum>
+					
+			<datum id="ms_Asp_12" stddev="0.020" weight="0">	0.808212445	</datum>
+			<datum id="ms_Asp_12" stddev="0.020" weight="1">	0.033386016	</datum>
+			<datum id="ms_Asp_12" stddev="0.020" weight="2">	0.13716309	</datum>
+			<datum id="ms_Asp_12" stddev="0.020" weight="3">	0.015610321	</datum>
+			<datum id="ms_Asp_12" stddev="0.020" weight="4">	0.005628127	</datum>
+					
+			<datum id="ms_CBASP_12" stddev="0.020" weight="0">	0.768259313	</datum>
+			<datum id="ms_CBASP_12" stddev="0.020" weight="1">	0.102332373	</datum>
+			<datum id="ms_CBASP_12" stddev="0.020" weight="2">	0.119000659	</datum>
+			<datum id="ms_CBASP_12" stddev="0.020" weight="3">	0.007476947	</datum>
+			<datum id="ms_CBASP_12" stddev="0.020" weight="4">	0.002431426	</datum>
+			<datum id="ms_CBASP_12" stddev="0.020" weight="5">	0.000499283	</datum>
+					
+			<datum id="ms_UMP_12" stddev="0.020" weight="0">	0.047808893	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="1">	0.349508298	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="2">	0.179122434	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="3">	0.215203014	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="4">	0.157324256	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="5">	0.031318598	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="6">	0.01616577	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="7">	0.00167127	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="8">	0.001170945	</datum>
+			<datum id="ms_UMP_12" stddev="0.020" weight="9">	0.000706523	</datum>
+					
+			<datum id="ms_Phe_12" stddev="0.020" weight="0">	0.998878185	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="1">	4.58992E-05	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="2">	0.000119017	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="3">	0.00013138	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="4">	0.000136745	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="5">	0.000137017	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="6">	0.000137022	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="7">	0.000137106	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="8">	0.000145141	</datum>
+			<datum id="ms_Phe_12" stddev="0.020" weight="9">	0.000132488	</datum>
+					
+			<datum id="ms_Trp_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="5">	0.000227714	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="6">	0.000226549	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="7">	0.000226489	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="8">	0.000226487	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="9">	0.000226486	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="10">	0.000226452	</datum>
+			<datum id="ms_Trp_12" stddev="0.020" weight="11">	0.000225819	</datum>
+					
+			<datum id="ms_Tyr_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="5">	0.000227714	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="6">	0.000226549	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="7">	0.000226489	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="8">	0.000226487	</datum>
+			<datum id="ms_Tyr_12" stddev="0.020" weight="9">	0.000226486	</datum>
+					
+			<datum id="ms_Glu_12" stddev="0.020" weight="0">	0.81683057	</datum>
+			<datum id="ms_Glu_12" stddev="0.020" weight="1">	0.023212288	</datum>
+			<datum id="ms_Glu_12" stddev="0.020" weight="2">	0.130871389	</datum>
+			<datum id="ms_Glu_12" stddev="0.020" weight="3">	0.013882578	</datum>
+			<datum id="ms_Glu_12" stddev="0.020" weight="4">	0.013824412	</datum>
+			<datum id="ms_Glu_12" stddev="0.020" weight="5">	0.001378763	</datum>
+					
+			<datum id="ms_PSer_12" stddev="0.020" weight="0">	0.723656382	</datum>
+			<datum id="ms_PSer_12" stddev="0.020" weight="1">	0.052281664	</datum>
+			<datum id="ms_PSer_12" stddev="0.020" weight="2">	0.222813941	</datum>
+			<datum id="ms_PSer_12" stddev="0.020" weight="3">	0.001248012	</datum>
+					
+			<datum id="ms_Ser_12" stddev="0.020" weight="0">	0.723656382	</datum>
+			<datum id="ms_Ser_12" stddev="0.020" weight="1">	0.052281664	</datum>
+			<datum id="ms_Ser_12" stddev="0.020" weight="2">	0.222813941	</datum>
+			<datum id="ms_Ser_12" stddev="0.020" weight="3">	0.001248012	</datum>
+					
+			<datum id="ms_ATP_12" stddev="0.020" weight="0">	0.051792033	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="1">	0.259107601	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="2">	0.249015551	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="3">	0.205456017	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="4">	0.167690831	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="5">	0.056000872	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="6">	0.008187828	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="7">	0.000974216	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="8">	0.000624785	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="9">	0.000577919	</datum>
+			<datum id="ms_ATP_12" stddev="0.020" weight="10">	0.000572348	</datum>
+					
+			<datum id="ms_AcCoA_12" stddev="0.020" weight="0">	0.742086126	</datum>
+			<datum id="ms_AcCoA_12" stddev="0.020" weight="1">	3.56E-07	</datum>
+			<datum id="ms_AcCoA_12" stddev="0.020" weight="2">	0.257913518	</datum>
+					
+			<datum id="ms_Gly_12" stddev="0.020" weight="0">	0.938489515	</datum>
+			<datum id="ms_Gly_12" stddev="0.020" weight="1">	0.061509297	</datum>
+			<datum id="ms_Gly_12" stddev="0.020" weight="2">	1.19E-06	</datum>
+					
+			<datum id="ms_Thr_12" stddev="0.020" weight="0">	0.798860508	</datum>
+			<datum id="ms_Thr_12" stddev="0.020" weight="1">	0.034410684	</datum>
+			<datum id="ms_Thr_12" stddev="0.020" weight="2">	0.145412265	</datum>
+			<datum id="ms_Thr_12" stddev="0.020" weight="3">	0.01604523	</datum>
+			<datum id="ms_Thr_12" stddev="0.020" weight="4">	0.005271313	</datum>
+					
+			<datum id="ms_Asn_12" stddev="0.020" weight="0">	0.798860508	</datum>
+			<datum id="ms_Asn_12" stddev="0.020" weight="1">	0.034410684	</datum>
+			<datum id="ms_Asn_12" stddev="0.020" weight="2">	0.145412265	</datum>
+			<datum id="ms_Asn_12" stddev="0.020" weight="3">	0.01604523	</datum>
+			<datum id="ms_Asn_12" stddev="0.020" weight="4">	0.005271313	</datum>
+					
+			<datum id="ms_Leu_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="5">	0.000227714	</datum>
+			<datum id="ms_Leu_12" stddev="0.020" weight="6">	0.000226549	</datum>
+					
+			<datum id="ms_Ile_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="5">	0.000227714	</datum>
+			<datum id="ms_Ile_12" stddev="0.020" weight="6">	0.000226549	</datum>
+					
+			<datum id="ms_His_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="5">	0.000227714	</datum>
+			<datum id="ms_His_12" stddev="0.020" weight="6">	0.000226549	</datum>
+					
+			<datum id="ms_Met_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Met_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Met_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Met_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Met_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Met_12" stddev="0.020" weight="5">	0.000227714	</datum>
+					
+			<datum id="ms_Val_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Val_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Val_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Val_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Val_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Val_12" stddev="0.020" weight="5">	0.000227714	</datum>
+					
+			<datum id="ms_Pro_12" stddev="0.020" weight="0">	0.997095089	</datum>
+			<datum id="ms_Pro_12" stddev="0.020" weight="1">	0.000656992	</datum>
+			<datum id="ms_Pro_12" stddev="0.020" weight="2">	0.000211016	</datum>
+			<datum id="ms_Pro_12" stddev="0.020" weight="3">	0.000224725	</datum>
+			<datum id="ms_Pro_12" stddev="0.020" weight="4">	0.00022618	</datum>
+			<datum id="ms_Pro_12" stddev="0.020" weight="5">	0.000227714	</datum>
+					
+			<datum id="ms_Gln_12" stddev="0.020" weight="0">	0.941698254	</datum>
+			<datum id="ms_Gln_12" stddev="0.020" weight="1">	0.010319181	</datum>
+			<datum id="ms_Gln_12" stddev="0.020" weight="2">	0.047978404	</datum>
+			<datum id="ms_Gln_12" stddev="0.020" weight="3">	1.21E-06	</datum>
+			<datum id="ms_Gln_12" stddev="0.020" weight="4">	3.41E-07	</datum>
+			<datum id="ms_Gln_12" stddev="0.020" weight="5">	2.61E-06	</datum>
+					
+			<datum id="ms_Ala_12" stddev="0.020" weight="0">	0.617935677	</datum>
+			<datum id="ms_Ala_12" stddev="0.020" weight="1">	0.007606384	</datum>
+			<datum id="ms_Ala_12" stddev="0.020" weight="2">	0.369390241	</datum>
+			<datum id="ms_Ala_12" stddev="0.020" weight="3">	0.005067698	</datum>
+					
+			<datum id="ms_Cys_12" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Cys_12" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Cys_12" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Cys_12" stddev="0.020" weight="3">	0	</datum>
+					
+					
+			<datum id="ms_FBP_U" stddev="0.020" weight="0">	0.002529013	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="1">	0.000313968	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="2">	0.000353174	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="3">	0.00091717	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="4">	0.000381125	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="5">	0.011904322	</datum>
+			<datum id="ms_FBP_U" stddev="0.020" weight="6">	0.983601229	</datum>
+					
+			<datum id="ms_DHAP_U" stddev="0.020" weight="0">	5.12201E-06	</datum>
+			<datum id="ms_DHAP_U" stddev="0.020" weight="1">	4.80174E-06	</datum>
+			<datum id="ms_DHAP_U" stddev="0.020" weight="2">	2.01446E-07	</datum>
+			<datum id="ms_DHAP_U" stddev="0.020" weight="3">	0.999989875	</datum>
+					
+			<datum id="ms_PGA_U" stddev="0.020" weight="0">	0.009121201	</datum>
+			<datum id="ms_PGA_U" stddev="0.020" weight="1">	0.000644092	</datum>
+			<datum id="ms_PGA_U" stddev="0.020" weight="2">	0.002699222	</datum>
+			<datum id="ms_PGA_U" stddev="0.020" weight="3">	0.987535485	</datum>
+					
+			<datum id="ms_PEP_U" stddev="0.020" weight="0">	5.12201E-06	</datum>
+			<datum id="ms_PEP_U" stddev="0.020" weight="1">	4.80174E-06	</datum>
+			<datum id="ms_PEP_U" stddev="0.020" weight="2">	2.01446E-07	</datum>
+			<datum id="ms_PEP_U" stddev="0.020" weight="3">	0.999989875	</datum>
+					
+			<datum id="ms_PYR_U" stddev="0.020" weight="0">	0.033101491	</datum>
+			<datum id="ms_PYR_U" stddev="0.020" weight="1">	0.003108202	</datum>
+			<datum id="ms_PYR_U" stddev="0.020" weight="2">	0.004640916	</datum>
+			<datum id="ms_PYR_U" stddev="0.020" weight="3">	0.959149391	</datum>
+					
+			<datum id="ms_CitICit_U" stddev="0.020" weight="0">	0.162373438	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="1">	0.011936019	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="2">	0.562492306	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="3">	0.025212213	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="4">	0.136039555	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="5">	0.079232467	</datum>
+			<datum id="ms_CitICit_U" stddev="0.020" weight="6">	0.022714003	</datum>
+					
+			<datum id="ms_OGA_U" stddev="0.020" weight="0">	0.776554679	</datum>
+			<datum id="ms_OGA_U" stddev="0.020" weight="1">	0.000343312	</datum>
+			<datum id="ms_OGA_U" stddev="0.020" weight="2">	0.148348543	</datum>
+			<datum id="ms_OGA_U" stddev="0.020" weight="3">	0.025794821	</datum>
+			<datum id="ms_OGA_U" stddev="0.020" weight="4">	0.035251335	</datum>
+			<datum id="ms_OGA_U" stddev="0.020" weight="5">	0.01370731	</datum>
+					
+			<datum id="ms_Succ_U" stddev="0.020" weight="0">	0.838558528	</datum>
+			<datum id="ms_Succ_U" stddev="0.020" weight="1">	0.000111329	</datum>
+			<datum id="ms_Succ_U" stddev="0.020" weight="2">	0.110027529	</datum>
+			<datum id="ms_Succ_U" stddev="0.020" weight="3">	0.02596033	</datum>
+			<datum id="ms_Succ_U" stddev="0.020" weight="4">	0.025342284	</datum>
+					
+			<datum id="ms_Fum_U" stddev="0.020" weight="0">	0.724647323	</datum>
+			<datum id="ms_Fum_U" stddev="0.020" weight="1">	0.003163389	</datum>
+			<datum id="ms_Fum_U" stddev="0.020" weight="2">	0.157296895	</datum>
+			<datum id="ms_Fum_U" stddev="0.020" weight="3">	0.084757508	</datum>
+			<datum id="ms_Fum_U" stddev="0.020" weight="4">	0.030134886	</datum>
+					
+			<datum id="ms_MAL_U" stddev="0.020" weight="0">	0.693752954	</datum>
+			<datum id="ms_MAL_U" stddev="0.020" weight="1">	0.013344334	</datum>
+			<datum id="ms_MAL_U" stddev="0.020" weight="2">	0.160972703	</datum>
+			<datum id="ms_MAL_U" stddev="0.020" weight="3">	0.098536092	</datum>
+			<datum id="ms_MAL_U" stddev="0.020" weight="4">	0.033393916	</datum>
+					
+			<datum id="ms_m6PG_U" stddev="0.020" weight="0">	0.00018028	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="1">	0.000187778	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="2">	0.000187609	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="3">	0.000175561	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="4">	5.20857E-05	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="5">	0.028941564	</datum>
+			<datum id="ms_m6PG_U" stddev="0.020" weight="6">	0.970275122	</datum>
+					
+			<datum id="ms_R5P_U" stddev="0.020" weight="0">	5.01929E-05	</datum>
+			<datum id="ms_R5P_U" stddev="0.020" weight="1">	5.03043E-05	</datum>
+			<datum id="ms_R5P_U" stddev="0.020" weight="2">	4.84023E-05	</datum>
+			<datum id="ms_R5P_U" stddev="0.020" weight="3">	1.89897E-05	</datum>
+			<datum id="ms_R5P_U" stddev="0.020" weight="4">	0.000725394	</datum>
+			<datum id="ms_R5P_U" stddev="0.020" weight="5">	0.999106717	</datum>
+					
+			<datum id="ms_X5P_U" stddev="0.020" weight="0">	0.000123596	</datum>
+			<datum id="ms_X5P_U" stddev="0.020" weight="1">	0.000124122	</datum>
+			<datum id="ms_X5P_U" stddev="0.020" weight="2">	0.000120564	</datum>
+			<datum id="ms_X5P_U" stddev="0.020" weight="3">	5.93453E-05	</datum>
+			<datum id="ms_X5P_U" stddev="0.020" weight="4">	0.005948957	</datum>
+			<datum id="ms_X5P_U" stddev="0.020" weight="5">	0.993623416	</datum>
+					
+			<datum id="ms_S7P_U" stddev="0.020" weight="0">	0.00011802	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="1">	0.000128568	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="2">	0.000128819	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="3">	0.000128634	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="4">	0.000121361	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="5">	4.10671E-05	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="6">	0.002630843	</datum>
+			<datum id="ms_S7P_U" stddev="0.020" weight="7">	0.996702688	</datum>
+					
+			<datum id="ms_Asp_U" stddev="0.020" weight="0">	0.706346366	</datum>
+			<datum id="ms_Asp_U" stddev="0.020" weight="1">	0.013527339	</datum>
+			<datum id="ms_Asp_U" stddev="0.020" weight="2">	0.158033063	</datum>
+			<datum id="ms_Asp_U" stddev="0.020" weight="3">	0.09327384	</datum>
+			<datum id="ms_Asp_U" stddev="0.020" weight="4">	0.028819392	</datum>
+					
+			<datum id="ms_CBASP_U" stddev="0.020" weight="0">	0.736802484	</datum>
+			<datum id="ms_CBASP_U" stddev="0.020" weight="1">	0.049860692	</datum>
+			<datum id="ms_CBASP_U" stddev="0.020" weight="2">	0.109563283	</datum>
+			<datum id="ms_CBASP_U" stddev="0.020" weight="3">	0.091661159	</datum>
+			<datum id="ms_CBASP_U" stddev="0.020" weight="4">	0.011743786	</datum>
+			<datum id="ms_CBASP_U" stddev="0.020" weight="5">	0.000368596	</datum>
+					
+			<datum id="ms_UMP_U" stddev="0.020" weight="0">	0.029512789	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="1">	0.000892497	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="2">	0.006440766	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="3">	0.007879888	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="4">	0.007170888	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="5">	0.613821984	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="6">	0.108114064	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="7">	0.156644175	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="8">	0.06750768	</datum>
+			<datum id="ms_UMP_U" stddev="0.020" weight="9">	0.002015269	</datum>
+					
+			<datum id="ms_dTTP_U" stddev="0.020" weight="0">	0.050958904	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="1">	0.011431877	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="2">	0.000100279	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="3">	0.004255538	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="4">	0.010008863	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="5">	0.399019007	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="6">	0.283845511	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="7">	0.11737928	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="8">	0.110724801	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="9">	0.011964554	</datum>
+			<datum id="ms_dTTP_U" stddev="0.020" weight="10">	0.000311387	</datum>
+					
+			<datum id="ms_Phe_U" stddev="0.020" weight="0">	0.999301612	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="1">	1.43744E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="2">	6.6376E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="3">	8.51153E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="4">	8.93044E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="5">	8.95093E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="6">	8.95153E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="7">	8.95106E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="8">	8.93371E-05	</datum>
+			<datum id="ms_Phe_U" stddev="0.020" weight="9">	8.53453E-05	</datum>
+					
+			<datum id="ms_Trp_U" stddev="0.020" weight="0">	0.998589217	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="1">	0.000122937	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="2">	8.47944E-05	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="3">	0.000126255	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="4">	0.000134414	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="5">	0.000134817	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="6">	0.000134829	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="7">	0.000134829	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="8">	0.000134829	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="9">	0.000134826	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="10">	0.000134751	</datum>
+			<datum id="ms_Trp_U" stddev="0.020" weight="11">	0.000133501	</datum>
+					
+			<datum id="ms_Glu_U" stddev="0.020" weight="0">	0.750707105	</datum>
+			<datum id="ms_Glu_U" stddev="0.020" weight="1">	0.004587072	</datum>
+			<datum id="ms_Glu_U" stddev="0.020" weight="2">	0.16068567	</datum>
+			<datum id="ms_Glu_U" stddev="0.020" weight="3">	0.025651741	</datum>
+			<datum id="ms_Glu_U" stddev="0.020" weight="4">	0.040360742	</datum>
+			<datum id="ms_Glu_U" stddev="0.020" weight="5">	0.018007671	</datum>
+					
+			<datum id="ms_PSer_U" stddev="0.020" weight="0">	0.433714467	</datum>
+			<datum id="ms_PSer_U" stddev="0.020" weight="1">	0.063485272	</datum>
+			<datum id="ms_PSer_U" stddev="0.020" weight="2">	0.031022085	</datum>
+			<datum id="ms_PSer_U" stddev="0.020" weight="3">	0.471778176	</datum>
+					
+			<datum id="ms_ATP_U" stddev="0.020" weight="0">	0.055011975	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="1">	0.00156431	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="2">	0.003667601	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="3">	0.007147608	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="4">	0.010541154	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="5">	0.144897269	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="6">	0.235943263	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="7">	0.255995454	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="8">	0.134158997	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="9">	0.149918884	</datum>
+			<datum id="ms_ATP_U" stddev="0.020" weight="10">	0.001153485	</datum>
+					
+			<datum id="ms_AcCoA_U" stddev="0.020" weight="0">	0.263279301	</datum>
+			<datum id="ms_AcCoA_U" stddev="0.020" weight="1">	0.010283226	</datum>
+			<datum id="ms_AcCoA_U" stddev="0.020" weight="2">	0.726437473	</datum>
+					
+			<datum id="ms_Gly_U" stddev="0.020" weight="0">	0.673652487	</datum>
+			<datum id="ms_Gly_U" stddev="0.020" weight="1">	1.23E-07	</datum>
+			<datum id="ms_Gly_U" stddev="0.020" weight="2">	0.326347391	</datum>
+					
+			<datum id="ms_Ala_U" stddev="0.020" weight="0">	0.137433551	</datum>
+			<datum id="ms_Ala_U" stddev="0.020" weight="1">	8.90E-07	</datum>
+			<datum id="ms_Ala_U" stddev="0.020" weight="2">	0.001930903	</datum>
+			<datum id="ms_Ala_U" stddev="0.020" weight="3">	0.860634656	</datum>
+					
+			<datum id="ms_Cys_U" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Cys_U" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Cys_U" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Cys_U" stddev="0.020" weight="3">	0	</datum>
+					
+					
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="0">	0.999609979	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="1">	2.30893E-05	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="2">	4.37972E-05	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="3">	8.00995E-05	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="4">	8.24071E-05	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="5">	8.23539E-05	</datum>
+			<datum id="ms_FBP_UGln" stddev="0.020" weight="6">	7.82743E-05	</datum>
+					
+			<datum id="ms_DHAP_UGln" stddev="0.020" weight="0">	0.96279858	</datum>
+			<datum id="ms_DHAP_UGln" stddev="0.020" weight="1">	0.003357803	</datum>
+			<datum id="ms_DHAP_UGln" stddev="0.020" weight="2">	0.010410724	</datum>
+			<datum id="ms_DHAP_UGln" stddev="0.020" weight="3">	0.023432892	</datum>
+					
+			<datum id="ms_PGA_UGln" stddev="0.020" weight="0">	0.999814883	</datum>
+			<datum id="ms_PGA_UGln" stddev="0.020" weight="1">	1.75956E-05	</datum>
+			<datum id="ms_PGA_UGln" stddev="0.020" weight="2">	7.8551E-05	</datum>
+			<datum id="ms_PGA_UGln" stddev="0.020" weight="3">	8.89705E-05	</datum>
+					
+			<datum id="ms_PEP_UGln" stddev="0.020" weight="0">	0.999996308	</datum>
+			<datum id="ms_PEP_UGln" stddev="0.020" weight="1">	5.59268E-08	</datum>
+			<datum id="ms_PEP_UGln" stddev="0.020" weight="2">	1.74447E-06	</datum>
+			<datum id="ms_PEP_UGln" stddev="0.020" weight="3">	1.89151E-06	</datum>
+					
+			<datum id="ms_PYR_UGln" stddev="0.020" weight="0">	0.987628698	</datum>
+			<datum id="ms_PYR_UGln" stddev="0.020" weight="1">	6.11309E-05	</datum>
+			<datum id="ms_PYR_UGln" stddev="0.020" weight="2">	0.000469538	</datum>
+			<datum id="ms_PYR_UGln" stddev="0.020" weight="3">	0.011840633	</datum>
+					
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="0">	0.149915126	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="1">	0.047049307	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="2">	0.137381812	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="3">	0.055997163	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="4">	0.560360632	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="5">	0.035786362	</datum>
+			<datum id="ms_CitICit_UGln" stddev="0.020" weight="6">	0.013509598	</datum>
+					
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="0">	0.031755205	</datum>
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="1">	0.020569215	</datum>
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="2">	0.021512351	</datum>
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="3">	0.136420755	</datum>
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="4">	9.52604E-06	</datum>
+			<datum id="ms_OGA_UGln" stddev="0.020" weight="5">	0.789732948	</datum>
+					
+			<datum id="ms_Fum_UGln" stddev="0.020" weight="0">	0.090020567	</datum>
+			<datum id="ms_Fum_UGln" stddev="0.020" weight="1">	0.04884273	</datum>
+			<datum id="ms_Fum_UGln" stddev="0.020" weight="2">	0.141548551	</datum>
+			<datum id="ms_Fum_UGln" stddev="0.020" weight="3">	0.030086598	</datum>
+			<datum id="ms_Fum_UGln" stddev="0.020" weight="4">	0.689501554	</datum>
+					
+			<datum id="ms_MAL_UGln" stddev="0.020" weight="0">	0.089093559	</datum>
+			<datum id="ms_MAL_UGln" stddev="0.020" weight="1">	0.055563717	</datum>
+			<datum id="ms_MAL_UGln" stddev="0.020" weight="2">	0.147208412	</datum>
+			<datum id="ms_MAL_UGln" stddev="0.020" weight="3">	0.047959593	</datum>
+			<datum id="ms_MAL_UGln" stddev="0.020" weight="4">	0.66017472	</datum>
+					
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="0">	0.999957237	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="1">	5.64437E-07	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="2">	6.13498E-06	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="3">	9.05773E-06	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="4">	9.22249E-06	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="5">	9.20404E-06	</datum>
+			<datum id="ms_m6PG_UGln" stddev="0.020" weight="6">	8.57976E-06	</datum>
+					
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="0">	0.999992225	</datum>
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="1">	9.69632E-08	</datum>
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="2">	1.57457E-06	</datum>
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="3">	2.0471E-06	</datum>
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="4">	2.06668E-06	</datum>
+			<datum id="ms_R5P_UGln" stddev="0.020" weight="5">	1.98977E-06	</datum>
+					
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="0">	0.999980407	</datum>
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="1">	2.20176E-07	</datum>
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="2">	4.24542E-06	</datum>
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="3">	5.0899E-06	</datum>
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="4">	5.11675E-06	</datum>
+			<datum id="ms_X5P_UGln" stddev="0.020" weight="5">	4.92108E-06	</datum>
+					
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="0">	0.998981731	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="1">	0.00052012	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="2">	3.46843E-05	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="3">	9.02222E-05	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="4">	9.51391E-05	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="5">	9.52673E-05	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="6">	9.50852E-05	</datum>
+			<datum id="ms_S7P_UGln" stddev="0.020" weight="7">	8.77513E-05	</datum>
+					
+			<datum id="ms_Asp_UGln" stddev="0.020" weight="0">	0.092750504	</datum>
+			<datum id="ms_Asp_UGln" stddev="0.020" weight="1">	0.058745127	</datum>
+			<datum id="ms_Asp_UGln" stddev="0.020" weight="2">	0.158484366	</datum>
+			<datum id="ms_Asp_UGln" stddev="0.020" weight="3">	0.04723705	</datum>
+			<datum id="ms_Asp_UGln" stddev="0.020" weight="4">	0.642782952	</datum>
+					
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="0">	0.05861067	</datum>
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="1">	0.245352174	</datum>
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="2">	0.102406107	</datum>
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="3">	0.036815623	</datum>
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="4">	0.552479027	</datum>
+			<datum id="ms_CBASP_UGln" stddev="0.020" weight="5">	0.0043364	</datum>
+				
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="0">	0.151332836	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="1">	0.140760918	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="2">	0.103221522	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="3">	0.590765407	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="4">	4.52645E-06	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="5">	0.01288498	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="6">	0.00025491	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="7">	0.000258261	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="8">	0.000260678	</datum>
+			<datum id="ms_UMP_UGln" stddev="0.020" weight="9">	0.000255962	</datum>
+					
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="0">	0.283383944	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="1">	0.017705082	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="2">	0.080091135	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="3">	0.616181264	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="4">	4.22393E-08	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="5">	0.002527033	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="6">	2.16194E-05	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="7">	2.29146E-05	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="8">	2.29983E-05	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="9">	2.28797E-05	</datum>
+			<datum id="ms_dTTP_UGln" stddev="0.020" weight="10">	2.10882E-05	</datum>
+					
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="0">	0.998618518	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="1">	0.000109045	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="2">	0.000130423	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="3">	0.000159642	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="4">	0.000164462	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="5">	0.000164729	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="6">	0.000164737	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="7">	0.000164734	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="8">	0.000164551	</datum>
+			<datum id="ms_Phe_UGln" stddev="0.020" weight="9">	0.00015916	</datum>
+					
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="0">	0.997982056	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="1">	0.000151153	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="2">	0.000138012	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="3">	0.00018173	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="4">	0.000193061	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="5">	0.000193637	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="6">	0.000193652	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="7">	0.000193652	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="8">	0.000193652	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="9">	0.00019365	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="10">	0.000193572	</datum>
+			<datum id="ms_Trp_UGln" stddev="0.020" weight="11">	0.000192175	</datum>
+					
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="0">	0.042003445	</datum>
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="1">	0.034012663	</datum>
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="2">	0.027178477	</datum>
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="3">	0.145788237	</datum>
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="4">	0.00021646	</datum>
+			<datum id="ms_Glu_UGln" stddev="0.020" weight="5">	0.750800719	</datum>
+					
+			<datum id="ms_PSer_UGln" stddev="0.020" weight="0">	0.998828744	</datum>
+			<datum id="ms_PSer_UGln" stddev="0.020" weight="1">	0.000937339	</datum>
+			<datum id="ms_PSer_UGln" stddev="0.020" weight="2">	0.000100834	</datum>
+			<datum id="ms_PSer_UGln" stddev="0.020" weight="3">	0.000133084	</datum>
+					
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="0">	0.975028044	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="1">	0.00778893	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="2">	0.013770396	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="3">	0.000601193	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="4">	0.000394135	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="5">	0.000402166	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="6">	0.000402775	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="7">	0.000402787	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="8">	0.000402792	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="9">	0.000402875	</datum>
+			<datum id="ms_ATP_UGln" stddev="0.020" weight="10">	0.000403906	</datum>
+					
+			<datum id="ms_AcCoA_UGln" stddev="0.020" weight="0">	0.937386428	</datum>
+			<datum id="ms_AcCoA_UGln" stddev="0.020" weight="1">	5.60E-08	</datum>
+			<datum id="ms_AcCoA_UGln" stddev="0.020" weight="2">	0.062613516	</datum>
+					
+			<datum id="ms_Gly_UGln" stddev="0.020" weight="0">	0.907148798	</datum>
+			<datum id="ms_Gly_UGln" stddev="0.020" weight="1">	0.050063083	</datum>
+			<datum id="ms_Gly_UGln" stddev="0.020" weight="2">	0.042788118	</datum>
+				
+			<datum id="ms_Ala_UGln" stddev="0.020" weight="0">	0.947039185	</datum>
+			<datum id="ms_Ala_UGln" stddev="0.020" weight="1">	3.67E-06	</datum>
+			<datum id="ms_Ala_UGln" stddev="0.020" weight="2">	0.045398943	</datum>
+			<datum id="ms_Ala_UGln" stddev="0.020" weight="3">	0.007558202	</datum>
+					
+			<datum id="ms_Cys_UGln" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Cys_UGln" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Cys_UGln" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Cys_UGln" stddev="0.020" weight="3">	0	</datum>
+					
+					
+		</data>			
+	</measurement>				
+	<simulation method="cumomer" type="auto">				
+		<variables>			
+		<!-- dummy free flux values -->
+			<fluxvalue flux="g6pdh_12" type="net">	0.04	</fluxvalue>
+			<fluxvalue flux="akgdh_12" type="net">	0.2	</fluxvalue>
+			<fluxvalue flux="mdh_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="PGA_cysds_12" type="net">	0	</fluxvalue>
+			<fluxvalue flux="PYR_Ala_12" type="net">	0	</fluxvalue>
+			<fluxvalue flux="OGA_Glu_12" type="net">	0.1	</fluxvalue>
+					
+			<fluxvalue flux="IN_CO2_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="IN_Ser_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Gly_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Cys_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Val_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Leu_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Phe_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Tyr_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Trp_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Thr_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Gln_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Arg_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_His_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Ile_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Met_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_Lys_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="IN_AC_12" type="net">	0.1	</fluxvalue>
+					
+			<fluxvalue flux="EX_CO2_12" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="EX_PYR_12" type="net">	1.6	</fluxvalue>
+			<fluxvalue flux="EX_PGA_Ser_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OAA_Gly_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PGA_Cys_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PYR_Val_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PYR_Leu_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PEP_Phe_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PEP_Tyr_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_PEP_Trp_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OGA_Gln_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OGA_Arg_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_R5P_His_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OAA_Lys_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OAA_Thr_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OAA_Ile_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_OAA_Met_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_FTHF_12" type="net">	0.05	</fluxvalue>
+			<fluxvalue flux="EX_AC_cyt_12" type="net">	0.05	</fluxvalue>
+					
+		</variables>			
+	</simulation>				
+</configuration>					
+</fluxml>					

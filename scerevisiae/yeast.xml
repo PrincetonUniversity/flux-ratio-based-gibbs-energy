@@ -1,0 +1,2681 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<fluxml xmlns="http://www.13cflux.net/fluxml">	
+<info>	
+	<name>Yeast_carbon_mapping</name>
+	<version>1.0</version>
+	<comment/>
+</info>	
+<reactionnetwork>		
+	<metabolitepools>	
+		<pool atoms="1" id="CO20"/>
+		<pool atoms="6" id="GLC12"/>
+		<pool atoms="6" id="GLC"/>
+		<pool atoms="2" id="AcetAld"/>
+		<pool atoms="1" id="FTHF"/>
+		<pool atoms="6" id="G6P"/>
+		<pool atoms="6" id="F6P"/>
+		<pool atoms="6" id="FBP"/>
+		<pool atoms="3" id="GAP"/>
+		<pool atoms="3" id="DHAP"/>
+		<pool atoms="6" id="GAM6P"/>
+		<pool atoms="8" id="ACGAM1P"/>
+		<pool atoms="3" id="GLYC3P"/>
+		<pool atoms="3" id="BPG"/>
+		<pool atoms="3" id="PGA"/>
+		<pool atoms="3" id="PEP"/>
+		<pool atoms="3" id="PYR"/>
+		<pool atoms="2" id="AcCoA"/>
+		<pool atoms="6" id="CitICit"/>
+		<pool atoms="5" id="OGA"/>
+		<pool atoms="4" id="SuccCoA"/>
+		<pool atoms="4" id="Succ"/>
+		<pool atoms="4" id="Fum"/>
+		<pool atoms="4" id="MAL"/>
+		<pool atoms="4" id="OAA"/>
+		<pool atoms="2" id="Glx"/>
+		<pool atoms="6" id="m6PG"/>
+		<pool atoms="5" id="Ru5P"/>
+		<pool atoms="5" id="R5P"/>
+		<pool atoms="5" id="X5P"/>
+		<pool atoms="7" id="S7P"/>
+		<pool atoms="7" id="SBP"/>
+		<pool atoms="4" id="E4P"/>
+		<pool atoms="4" id="Asp"/>
+		<pool atoms="4" id="Thr"/>
+		<pool atoms="6" id="Ile"/>
+		<pool atoms="4" id="Asn"/>
+		<pool atoms="6" id="Lys"/>
+		<pool atoms="4" id="HomoSer"/>
+		<pool atoms="5" id="CBASP"/>
+		<pool atoms="5" id="OROT"/>
+		<pool atoms="9" id="UMP"/>
+		<pool atoms="10" id="dTTP"/>
+		<pool atoms="3" id="Ala"/>
+		<pool atoms="5" id="Val"/>
+		<pool atoms="5" id="AKV"/>
+		<pool atoms="6" id="Leu"/>
+		<pool atoms="7" id="IPPM"/>
+		<pool atoms="6" id="His"/>
+		<pool atoms="5" id="PRPP"/>
+		<pool atoms="9" id="AICAR"/>
+		<pool atoms="9" id="Phe"/>
+		<pool atoms="9" id="Tyr"/>
+		<pool atoms="11" id="Trp"/>
+		<pool atoms="10" id="Chor"/>
+		<pool atoms="7" id="SKM"/>
+		<pool atoms="9" id="PHPYR"/>
+		<pool atoms="5" id="Glu"/>
+		<pool atoms="5" id="Pro"/>
+		<pool atoms="5" id="Gln"/>
+		<pool atoms="6" id="Arg"/>
+		<pool atoms="5" id="ORN"/>
+		<pool atoms="6" id="CITRL"/>
+		<pool atoms="3" id="Ser"/>
+		<pool atoms="2" id="Gly"/>
+		<pool atoms="3" id="PSer"/>
+		<pool atoms="3" id="Cys"/>
+		<pool atoms="5" id="Met"/>
+		<pool atoms="1" id="CO2"/>
+		<pool atoms="10" id="ATP"/>
+		<pool atoms="7" id="AcGlu"/>
+		
+		<pool atoms="1" id="CO20_5050"/>
+		<pool atoms="6" id="GLC5050"/>
+		<pool atoms="6" id="GLC_5050"/>
+		<pool atoms="2" id="AcetAld_5050"/>
+		<pool atoms="1" id="FTHF_5050"/>
+		<pool atoms="6" id="G6P_5050"/>
+		<pool atoms="6" id="F6P_5050"/>
+		<pool atoms="6" id="FBP_5050"/>
+		<pool atoms="3" id="GAP_5050"/>
+		<pool atoms="3" id="DHAP_5050"/>
+		<pool atoms="6" id="GAM6P_5050"/>
+		<pool atoms="8" id="ACGAM1P_5050"/>
+		<pool atoms="3" id="GLYC3P_5050"/>
+		<pool atoms="3" id="BPG_5050"/>
+		<pool atoms="3" id="PGA_5050"/>
+		<pool atoms="3" id="PEP_5050"/>
+		<pool atoms="3" id="PYR_5050"/>
+		<pool atoms="2" id="AcCoA_5050"/>
+		<pool atoms="6" id="CitICit_5050"/>
+		<pool atoms="5" id="OGA_5050"/>
+		<pool atoms="4" id="SuccCoA_5050"/>
+		<pool atoms="4" id="Succ_5050"/>
+		<pool atoms="4" id="Fum_5050"/>
+		<pool atoms="4" id="MAL_5050"/>
+		<pool atoms="4" id="OAA_5050"/>
+		<pool atoms="2" id="Glx_5050"/>
+		<pool atoms="6" id="m6PG_5050"/>
+		<pool atoms="5" id="Ru5P_5050"/>
+		<pool atoms="5" id="R5P_5050"/>
+		<pool atoms="5" id="X5P_5050"/>
+		<pool atoms="7" id="S7P_5050"/>
+		<pool atoms="7" id="SBP_5050"/>
+		<pool atoms="4" id="E4P_5050"/>
+		<pool atoms="4" id="Asp_5050"/>
+		<pool atoms="4" id="Thr_5050"/>
+		<pool atoms="6" id="Ile_5050"/>
+		<pool atoms="4" id="Asn_5050"/>
+		<pool atoms="6" id="Lys_5050"/>
+		<pool atoms="4" id="HomoSer_5050"/>
+		<pool atoms="5" id="CBASP_5050"/>
+		<pool atoms="5" id="OROT_5050"/>
+		<pool atoms="9" id="UMP_5050"/>
+		<pool atoms="10" id="dTTP_5050"/>
+		<pool atoms="3" id="Ala_5050"/>
+		<pool atoms="5" id="Val_5050"/>
+		<pool atoms="5" id="AKV_5050"/>
+		<pool atoms="6" id="Leu_5050"/>
+		<pool atoms="7" id="IPPM_5050"/>
+		<pool atoms="6" id="His_5050"/>
+		<pool atoms="5" id="PRPP_5050"/>
+		<pool atoms="9" id="AICAR_5050"/>
+		<pool atoms="9" id="Phe_5050"/>
+		<pool atoms="9" id="Tyr_5050"/>
+		<pool atoms="11" id="Trp_5050"/>
+		<pool atoms="10" id="Chor_5050"/>
+		<pool atoms="7" id="SKM_5050"/>
+		<pool atoms="9" id="PHPYR_5050"/>
+		<pool atoms="5" id="Glu_5050"/>
+		<pool atoms="5" id="Pro_5050"/>
+		<pool atoms="5" id="Gln_5050"/>
+		<pool atoms="6" id="Arg_5050"/>
+		<pool atoms="5" id="ORN_5050"/>
+		<pool atoms="6" id="CITRL_5050"/>
+		<pool atoms="3" id="Ser_5050"/>
+		<pool atoms="2" id="Gly_5050"/>
+		<pool atoms="3" id="PSer_5050"/>
+		<pool atoms="3" id="Cys_5050"/>
+		<pool atoms="5" id="Met_5050"/>
+		<pool atoms="1" id="CO2_5050"/>
+		<pool atoms="10" id="ATP_5050"/>
+		<pool atoms="7" id="AcGlu_5050"/>
+	</metabolitepools>	
+	
+	<reaction id="IN_CO2">	
+		<reduct cfg="A" id="CO20"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="upt12">	
+		<reduct cfg="ABCDEF" id="GLC12"/>
+		<rproduct cfg="ABCDEF" id="GLC"/>
+	</reaction>	
+	<reaction id="upt">	
+		<reduct cfg="ABCDEF" id="GLC"/>
+		<rproduct cfg="ABCDEF" id="G6P"/>
+	</reaction>	
+	<reaction id="pgi">	
+		<reduct cfg="ABCDEF" id="G6P"/>
+		<rproduct cfg="ABCDEF" id="F6P"/>
+	</reaction>	
+	<reaction id="pfk">	
+		<reduct cfg="ABCDEF" id="F6P"/>
+		<rproduct cfg="ABCDEF" id="FBP"/>
+	</reaction>	
+	<reaction id="fba">	
+		<reduct cfg="ABCDEF" id="FBP"/>
+		<rproduct cfg="CBA" id="DHAP"/>
+		<rproduct cfg="DEF" id="GAP"/>
+	</reaction>	
+	<reaction id="tpi">	
+		<reduct cfg="ABC" id="DHAP"/>
+		<rproduct cfg="ABC" id="GAP"/>
+	</reaction>	
+	<reaction id="gapd">	
+		<reduct cfg="ABC" id="GAP"/>
+		<rproduct cfg="ABC" id="BPG"/>
+	</reaction>	
+	<reaction id="pgk">	
+		<reduct cfg="ABC" id="BPG"/>
+		<rproduct cfg="ABC" id="PGA"/>
+	</reaction>	
+	<reaction id="eno">	
+		<reduct cfg="ABC" id="PGA"/>
+		<rproduct cfg="ABC" id="PEP"/>
+	</reaction>	
+	<reaction id="pyk">	
+		<reduct cfg="ABC" id="PEP"/>
+		<rproduct cfg="ABC" id="PYR"/>
+	</reaction>	
+	<reaction id="ppc">	
+		<reduct cfg="ABC" id="PEP"/>
+		<reduct cfg="D" id="CO2"/>
+		<rproduct cfg="ABCD" id="OAA"/>
+	</reaction>	
+	<reaction id="me">	
+		<reduct cfg="ABCD" id="MAL"/>
+		<rproduct cfg="ABC" id="PYR"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="pc">	
+		<reduct cfg="ABC" id="PYR"/>
+		<reduct cfg="D" id="CO2"/>
+		<rproduct cfg="ABCD" id="OAA"/>
+	</reaction>	
+	<reaction id="g6pdh">	
+		<reduct cfg="ABCDEF" id="G6P"/>
+		<rproduct cfg="ABCDEF" id="m6PG"/>
+	</reaction>	
+	<reaction id="gnd">	
+		<reduct cfg="ABCDEF" id="m6PG"/>
+		<rproduct cfg="BCDEF" id="Ru5P"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="rpi">	
+		<reduct cfg="ABCDE" id="Ru5P"/>
+		<rproduct cfg="ABCDE" id="R5P"/>
+	</reaction>	
+	<reaction id="rpe">	
+		<reduct cfg="ABCDE" id="Ru5P"/>
+		<rproduct cfg="ABCDE" id="X5P"/>
+	</reaction>	
+	<reaction id="tkt2">	
+		<reduct cfg="ABCDE" id="X5P"/>
+		<reduct cfg="abcd" id="E4P"/>
+		<rproduct cfg="CDE" id="GAP"/>
+		<rproduct cfg="ABabcd" id="F6P"/>
+	</reaction>	
+	<reaction id="tkt1">	
+		<reduct cfg="ABCDE" id="X5P"/>
+		<reduct cfg="abcde" id="R5P"/>
+		<rproduct cfg="ABabcde" id="S7P"/>
+		<rproduct cfg="CDE" id="GAP"/>
+	</reaction>	
+	<reaction id="tal">	
+		<reduct cfg="ABC" id="GAP"/>
+		<reduct cfg="abcdefg" id="S7P"/>
+		<rproduct cfg="defg" id="E4P"/>
+		<rproduct cfg="abcABC" id="F6P"/>
+	</reaction>	
+	<reaction id="sba">	
+		<reduct cfg="CBA" id="DHAP"/>
+		<reduct cfg="DEFG" id="E4P"/>
+		<rproduct cfg="ABCDEFG" id="SBP"/>
+	</reaction>	
+	<reaction id="sbpase">	
+		<reduct cfg="ABCDEFG" id="SBP"/>
+		<rproduct cfg="ABCDEFG" id="S7P"/>
+	</reaction>	
+	<reaction id="pdc">	
+		<reduct cfg="ABC" id="PYR"/>
+		<rproduct cfg="BC" id="AcetAld"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="pdh">	
+		<reduct cfg="ABC" id="PYR"/>
+		<rproduct cfg="BC" id="AcCoA"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="cs">	
+		<reduct cfg="ABCD" id="OAA"/>
+		<reduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="DCBAba" id="CitICit"/>
+	</reaction>	
+	<reaction id="icdh">	
+		<reduct cfg="ABCDEF" id="CitICit"/>
+		<rproduct cfg="ABCEF" id="OGA"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="akgdh">	
+		<reduct cfg="ABCDE" id="OGA"/>
+		<rproduct cfg="BCDE" id="SuccCoA"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="sucoasA">	
+		<reduct cfg="ABCD" id="SuccCoA"/>
+		<rproduct cfg="ABCD" id="Succ"/>
+	</reaction>	
+	<reaction id="sucoasB">	
+		<reduct cfg="ABCD" id="SuccCoA"/>
+		<rproduct cfg="DCBA" id="Succ"/>
+	</reaction>	
+	<reaction id="sucd">	
+		<reduct cfg="ABCD" id="Succ"/>
+		<rproduct cfg="ABCD" id="Fum"/>
+	</reaction>	
+	<reaction id="fumA">	
+		<reduct cfg="ABCD" id="Fum"/>
+		<rproduct cfg="ABCD" id="MAL"/>
+	</reaction>	
+	<reaction id="fumB">	
+		<reduct cfg="ABCD" id="Fum"/>
+		<rproduct cfg="DCBA" id="MAL"/>
+	</reaction>	
+	<reaction id="mdh">	
+		<reduct cfg="ABCD" id="MAL"/>
+		<rproduct cfg="ABCD" id="OAA"/>
+	</reaction>	
+	<reaction id="iclA">	
+		<reduct cfg="ABCDEF" id="CitICit"/>
+		<rproduct cfg="AB" id="Glx"/>
+		<rproduct cfg="DCEF" id="Succ"/>
+	</reaction>	
+	<reaction id="iclB">	
+		<reduct cfg="ABCDEF" id="CitICit"/>
+		<rproduct cfg="AB" id="Glx"/>
+		<rproduct cfg="FECD" id="Succ"/>
+	</reaction>	
+	<reaction id="mals">	
+		<reduct cfg="AB" id="Glx"/>
+		<reduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="ABba" id="MAL"/>
+	</reaction>	
+	<reaction id="EX_CO2">	
+		<reduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="PGA_PSer">	
+		<reduct cfg="ABC" id="PGA"/>
+		<rproduct cfg="ABC" id="PSer"/>
+	</reaction>	
+	<reaction id="PGA_Ser">	
+		<reduct cfg="ABC" id="PSer"/>
+		<rproduct cfg="ABC" id="Ser"/>
+	</reaction>	
+	<reaction id="EX_PGA_Ser">	
+		<reduct cfg="ABC" id="Ser"/>
+	</reaction>	
+	<reaction id="PGA_serd">	
+		<reduct cfg="ABC" id="Ser"/>
+		<rproduct cfg="ABC" id="PYR"/>
+	</reaction>	
+	<reaction id="agx">	
+		<reduct cfg="AB" id="Glx"/>
+		<rproduct cfg="AB" id="Gly"/>
+	</reaction>	
+	<reaction id="PGA_Gly">	
+		<reduct cfg="ABC" id="Ser"/>
+		<rproduct cfg="AB" id="Gly"/>
+		<rproduct cfg="C" id="FTHF"/>
+	</reaction>	
+	<reaction id="OAA_glycl">	
+		<reduct cfg="AB" id="Gly"/>
+		<rproduct cfg="B" id="FTHF"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="EX_FTHF">	
+		<reduct cfg="A" id="FTHF"/>
+	</reaction>	
+	<reaction id="EX_OAA_Gly">	
+		<reduct cfg="AB" id="Gly"/>
+	</reaction>	
+	<reaction id="PGA_Cys">	
+		<reduct cfg="ABC" id="Ser"/>
+		<rproduct cfg="ABC" id="Cys"/>
+	</reaction>	
+	<reaction id="EX_PGA_Cys">	
+		<reduct cfg="ABC" id="Cys"/>
+	</reaction>	
+	<reaction id="PGA_cysds">	
+		<reduct cfg="ABC" id="Cys"/>
+		<rproduct cfg="ABC" id="PYR"/>
+	</reaction>	
+	<reaction id="PYR_Ala">	
+		<reduct cfg="ABC" id="PYR"/>
+		<rproduct cfg="ABC" id="Ala"/>
+	</reaction>	
+	<reaction id="PYR_AKV">	
+		<reduct cfg="ABC" id="PYR"/>
+		<reduct cfg="abc" id="PYR"/>
+		<rproduct cfg="ABbcC" id="AKV"/>
+		<rproduct cfg="a" id="CO2"/>
+	</reaction>	
+	<reaction id="PYR_Val">	
+		<reduct cfg="ABbcC" id="AKV"/>
+		<rproduct cfg="ABbcC" id="Val"/>
+	</reaction>	
+	<reaction id="PYR_IPPM">	
+		<reduct cfg="ABCDE" id="AKV"/>
+		<reduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="AabBCDE" id="IPPM"/>
+	</reaction>	
+	<reaction id="PYR_Leu">	
+		<reduct cfg="AabBCDE" id="IPPM"/>
+		<rproduct cfg="abBCDE" id="Leu"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="EX_PYR_Val">	
+		<reduct cfg="ABCDE" id="Val"/>
+	</reaction>	
+	<reaction id="EX_PYR_Ala">	
+		<reduct cfg="ABC" id="Ala"/>
+	</reaction>	
+	<reaction id="EX_PYR_Leu">	
+		<reduct cfg="ABCDEF" id="Leu"/>
+	</reaction>	
+	<reaction id="PEP_SKM">	
+		<reduct cfg="ABC" id="PEP"/>
+		<reduct cfg="abcd" id="E4P"/>
+		<rproduct cfg="ABCabcd" id="SKM"/>
+	</reaction>	
+	<reaction id="PEP_Chor">	
+		<reduct cfg="abc" id="PEP"/>
+		<reduct cfg="ABCDEFG" id="SKM"/>
+		<rproduct cfg="abcABCDEFG" id="Chor"/>
+	</reaction>	
+	<reaction id="PEP_PHPYRA">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor"/>
+		<rproduct cfg="ABCEFGHIJ" id="PHPYR"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="PEP_PHPYRB">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor"/>
+		<rproduct cfg="ABCEJIHGF" id="PHPYR"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="PEP_Phe">	
+		<reduct cfg="ABCDEFGHI" id="PHPYR"/>
+		<rproduct cfg="ABCDEFGHI" id="Phe"/>
+	</reaction>	
+	<reaction id="PEP_TyrA">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor"/>
+		<rproduct cfg="ABCEFGHIJ" id="Tyr"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="PEP_TyrB">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor"/>
+		<rproduct cfg="ABCEJIHGF" id="Tyr"/>
+		<rproduct cfg="D" id="CO2"/>
+	</reaction>	
+	<reaction id="EX_PEP_Phe">	
+		<reduct cfg="ABCEFGHIJ" id="Phe"/>
+	</reaction>	
+	<reaction id="EX_PEP_Tyr">	
+		<reduct cfg="ABCEFGHIJ" id="Tyr"/>
+	</reaction>	
+	<reaction id="PEP_Trp">	
+		<reduct cfg="abcABCDEFG" id="Chor"/>
+		<reduct cfg="HIJKL" id="PRPP"/>
+		<reduct cfg="MNO" id="Ser"/>
+		<rproduct cfg="MNOIHBCDEFG" id="Trp"/>
+		<rproduct cfg="JKL" id="GAP"/>
+		<rproduct cfg="abc" id="PYR"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="EX_PEP_Trp">	
+		<reduct cfg="ABCDEFGHIJK" id="Trp"/>
+	</reaction>	
+	<reaction id="EX_PEP_Chor">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor"/>
+	</reaction>	
+	<reaction id="OGA_Glu">	
+		<reduct cfg="ABCDE" id="OGA"/>
+		<rproduct cfg="ABCDE" id="Glu"/>
+	</reaction>	
+	<reaction id="OGA_Pro">	
+		<reduct cfg="ABCDE" id="Glu"/>
+		<rproduct cfg="ABCDE" id="Pro"/>
+	</reaction>	
+	<reaction id="OGA_Gln">	
+		<reduct cfg="ABCDE" id="Glu"/>
+		<rproduct cfg="ABCDE" id="Gln"/>
+	</reaction>	
+	<reaction id="OGA_AcGlu">	
+		<reduct cfg="ABCDE" id="Glu"/>
+		<reduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="abABCDE" id="AcGlu"/>
+	</reaction>	
+	<reaction id="OGA_ORN">	
+		<reduct cfg="abABCDE" id="AcGlu"/>
+		<rproduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="ABCDE" id="ORN"/>
+	</reaction>	
+	<reaction id="OGA_CITRL">	
+		<reduct cfg="ABCDE" id="ORN"/>
+		<reduct cfg="f" id="CO2"/>
+		<rproduct cfg="ABCDEf" id="CITRL"/>
+	</reaction>	
+	<reaction id="OGA_Arg">	
+		<reduct cfg="ABCDEf" id="CITRL"/>
+		<rproduct cfg="ABCDEf" id="Arg"/>
+	</reaction>	
+	<reaction id="EX_OGA_Glu">	
+		<reduct cfg="ABCDE" id="Glu"/>
+	</reaction>	
+	<reaction id="EX_OGA_Pro">	
+		<reduct cfg="ABCDE" id="Pro"/>
+	</reaction>	
+	<reaction id="EX_OGA_Gln">	
+		<reduct cfg="ABCDE" id="Gln"/>
+	</reaction>	
+	<reaction id="EX_OGA_Arg">	
+		<reduct cfg="ABCDEF" id="Arg"/>
+	</reaction>	
+	<reaction id="OAA_Gly">	
+		<reduct cfg="ABCD" id="Thr"/>
+		<rproduct cfg="AB" id="Gly"/>
+		<rproduct cfg="CD" id="AcCoA"/>
+	</reaction>	
+	<reaction id="OAA_Asp">	
+		<reduct cfg="ABCD" id="OAA"/>
+		<rproduct cfg="ABCD" id="Asp"/>
+	</reaction>	
+	<reaction id="OAA_HomoSer">	
+		<reduct cfg="ABCD" id="Asp"/>
+		<rproduct cfg="ABCD" id="HomoSer"/>
+	</reaction>	
+	<reaction id="OAA_Thr">	
+		<reduct cfg="ABCD" id="HomoSer"/>
+		<rproduct cfg="ABCD" id="Thr"/>
+	</reaction>	
+	<reaction id="OAA_Asn">	
+		<reduct cfg="ABCD" id="Asp"/>
+		<rproduct cfg="ABCD" id="Asn"/>
+	</reaction>	
+	<reaction id="OAA_Ile">	
+		<reduct cfg="ABCD" id="Thr"/>
+		<reduct cfg="abc" id="PYR"/>
+		<rproduct cfg="ABbCDc" id="Ile"/>
+		<rproduct cfg="a" id="CO2"/>
+	</reaction>	
+	<reaction id="OAA_Met">	
+		<reduct cfg="ABCD" id="HomoSer"/>
+		<reduct cfg="a" id="FTHF"/>
+		<rproduct cfg="ABCDa" id="Met"/>
+	</reaction>	
+	<reaction id="OAA_Lys">	
+		<reduct cfg="ABCDE" id="OGA"/>
+		<reduct cfg="FG" id="AcCoA"/>
+		<rproduct cfg="FGBCDE" id="Lys"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="EX_OAA_Lys">	
+		<reduct cfg="ABCDEF" id="Lys"/>
+	</reaction>	
+	<reaction id="EX_OAA_Asp">	
+		<reduct cfg="ABCD" id="Asp"/>
+	</reaction>	
+	<reaction id="EX_OAA_Thr">	
+		<reduct cfg="ABCD" id="Thr"/>
+	</reaction>	
+	<reaction id="EX_OAA_Ile">	
+		<reduct cfg="ABCDEF" id="Ile"/>
+	</reaction>	
+	<reaction id="EX_OAA_Asn">	
+		<reduct cfg="ABCD" id="Asn"/>
+	</reaction>	
+	<reaction id="EX_OAA_Met">	
+		<reduct cfg="ABCDE" id="Met"/>
+	</reaction>	
+	<reaction id="EX_OAA_HomoSer">	
+		<reduct cfg="ABCD" id="HomoSer"/>
+	</reaction>	
+	<reaction id="OAA_CBASP">	
+		<reduct cfg="ABCD" id="Asp"/>
+		<reduct cfg="E" id="CO2"/>
+		<rproduct cfg="ABCDE" id="CBASP"/>
+	</reaction>	
+	<reaction id="OAA_OROT">	
+		<reduct cfg="ABCDE" id="CBASP"/>
+		<rproduct cfg="ABCDE" id="OROT"/>
+	</reaction>	
+	<reaction id="OAA_UMP">	
+		<reduct cfg="ABCDE" id="OROT"/>
+		<reduct cfg="abcde" id="PRPP"/>
+		<rproduct cfg="abcdeBCDE" id="UMP"/>
+		<rproduct cfg="A" id="CO2"/>
+	</reaction>	
+	<reaction id="OAA_dTTP">	
+		<reduct cfg="abcdeBCDE" id="UMP"/>
+		<reduct cfg="f" id="FTHF"/>
+		<rproduct cfg="abcdeBCDEf" id="dTTP"/>
+	</reaction>	
+	<reaction id="EX_OAA_UMP">	
+		<reduct cfg="abcdeBCDE" id="UMP"/>
+	</reaction>	
+	<reaction id="EX_OAA_dTTP">	
+		<reduct cfg="abcdeBCDEf" id="dTTP"/>
+	</reaction>	
+	<reaction id="EX_G6P">	
+		<reduct cfg="ABCDEF" id="G6P"/>
+	</reaction>	
+	<reaction id="EX_F6P">	
+		<reduct cfg="ABCDEF" id="F6P"/>
+	</reaction>	
+	<reaction id="F6P_GAM6P">	
+		<reduct cfg="ABCDEF" id="F6P"/>
+		<rproduct cfg="ABCDEF" id="GAM6P"/>
+	</reaction>	
+	<reaction id="F6P_ACGAM1P">	
+		<reduct cfg="ABCDEF" id="GAM6P"/>
+		<reduct cfg="ab" id="AcCoA"/>
+		<rproduct cfg="ABCDEFab" id="ACGAM1P"/>
+	</reaction>	
+	<reaction id="EX_F6P_ACGAM1P">	
+		<reduct cfg="ABCDEFab" id="ACGAM1P"/>
+	</reaction>	
+	<reaction id="DHAP_GLYC3P">	
+		<reduct cfg="ABC" id="DHAP"/>
+		<rproduct cfg="ABC" id="GLYC3P"/>
+	</reaction>	
+	<reaction id="EX_DHAP_GLYC3P">	
+		<reduct cfg="ABC" id="GLYC3P"/>
+	</reaction>	
+	<reaction id="R5P_PRPP">	
+		<reduct cfg="ABCDE" id="R5P"/>
+		<rproduct cfg="ABCDE" id="PRPP"/>
+	</reaction>	
+	<reaction id="R5P_His">	
+		<reduct cfg="ABCDE" id="PRPP"/>
+		<reduct cfg="abcdefghij" id="ATP"/>
+		<rproduct cfg="EDCBAj" id="His"/>
+		<rproduct cfg="abcdefghi" id="AICAR"/>
+	</reaction>	
+	<reaction id="EX_R5P_His">	
+		<reduct cfg="ABCDEF" id="His"/>
+	</reaction>	
+	<reaction id="R5P_AICAR">	
+		<reduct cfg="ABCDE" id="PRPP"/>
+		<reduct cfg="gh" id="Gly"/>
+		<reduct cfg="f" id="FTHF"/>
+		<reduct cfg="i" id="CO2"/>
+		<rproduct cfg="ABCDEfghi" id="AICAR"/>
+	</reaction>	
+	<reaction id="R5P_ATP">	
+		<reduct cfg="abcdefghi" id="AICAR"/>
+		<reduct cfg="J" id="FTHF"/>
+		<rproduct cfg="abcdefghiJ" id="ATP"/>
+	</reaction>	
+	<reaction id="EX_R5P_ATP">	
+		<reduct cfg="ABCDEFGHIJ" id="ATP"/>
+	</reaction>	
+	<reaction id="EX_R5P">	
+		<reduct cfg="ABCDE" id="R5P"/>
+	</reaction>	
+	<reaction id="EX_AC">	
+		<reduct cfg="AB" id="AcCoA"/>
+	</reaction>	
+	<reaction id="EX_AC_AcetAld">	
+		<reduct cfg="AB" id="AcetAld"/>
+	</reaction>	
+	<reaction id="EX_FUM">	
+		<reduct cfg="ABCD" id="Fum"/>
+	</reaction>	
+	<reaction id="EX_SUCC">	
+		<reduct cfg="ABCD" id="Succ"/>
+	</reaction>	
+	<reaction id="EX_MAL">	
+		<reduct cfg="ABCD" id="MAL"/>
+	</reaction>	
+	<reaction id="EX_GAP">	
+		<reduct cfg="ABC" id="GAP"/>
+	</reaction>	
+	<reaction id="EX_PGA">	
+		<reduct cfg="ABC" id="PGA"/>
+	</reaction>	
+	<reaction id="EX_PEP">	
+		<reduct cfg="ABC" id="PEP"/>
+	</reaction>	
+	<reaction id="EX_PYR">	
+		<reduct cfg="ABC" id="PYR"/>
+	</reaction>	
+	<reaction id="EX_OAA">	
+		<reduct cfg="ABCD" id="OAA"/>
+	</reaction>	
+	<reaction id="EX_OGA">	
+		<reduct cfg="ABCDE" id="OGA"/>
+	</reaction>	
+
+	<reaction id="IN_CO2_5050">	
+		<reduct cfg="A" id="CO20_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="upt5050">	
+		<reduct cfg="ABCDEF" id="GLC5050"/>
+		<rproduct cfg="ABCDEF" id="GLC_5050"/>
+	</reaction>	
+	<reaction id="upt_5050">	
+		<reduct cfg="ABCDEF" id="GLC_5050"/>
+		<rproduct cfg="ABCDEF" id="G6P_5050"/>
+	</reaction>	
+	<reaction id="pgi_5050">	
+		<reduct cfg="ABCDEF" id="G6P_5050"/>
+		<rproduct cfg="ABCDEF" id="F6P_5050"/>
+	</reaction>	
+	<reaction id="pfk_5050">	
+		<reduct cfg="ABCDEF" id="F6P_5050"/>
+		<rproduct cfg="ABCDEF" id="FBP_5050"/>
+	</reaction>	
+	<reaction id="fba_5050">	
+		<reduct cfg="ABCDEF" id="FBP_5050"/>
+		<rproduct cfg="CBA" id="DHAP_5050"/>
+		<rproduct cfg="DEF" id="GAP_5050"/>
+	</reaction>	
+	<reaction id="tpi_5050">	
+		<reduct cfg="ABC" id="DHAP_5050"/>
+		<rproduct cfg="ABC" id="GAP_5050"/>
+	</reaction>	
+	<reaction id="gapd_5050">	
+		<reduct cfg="ABC" id="GAP_5050"/>
+		<rproduct cfg="ABC" id="BPG_5050"/>
+	</reaction>	
+	<reaction id="pgk_5050">	
+		<reduct cfg="ABC" id="BPG_5050"/>
+		<rproduct cfg="ABC" id="PGA_5050"/>
+	</reaction>	
+	<reaction id="eno_5050">	
+		<reduct cfg="ABC" id="PGA_5050"/>
+		<rproduct cfg="ABC" id="PEP_5050"/>
+	</reaction>	
+	<reaction id="pyk_5050">	
+		<reduct cfg="ABC" id="PEP_5050"/>
+		<rproduct cfg="ABC" id="PYR_5050"/>
+	</reaction>	
+	<reaction id="ppc_5050">	
+		<reduct cfg="ABC" id="PEP_5050"/>
+		<reduct cfg="D" id="CO2_5050"/>
+		<rproduct cfg="ABCD" id="OAA_5050"/>
+	</reaction>	
+	<reaction id="me_5050">	
+		<reduct cfg="ABCD" id="MAL_5050"/>
+		<rproduct cfg="ABC" id="PYR_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="pc_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+		<reduct cfg="D" id="CO2_5050"/>
+		<rproduct cfg="ABCD" id="OAA_5050"/>
+	</reaction>	
+	<reaction id="g6pdh_5050">	
+		<reduct cfg="ABCDEF" id="G6P_5050"/>
+		<rproduct cfg="ABCDEF" id="m6PG_5050"/>
+	</reaction>	
+	<reaction id="gnd_5050">	
+		<reduct cfg="ABCDEF" id="m6PG_5050"/>
+		<rproduct cfg="BCDEF" id="Ru5P_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="rpi_5050">	
+		<reduct cfg="ABCDE" id="Ru5P_5050"/>
+		<rproduct cfg="ABCDE" id="R5P_5050"/>
+	</reaction>	
+	<reaction id="rpe_5050">	
+		<reduct cfg="ABCDE" id="Ru5P_5050"/>
+		<rproduct cfg="ABCDE" id="X5P_5050"/>
+	</reaction>	
+	<reaction id="tkt2_5050">	
+		<reduct cfg="ABCDE" id="X5P_5050"/>
+		<reduct cfg="abcd" id="E4P_5050"/>
+		<rproduct cfg="CDE" id="GAP_5050"/>
+		<rproduct cfg="ABabcd" id="F6P_5050"/>
+	</reaction>	
+	<reaction id="tkt1_5050">	
+		<reduct cfg="ABCDE" id="X5P_5050"/>
+		<reduct cfg="abcde" id="R5P_5050"/>
+		<rproduct cfg="ABabcde" id="S7P_5050"/>
+		<rproduct cfg="CDE" id="GAP_5050"/>
+	</reaction>	
+	<reaction id="tal_5050">	
+		<reduct cfg="ABC" id="GAP_5050"/>
+		<reduct cfg="abcdefg" id="S7P_5050"/>
+		<rproduct cfg="defg" id="E4P_5050"/>
+		<rproduct cfg="abcABC" id="F6P_5050"/>
+	</reaction>	
+	<reaction id="sba_5050">	
+		<reduct cfg="CBA" id="DHAP_5050"/>
+		<reduct cfg="DEFG" id="E4P_5050"/>
+		<rproduct cfg="ABCDEFG" id="SBP_5050"/>
+	</reaction>	
+	<reaction id="sbpase_5050">	
+		<reduct cfg="ABCDEFG" id="SBP_5050"/>
+		<rproduct cfg="ABCDEFG" id="S7P_5050"/>
+	</reaction>	
+	<reaction id="pdc_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+		<rproduct cfg="BC" id="AcetAld_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="pdh_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+		<rproduct cfg="BC" id="AcCoA_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="cs_5050">	
+		<reduct cfg="ABCD" id="OAA_5050"/>
+		<reduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="DCBAba" id="CitICit_5050"/>
+	</reaction>	
+	<reaction id="icdh_5050">	
+		<reduct cfg="ABCDEF" id="CitICit_5050"/>
+		<rproduct cfg="ABCEF" id="OGA_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="akgdh_5050">	
+		<reduct cfg="ABCDE" id="OGA_5050"/>
+		<rproduct cfg="BCDE" id="SuccCoA_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="sucoasA_5050">	
+		<reduct cfg="ABCD" id="SuccCoA_5050"/>
+		<rproduct cfg="ABCD" id="Succ_5050"/>
+	</reaction>	
+	<reaction id="sucoasB_5050">	
+		<reduct cfg="ABCD" id="SuccCoA_5050"/>
+		<rproduct cfg="DCBA" id="Succ_5050"/>
+	</reaction>	
+	<reaction id="sucd_5050">	
+		<reduct cfg="ABCD" id="Succ_5050"/>
+		<rproduct cfg="ABCD" id="Fum_5050"/>
+	</reaction>	
+	<reaction id="fumA_5050">	
+		<reduct cfg="ABCD" id="Fum_5050"/>
+		<rproduct cfg="ABCD" id="MAL_5050"/>
+	</reaction>	
+	<reaction id="fumB_5050">	
+		<reduct cfg="ABCD" id="Fum_5050"/>
+		<rproduct cfg="DCBA" id="MAL_5050"/>
+	</reaction>	
+	<reaction id="mdh_5050">	
+		<reduct cfg="ABCD" id="MAL_5050"/>
+		<rproduct cfg="ABCD" id="OAA_5050"/>
+	</reaction>	
+	<reaction id="iclA_5050">	
+		<reduct cfg="ABCDEF" id="CitICit_5050"/>
+		<rproduct cfg="AB" id="Glx_5050"/>
+		<rproduct cfg="DCEF" id="Succ_5050"/>
+	</reaction>	
+	<reaction id="iclB_5050">	
+		<reduct cfg="ABCDEF" id="CitICit_5050"/>
+		<rproduct cfg="AB" id="Glx_5050"/>
+		<rproduct cfg="FECD" id="Succ_5050"/>
+	</reaction>	
+	<reaction id="mals_5050">	
+		<reduct cfg="AB" id="Glx_5050"/>
+		<reduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="ABba" id="MAL_5050"/>
+	</reaction>	
+	<reaction id="EX_CO2_5050">	
+		<reduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="PGA_PSer_5050">	
+		<reduct cfg="ABC" id="PGA_5050"/>
+		<rproduct cfg="ABC" id="PSer_5050"/>
+	</reaction>	
+	<reaction id="PGA_Ser_5050">	
+		<reduct cfg="ABC" id="PSer_5050"/>
+		<rproduct cfg="ABC" id="Ser_5050"/>
+	</reaction>	
+	<reaction id="EX_PGA_Ser_5050">	
+		<reduct cfg="ABC" id="Ser_5050"/>
+	</reaction>	
+	<reaction id="PGA_serd_5050">	
+		<reduct cfg="ABC" id="Ser_5050"/>
+		<rproduct cfg="ABC" id="PYR_5050"/>
+	</reaction>	
+	<reaction id="agx_5050">	
+		<reduct cfg="AB" id="Glx_5050"/>
+		<rproduct cfg="AB" id="Gly_5050"/>
+	</reaction>	
+	<reaction id="PGA_Gly_5050">	
+		<reduct cfg="ABC" id="Ser_5050"/>
+		<rproduct cfg="AB" id="Gly_5050"/>
+		<rproduct cfg="C" id="FTHF_5050"/>
+	</reaction>	
+	<reaction id="OAA_glycl_5050">	
+		<reduct cfg="AB" id="Gly_5050"/>
+		<rproduct cfg="B" id="FTHF_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="EX_FTHF_5050">	
+		<reduct cfg="A" id="FTHF_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Gly_5050">	
+		<reduct cfg="AB" id="Gly_5050"/>
+	</reaction>	
+	<reaction id="PGA_Cys_5050">	
+		<reduct cfg="ABC" id="Ser_5050"/>
+		<rproduct cfg="ABC" id="Cys_5050"/>
+	</reaction>	
+	<reaction id="EX_PGA_Cys_5050">	
+		<reduct cfg="ABC" id="Cys_5050"/>
+	</reaction>	
+	<reaction id="PGA_cysds_5050">	
+		<reduct cfg="ABC" id="Cys_5050"/>
+		<rproduct cfg="ABC" id="PYR_5050"/>
+	</reaction>	
+	<reaction id="PYR_Ala_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+		<rproduct cfg="ABC" id="Ala_5050"/>
+	</reaction>	
+	<reaction id="PYR_AKV_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+		<reduct cfg="abc" id="PYR_5050"/>
+		<rproduct cfg="ABbcC" id="AKV_5050"/>
+		<rproduct cfg="a" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="PYR_Val_5050">	
+		<reduct cfg="ABbcC" id="AKV_5050"/>
+		<rproduct cfg="ABbcC" id="Val_5050"/>
+	</reaction>	
+	<reaction id="PYR_IPPM_5050">	
+		<reduct cfg="ABCDE" id="AKV_5050"/>
+		<reduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="AabBCDE" id="IPPM_5050"/>
+	</reaction>	
+	<reaction id="PYR_Leu_5050">	
+		<reduct cfg="AabBCDE" id="IPPM_5050"/>
+		<rproduct cfg="abBCDE" id="Leu_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="EX_PYR_Val_5050">	
+		<reduct cfg="ABCDE" id="Val_5050"/>
+	</reaction>	
+	<reaction id="EX_PYR_Ala_5050">	
+		<reduct cfg="ABC" id="Ala_5050"/>
+	</reaction>	
+	<reaction id="EX_PYR_Leu_5050">	
+		<reduct cfg="ABCDEF" id="Leu_5050"/>
+	</reaction>	
+	<reaction id="PEP_SKM_5050">	
+		<reduct cfg="ABC" id="PEP_5050"/>
+		<reduct cfg="abcd" id="E4P_5050"/>
+		<rproduct cfg="ABCabcd" id="SKM_5050"/>
+	</reaction>	
+	<reaction id="PEP_Chor_5050">	
+		<reduct cfg="abc" id="PEP_5050"/>
+		<reduct cfg="ABCDEFG" id="SKM_5050"/>
+		<rproduct cfg="abcABCDEFG" id="Chor_5050"/>
+	</reaction>	
+	<reaction id="PEP_PHPYRA_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor_5050"/>
+		<rproduct cfg="ABCEFGHIJ" id="PHPYR_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="PEP_PHPYRB_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor_5050"/>
+		<rproduct cfg="ABCEJIHGF" id="PHPYR_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="PEP_Phe_5050">	
+		<reduct cfg="ABCDEFGHI" id="PHPYR_5050"/>
+		<rproduct cfg="ABCDEFGHI" id="Phe_5050"/>
+	</reaction>	
+	<reaction id="PEP_TyrA_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor_5050"/>
+		<rproduct cfg="ABCEFGHIJ" id="Tyr_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="PEP_TyrB_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor_5050"/>
+		<rproduct cfg="ABCEJIHGF" id="Tyr_5050"/>
+		<rproduct cfg="D" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="EX_PEP_Phe_5050">	
+		<reduct cfg="ABCEFGHIJ" id="Phe_5050"/>
+	</reaction>	
+	<reaction id="EX_PEP_Tyr_5050">	
+		<reduct cfg="ABCEFGHIJ" id="Tyr_5050"/>
+	</reaction>	
+	<reaction id="PEP_Trp_5050">	
+		<reduct cfg="abcABCDEFG" id="Chor_5050"/>
+		<reduct cfg="HIJKL" id="PRPP_5050"/>
+		<reduct cfg="MNO" id="Ser_5050"/>
+		<rproduct cfg="MNOIHBCDEFG" id="Trp_5050"/>
+		<rproduct cfg="JKL" id="GAP_5050"/>
+		<rproduct cfg="abc" id="PYR_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="EX_PEP_Trp_5050">	
+		<reduct cfg="ABCDEFGHIJK" id="Trp_5050"/>
+	</reaction>	
+	<reaction id="EX_PEP_Chor_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="Chor_5050"/>
+	</reaction>	
+	<reaction id="OGA_Glu_5050">	
+		<reduct cfg="ABCDE" id="OGA_5050"/>
+		<rproduct cfg="ABCDE" id="Glu_5050"/>
+	</reaction>	
+	<reaction id="OGA_Pro_5050">	
+		<reduct cfg="ABCDE" id="Glu_5050"/>
+		<rproduct cfg="ABCDE" id="Pro_5050"/>
+	</reaction>	
+	<reaction id="OGA_Gln_5050">	
+		<reduct cfg="ABCDE" id="Glu_5050"/>
+		<rproduct cfg="ABCDE" id="Gln_5050"/>
+	</reaction>	
+	<reaction id="OGA_AcGlu_5050">	
+		<reduct cfg="ABCDE" id="Glu_5050"/>
+		<reduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="abABCDE" id="AcGlu_5050"/>
+	</reaction>	
+	<reaction id="OGA_ORN_5050">	
+		<reduct cfg="abABCDE" id="AcGlu_5050"/>
+		<rproduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="ABCDE" id="ORN_5050"/>
+	</reaction>	
+	<reaction id="OGA_CITRL_5050">	
+		<reduct cfg="ABCDE" id="ORN_5050"/>
+		<reduct cfg="f" id="CO2_5050"/>
+		<rproduct cfg="ABCDEf" id="CITRL_5050"/>
+	</reaction>	
+	<reaction id="OGA_Arg_5050">	
+		<reduct cfg="ABCDEf" id="CITRL_5050"/>
+		<rproduct cfg="ABCDEf" id="Arg_5050"/>
+	</reaction>	
+	<reaction id="EX_OGA_Glu_5050">	
+		<reduct cfg="ABCDE" id="Glu_5050"/>
+	</reaction>	
+	<reaction id="EX_OGA_Pro_5050">	
+		<reduct cfg="ABCDE" id="Pro_5050"/>
+	</reaction>	
+	<reaction id="EX_OGA_Gln_5050">	
+		<reduct cfg="ABCDE" id="Gln_5050"/>
+	</reaction>	
+	<reaction id="EX_OGA_Arg_5050">	
+		<reduct cfg="ABCDEF" id="Arg_5050"/>
+	</reaction>	
+	<reaction id="OAA_Gly_5050">	
+		<reduct cfg="ABCD" id="Thr_5050"/>
+		<rproduct cfg="AB" id="Gly_5050"/>
+		<rproduct cfg="CD" id="AcCoA_5050"/>
+	</reaction>	
+	<reaction id="OAA_Asp_5050">	
+		<reduct cfg="ABCD" id="OAA_5050"/>
+		<rproduct cfg="ABCD" id="Asp_5050"/>
+	</reaction>	
+	<reaction id="OAA_HomoSer_5050">	
+		<reduct cfg="ABCD" id="Asp_5050"/>
+		<rproduct cfg="ABCD" id="HomoSer_5050"/>
+	</reaction>	
+	<reaction id="OAA_Thr_5050">	
+		<reduct cfg="ABCD" id="HomoSer_5050"/>
+		<rproduct cfg="ABCD" id="Thr_5050"/>
+	</reaction>	
+	<reaction id="OAA_Asn_5050">	
+		<reduct cfg="ABCD" id="Asp_5050"/>
+		<rproduct cfg="ABCD" id="Asn_5050"/>
+	</reaction>	
+	<reaction id="OAA_Ile_5050">	
+		<reduct cfg="ABCD" id="Thr_5050"/>
+		<reduct cfg="abc" id="PYR_5050"/>
+		<rproduct cfg="ABbCDc" id="Ile_5050"/>
+		<rproduct cfg="a" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="OAA_Met_5050">	
+		<reduct cfg="ABCD" id="HomoSer_5050"/>
+		<reduct cfg="a" id="FTHF_5050"/>
+		<rproduct cfg="ABCDa" id="Met_5050"/>
+	</reaction>	
+	<reaction id="OAA_Lys_5050">	
+		<reduct cfg="ABCDE" id="OGA_5050"/>
+		<reduct cfg="FG" id="AcCoA_5050"/>
+		<rproduct cfg="FGBCDE" id="Lys_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Lys_5050">	
+		<reduct cfg="ABCDEF" id="Lys_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Asp_5050">	
+		<reduct cfg="ABCD" id="Asp_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Thr_5050">	
+		<reduct cfg="ABCD" id="Thr_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Ile_5050">	
+		<reduct cfg="ABCDEF" id="Ile_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Asn_5050">	
+		<reduct cfg="ABCD" id="Asn_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_Met_5050">	
+		<reduct cfg="ABCDE" id="Met_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_HomoSer_5050">	
+		<reduct cfg="ABCD" id="HomoSer_5050"/>
+	</reaction>	
+	<reaction id="OAA_CBASP_5050">	
+		<reduct cfg="ABCD" id="Asp_5050"/>
+		<reduct cfg="E" id="CO2_5050"/>
+		<rproduct cfg="ABCDE" id="CBASP_5050"/>
+	</reaction>	
+	<reaction id="OAA_OROT_5050">	
+		<reduct cfg="ABCDE" id="CBASP_5050"/>
+		<rproduct cfg="ABCDE" id="OROT_5050"/>
+	</reaction>	
+	<reaction id="OAA_UMP_5050">	
+		<reduct cfg="ABCDE" id="OROT_5050"/>
+		<reduct cfg="abcde" id="PRPP_5050"/>
+		<rproduct cfg="abcdeBCDE" id="UMP_5050"/>
+		<rproduct cfg="A" id="CO2_5050"/>
+	</reaction>	
+	<reaction id="OAA_dTTP_5050">	
+		<reduct cfg="abcdeBCDE" id="UMP_5050"/>
+		<reduct cfg="f" id="FTHF_5050"/>
+		<rproduct cfg="abcdeBCDEf" id="dTTP_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_UMP_5050">	
+		<reduct cfg="abcdeBCDE" id="UMP_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_dTTP_5050">	
+		<reduct cfg="abcdeBCDEf" id="dTTP_5050"/>
+	</reaction>	
+	<reaction id="EX_G6P_5050">	
+		<reduct cfg="ABCDEF" id="G6P_5050"/>
+	</reaction>	
+	<reaction id="EX_F6P_5050">	
+		<reduct cfg="ABCDEF" id="F6P_5050"/>
+	</reaction>	
+	<reaction id="F6P_GAM6P_5050">	
+		<reduct cfg="ABCDEF" id="F6P_5050"/>
+		<rproduct cfg="ABCDEF" id="GAM6P_5050"/>
+	</reaction>	
+	<reaction id="F6P_ACGAM1P_5050">	
+		<reduct cfg="ABCDEF" id="GAM6P_5050"/>
+		<reduct cfg="ab" id="AcCoA_5050"/>
+		<rproduct cfg="ABCDEFab" id="ACGAM1P_5050"/>
+	</reaction>	
+	<reaction id="EX_F6P_ACGAM1P_5050">	
+		<reduct cfg="ABCDEFab" id="ACGAM1P_5050"/>
+	</reaction>	
+	<reaction id="DHAP_GLYC3P_5050">	
+		<reduct cfg="ABC" id="DHAP_5050"/>
+		<rproduct cfg="ABC" id="GLYC3P_5050"/>
+	</reaction>	
+	<reaction id="EX_DHAP_GLYC3P_5050">	
+		<reduct cfg="ABC" id="GLYC3P_5050"/>
+	</reaction>	
+	<reaction id="R5P_PRPP_5050">	
+		<reduct cfg="ABCDE" id="R5P_5050"/>
+		<rproduct cfg="ABCDE" id="PRPP_5050"/>
+	</reaction>	
+	<reaction id="R5P_His_5050">	
+		<reduct cfg="ABCDE" id="PRPP_5050"/>
+		<reduct cfg="abcdefghij" id="ATP_5050"/>
+		<rproduct cfg="EDCBAj" id="His_5050"/>
+		<rproduct cfg="abcdefghi" id="AICAR_5050"/>
+	</reaction>	
+	<reaction id="EX_R5P_His_5050">	
+		<reduct cfg="ABCDEF" id="His_5050"/>
+	</reaction>	
+	<reaction id="R5P_AICAR_5050">	
+		<reduct cfg="ABCDE" id="PRPP_5050"/>
+		<reduct cfg="gh" id="Gly_5050"/>
+		<reduct cfg="f" id="FTHF_5050"/>
+		<reduct cfg="i" id="CO2_5050"/>
+		<rproduct cfg="ABCDEfghi" id="AICAR_5050"/>
+	</reaction>	
+	<reaction id="R5P_ATP_5050">	
+		<reduct cfg="abcdefghi" id="AICAR_5050"/>
+		<reduct cfg="J" id="FTHF_5050"/>
+		<rproduct cfg="abcdefghiJ" id="ATP_5050"/>
+	</reaction>	
+	<reaction id="EX_R5P_ATP_5050">	
+		<reduct cfg="ABCDEFGHIJ" id="ATP_5050"/>
+	</reaction>	
+	<reaction id="EX_R5P_5050">	
+		<reduct cfg="ABCDE" id="R5P_5050"/>
+	</reaction>	
+	<reaction id="EX_AC_5050">	
+		<reduct cfg="AB" id="AcCoA_5050"/>
+	</reaction>	
+	<reaction id="EX_AC_AcetAld_5050">	
+		<reduct cfg="AB" id="AcetAld_5050"/>
+	</reaction>	
+	<reaction id="EX_FUM_5050">	
+		<reduct cfg="ABCD" id="Fum_5050"/>
+	</reaction>	
+	<reaction id="EX_SUCC_5050">	
+		<reduct cfg="ABCD" id="Succ_5050"/>
+	</reaction>	
+	<reaction id="EX_MAL_5050">	
+		<reduct cfg="ABCD" id="MAL_5050"/>
+	</reaction>	
+	<reaction id="EX_GAP_5050">	
+		<reduct cfg="ABC" id="GAP_5050"/>
+	</reaction>	
+	<reaction id="EX_PGA_5050">	
+		<reduct cfg="ABC" id="PGA_5050"/>
+	</reaction>	
+	<reaction id="EX_PEP_5050">	
+		<reduct cfg="ABC" id="PEP_5050"/>
+	</reaction>	
+	<reaction id="EX_PYR_5050">	
+		<reduct cfg="ABC" id="PYR_5050"/>
+	</reaction>	
+	<reaction id="EX_OAA_5050">	
+		<reduct cfg="ABCD" id="OAA_5050"/>
+	</reaction>	
+	<reaction id="EX_OGA_5050">	
+		<reduct cfg="ABCDE" id="OGA_5050"/>
+	</reaction>	
+
+</reactionnetwork>		
+<constraints>							
+	<net>						
+		<textual>					
+			PEP_PHPYRA	=	PEP_PHPYRB	;	
+			PEP_TyrA	=	PEP_TyrB	;	
+			sucoasA	=	sucoasB	;	
+			fumA	=	fumB	;	
+			iclA	=	iclB	;	
+			EX_G6P	=	0.034124767	;	
+			EX_F6P	=	0.016201255	;	
+			EX_DHAP_GLYC3P	=	0.106793628	;
+			EX_GAP	=	0	;	
+			EX_PGA	=	0	;	
+			EX_PEP	=	0	;	
+			EX_PYR	=	0	;	
+			EX_R5P	=	3.9706E-05	;	
+			EX_AC	=	0	;
+			EX_AC_AcetAld	=	1.106164659	;
+			EX_OAA	=	0	;	
+			EX_OGA	=	0	;	
+			EX_PGA_Ser	=	0.003734109	;
+			EX_OAA_Gly	=	0.005823548	;	
+			EX_PGA_Cys	=	0.000132353	;	
+			EX_PYR_Val	=	0.005306167	;	
+			EX_PYR_Ala	=	0.009200564	;	
+			EX_PYR_Leu	=	0.005943869	;	
+			EX_PEP_Phe	=	0.002685169	;	
+			EX_PEP_Tyr	=	0.002045461	;	
+			EX_PEP_Trp	=	0.000569521	;	
+			EX_PEP_Chor	=	0	;	
+			EX_OGA_Glu	=	0.006052158	;
+			EX_OGA_Pro	=	0.003302818	;	
+			EX_OGA_Gln	=	0.002113643	;
+			EX_OGA_Arg	=	0.003222604	;
+			EX_OAA_Lys	=	0.005739323	;
+			EX_OAA_Asp	=	0.005965928	;
+			EX_OAA_Thr	=	0.003838247	;
+			EX_OAA_Asn	=	0.002039445	;
+			EX_OAA_Ile	=	0.003864317	;
+			EX_OAA_HomoSer	=	0	;
+			EX_OAA_Met	=	0.001016714	;
+			EX_OAA_UMP	=	0.002145729	;
+			EX_OAA_dTTP	=	7.21927E-05	;
+			EX_F6P_ACGAM1P	=	2.00535E-08	;
+			EX_R5P_ATP	=	0.001965247	;
+			EX_R5P_His	=	0.00132955	;
+
+			EX_SUCC	=	0	;
+			EX_FUM 	=	0	;
+			EX_MAL 	=	0	;
+
+			
+			PEP_PHPYRB_5050	=	PEP_PHPYRA_5050	;
+			PEP_TyrB_5050	=	PEP_TyrA_5050	;
+			sucoasB_5050	=	sucoasA_5050	;
+			fumB_5050	=	fumA_5050	;
+			iclB_5050	=	iclA_5050	;
+			EX_G6P_5050	=	EX_G6P	;
+			EX_F6P_5050	=	EX_F6P	;
+			EX_DHAP_GLYC3P_5050	=	EX_DHAP_GLYC3P	;
+			EX_GAP_5050	=	EX_GAP	;
+			EX_PGA_5050	=	EX_PGA	;
+			EX_PEP_5050	=	EX_PEP	;
+			EX_PYR_5050	=	EX_PYR	;
+			EX_R5P_5050	=	EX_R5P	;
+			EX_AC_5050	=	EX_AC	;
+			EX_AC_AcetAld_5050	=	EX_AC_AcetAld	;
+			EX_OAA_5050	=	EX_OAA	;
+			EX_OGA_5050	=	EX_OGA	;
+			EX_PGA_Ser_5050	=	EX_PGA_Ser	;
+			EX_OAA_Gly_5050	=	EX_OAA_Gly	;
+			EX_PGA_Cys_5050	=	EX_PGA_Cys	;
+			EX_PYR_Val_5050	=	EX_PYR_Val	;
+			EX_PYR_Ala_5050	=	EX_PYR_Ala	;
+			EX_PYR_Leu_5050	=	EX_PYR_Leu	;
+			EX_PEP_Phe_5050	=	EX_PEP_Phe	;
+			EX_PEP_Tyr_5050	=	EX_PEP_Tyr	;
+			EX_PEP_Trp_5050	=	EX_PEP_Trp	;
+			EX_PEP_Chor_5050	=	EX_PEP_Chor	;
+			EX_OGA_Glu_5050	=	EX_OGA_Glu	;
+			EX_OGA_Pro_5050	=	EX_OGA_Pro	;
+			EX_OGA_Gln_5050	=	EX_OGA_Gln	;
+			EX_OGA_Arg_5050	=	EX_OGA_Arg	;
+			EX_OAA_Lys_5050	=	EX_OAA_Lys	;
+			EX_OAA_Asp_5050	=	EX_OAA_Asp	;
+			EX_OAA_Thr_5050	=	EX_OAA_Thr	;
+			EX_OAA_Asn_5050	=	EX_OAA_Asn	;
+			EX_OAA_Ile_5050	=	EX_OAA_Ile	;
+			EX_OAA_HomoSer_5050	=	EX_OAA_HomoSer	;
+			EX_OAA_Met_5050	=	EX_OAA_Met	;
+			EX_OAA_UMP_5050	=	EX_OAA_UMP	;
+			EX_OAA_dTTP_5050	=	EX_OAA_dTTP	;
+			EX_F6P_ACGAM1P_5050	=	EX_F6P_ACGAM1P	;
+			EX_R5P_ATP_5050	=	EX_R5P_ATP	;
+			EX_R5P_His_5050	=	EX_R5P_His	;
+
+			agx_5050	=	agx	;
+			pc_5050	=	pc	;
+			g6pdh_5050	=	g6pdh	;
+			sbpase_5050	=	sbpase	;
+			sucoasA_5050	=	sucoasA	;
+			mdh_5050	=	mdh	;
+			mals_5050	=	mals	;
+			EX_CO2_5050	=	EX_CO2	;
+			IN_CO2_5050	=	IN_CO2	;
+			PGA_serd_5050	=	PGA_serd	;
+			EX_FTHF_5050	=	EX_FTHF	;
+			PGA_cysds_5050	=	PGA_cysds	;
+			EX_FUM_5050	=	EX_FUM	;
+			EX_SUCC_5050	=	EX_SUCC	;
+			EX_MAL_5050	=	EX_MAL	;
+
+		</textual>				
+	</net>					
+	<xch>					
+		<textual>				
+			sucoasB	=	sucoasA	;
+			fumB	=	fumA	;
+			iclB	=	iclA	;
+			PEP_PHPYRB	=	PEP_PHPYRA	;
+			PEP_TyrB	=	PEP_TyrA	;
+
+			upt	=	0	;
+			PGA_serd	=	0	;
+			PGA_Cys	=	0	;
+			PGA_cysds	=	0	;
+			PYR_Ala	=	0	;
+			PYR_Val	=	0	;
+			PEP_Phe	=	0	;
+			OGA_Pro	=	0	;
+			OGA_AcGlu	=	0	;
+			OGA_ORN	=	0	;
+			OGA_CITRL	=	0	;
+			OGA_Arg	=	0	;
+			OAA_glycl	=	0	;
+			OAA_Asn	=	0	;
+			OAA_Met	=	0	;
+			OAA_dTTP	=	0	;
+			F6P_GAM6P	=	0	;
+			F6P_ACGAM1P	=	0	;
+			DHAP_GLYC3P	=	0	;
+			R5P_PRPP	=	0	;
+			R5P_His	=	0	;
+			R5P_AICAR	=	0	;
+			R5P_ATP	=	0	;
+
+			sucoasA_5050	=	sucoasA	;
+			sucoasB_5050	=	sucoasB	;
+			fumA_5050	=	fumA	;
+			fumB_5050	=	fumB	;
+			iclA_5050	=	iclA	;
+			iclB_5050	=	iclB	;
+			PEP_Trp_5050	=	PEP_Trp	;
+			OAA_Lys_5050	=	OAA_Lys	;
+			PEP_PHPYRA_5050	=	PEP_PHPYRA	;
+			PEP_PHPYRB_5050	=	PEP_PHPYRB	;
+			PEP_TyrA_5050	=	PEP_TyrA	;
+			PEP_TyrB_5050	=	PEP_TyrB	;
+
+			upt_5050	=	upt	;
+			pgi_5050	=	pgi	;
+			pfk_5050	=	pfk	;
+			fba_5050	=	fba	;
+			tpi_5050	=	tpi	;
+			gapd_5050	=	gapd	;
+			pgk_5050	=	pgk	;
+			eno_5050	=	eno	;
+			pyk_5050	=	pyk	;
+			ppc_5050	=	ppc	;
+			me_5050	=	me	;
+			pc_5050	=	pc	;
+			g6pdh_5050	=	g6pdh	;
+			gnd_5050	=	gnd	;
+			rpi_5050	=	rpi	;
+			rpe_5050	=	rpe	;
+			tkt2_5050	=	tkt2	;
+			tkt1_5050	=	tkt1	;
+			tal_5050	=	tal	;
+			sba_5050	=	sba	;
+			sbpase_5050	=	sbpase	;
+			pdh_5050	=	pdh	;
+			cs_5050	=	cs	;
+			icdh_5050	=	icdh	;
+			akgdh_5050	=	akgdh	;
+			sucd_5050	=	sucd	;
+			mdh_5050	=	mdh	;
+			mals_5050	=	mals	;
+			pdc_5050	=	pdc	;
+			agx_5050	=	agx	;
+			PGA_Gly_5050	=	PGA_Gly	;
+			PGA_Cys_5050	=	PGA_Cys	;
+			PYR_Ala_5050	=	PYR_Ala	;
+			PYR_AKV_5050	=	PYR_AKV	;
+			PYR_Val_5050	=	PYR_Val	;
+			PYR_IPPM_5050	=	PYR_IPPM	;
+			PYR_Leu_5050	=	PYR_Leu	;
+			PEP_SKM_5050	=	PEP_SKM	;
+			PEP_Chor_5050	=	PEP_Chor	;
+			PEP_Phe_5050	=	PEP_Phe	;
+			OGA_Glu_5050	=	OGA_Glu	;
+			OGA_Pro_5050	=	OGA_Pro	;
+			OGA_Gln_5050	=	OGA_Gln	;
+			OGA_AcGlu_5050	=	OGA_AcGlu	;
+			OGA_ORN_5050	=	OGA_ORN	;
+			OGA_CITRL_5050	=	OGA_CITRL	;
+			OGA_Arg_5050	=	OGA_Arg	;
+			OAA_Gly_5050	=	OAA_Gly	;
+			OAA_glycl_5050	=	OAA_glycl	;
+			OAA_Asp_5050	=	OAA_Asp	;
+			OAA_HomoSer_5050	=	OAA_HomoSer	;
+			OAA_Thr_5050	=	OAA_Thr	;
+			OAA_Asn_5050	=	OAA_Asn	;
+			OAA_Ile_5050	=	OAA_Ile	;
+			OAA_Met_5050	=	OAA_Met	;
+			OAA_CBASP_5050	=	OAA_CBASP	;
+			OAA_OROT_5050	=	OAA_OROT	;
+			OAA_UMP_5050	=	OAA_UMP	;
+			OAA_dTTP_5050	=	OAA_dTTP	;
+			F6P_GAM6P_5050	=	F6P_GAM6P	;
+			F6P_ACGAM1P_5050	=	F6P_ACGAM1P	;
+			DHAP_GLYC3P_5050	=	DHAP_GLYC3P	;
+			R5P_PRPP_5050	=	R5P_PRPP	;
+			R5P_His_5050	=	R5P_His	;
+			R5P_AICAR_5050	=	R5P_AICAR	;
+			R5P_ATP_5050	=	R5P_ATP	;
+			PGA_PSer_5050	=	PGA_PSer	;
+			PGA_Ser_5050	=	PGA_Ser	;
+			PGA_serd_5050	=	PGA_serd	;
+			PGA_cysds_5050	=	PGA_cysds	;
+
+		</textual>				
+	</xch>					
+</constraints>						
+<configuration name="default" stationary="true">		
+	<input pool="CO20" type="isotopomer">	
+		<label cfg="0">1.0</label>
+	</input>	
+	<input pool="GLC12" type="isotopomer">	
+		<label cfg="110000">1.0</label>
+	</input>	
+	<input pool="CO20_5050" type="isotopomer">	
+		<label cfg="0">1.0</label>
+	</input>	
+	<input pool="GLC5050" type="isotopomer">				
+		<label cfg="111111">0.5</label>			
+		<label cfg="000000">0.5</label>			
+	</input>				
+
+	<measurement>				
+		<model>			
+			<labelingmeasurement>		
+				<group id="ms_G6P" scale="auto">	
+					<textual>G6P[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_FBP" scale="auto">	
+					<textual>FBP[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_DHAP" scale="auto">	
+					<textual>DHAP[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_GAM6P" scale="auto">	
+					<textual>GAM6P[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_ACGAM1P" scale="auto">	
+					<textual>ACGAM1P[1,2,3,4,5,6,7,8]#M0,1,2,3,4,5,6,7,8</textual>
+				</group>	
+				<group id="ms_GLYC3P" scale="auto">	
+					<textual>GLYC3P[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_BPG" scale="auto">	
+					<textual>BPG[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PGA" scale="auto">	
+					<textual>PGA[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PEP" scale="auto">	
+					<textual>PEP[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PYR" scale="auto">	
+					<textual>PYR[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Phe" scale="auto">	
+					<textual>Phe[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_PHPYR" scale="auto">	
+					<textual>PHPYR[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_CitICit" scale="auto">	
+					<textual>CitICit[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_ORN" scale="auto">	
+					<textual>ORN[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_CITRL" scale="auto">	
+					<textual>CITRL[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>
+				<group id="ms_OGA" scale="auto">	
+					<textual>OGA[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Succ" scale="auto">	
+					<textual>Succ[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_MAL" scale="auto">	
+					<textual>MAL[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_m6PG" scale="auto">	
+					<textual>m6PG[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_R5P" scale="auto">	
+					<textual>R5P[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_X5P" scale="auto">	
+					<textual>X5P[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_S7P" scale="auto">	
+					<textual>S7P[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_SBP" scale="auto">	
+					<textual>SBP[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_Asp" scale="auto">	
+					<textual>Asp[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_Thr" scale="auto">	
+					<textual>Thr[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_Ile" scale="auto">	
+					<textual>Ile[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Lys" scale="auto">	
+					<textual>Lys[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Asn" scale="auto">	
+					<textual>Asn[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>
+				<group id="ms_Arg" scale="auto">	
+					<textual>Arg[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_His" scale="auto">	
+					<textual>His[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_HomoSer" scale="auto">	
+					<textual>HomoSer[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_CBASP" scale="auto">	
+					<textual>CBASP[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_UMP" scale="auto">	
+					<textual>UMP[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_dTTP" scale="auto">	
+					<textual>dTTP[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>
+				</group>	
+				<group id="ms_Ala" scale="auto">	
+					<textual>Ala[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Val" scale="auto">	
+					<textual>Val[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_AKV" scale="auto">	
+					<textual>AKV[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Leu" scale="auto">	
+					<textual>Leu[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_IPPM" scale="auto">	
+					<textual>IPPM[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_PRPP" scale="auto">	
+					<textual>PRPP[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_AICAR" scale="auto">	
+					<textual>AICAR[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_Tyr" scale="auto">	
+					<textual>Tyr[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_Trp" scale="auto">	
+					<textual>Trp[1,2,3,4,5,6,7,8,9,10,11]#M0,1,2,3,4,5,6,7,8,9,10,11</textual>
+				</group>	
+				<group id="ms_SKM" scale="auto">	
+					<textual>SKM[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_Glu" scale="auto">	
+					<textual>Glu[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_OROT" scale="auto">	
+					<textual>OROT[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Pro" scale="auto">	
+					<textual>Pro[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Gln" scale="auto">	
+					<textual>Gln[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Ser" scale="auto">	
+					<textual>Ser[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Gly" scale="auto">	
+					<textual>Gly[1,2]#M0,1,2</textual>
+				</group>	
+				<group id="ms_PSer" scale="auto">	
+					<textual>PSer[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Met" scale="auto">	
+					<textual>Met[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_ATP" scale="auto">	
+					<textual>ATP[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>
+				</group>	
+				<group id="ms_AcGlu" scale="auto">	
+					<textual>AcGlu[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_AcCoA" scale="auto">	
+					<textual>AcCoA[1,2]#M0,1,2</textual>
+				</group>	
+									
+				<group id="ms_G6P_5050" scale="auto">	
+					<textual>G6P_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_FBP_5050" scale="auto">	
+					<textual>FBP_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>
+				<group id="ms_GAM6P_5050" scale="auto">	
+					<textual>GAM6P_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>
+				<group id="ms_ACGAM1P_5050" scale="auto">	
+					<textual>ACGAM1P_5050[1,2,3,4,5,6,7,8]#M0,1,2,3,4,5,6,7,8</textual>
+				</group>	
+				<group id="ms_DHAP_5050" scale="auto">	
+					<textual>DHAP_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_GLYC3P_5050" scale="auto">	
+					<textual>GLYC3P_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_BPG_5050" scale="auto">	
+					<textual>BPG_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PGA_5050" scale="auto">	
+					<textual>PGA_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PEP_5050" scale="auto">	
+					<textual>PEP_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_PYR_5050" scale="auto">	
+					<textual>PYR_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_OGA_5050" scale="auto">	
+					<textual>OGA_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_CitICit_5050" scale="auto">	
+					<textual>CitICit_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Succ_5050" scale="auto">	
+					<textual>Succ_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_MAL_5050" scale="auto">	
+					<textual>MAL_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_m6PG_5050" scale="auto">	
+					<textual>m6PG_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Ru5P_5050" scale="auto">	
+					<textual>Ru5P_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_R5P_5050" scale="auto">	
+					<textual>R5P_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_X5P_5050" scale="auto">	
+					<textual>X5P_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_S7P_5050" scale="auto">	
+					<textual>S7P_5050[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_SBP_5050" scale="auto">	
+					<textual>SBP_5050[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_Asp_5050" scale="auto">	
+					<textual>Asp_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_Thr_5050" scale="auto">	
+					<textual>Thr_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_Ile_5050" scale="auto">	
+					<textual>Ile_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Asn_5050" scale="auto">	
+					<textual>Asn_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_Arg_5050" scale="auto">	
+					<textual>Arg_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_His_5050" scale="auto">	
+					<textual>His_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_Lys_5050" scale="auto">	
+					<textual>Lys_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_HomoSer_5050" scale="auto">	
+					<textual>HomoSer_5050[1,2,3,4]#M0,1,2,3,4</textual>
+				</group>	
+				<group id="ms_CBASP_5050" scale="auto">	
+					<textual>CBASP_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_UMP_5050" scale="auto">	
+					<textual>UMP_5050[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_dTTP_5050" scale="auto">	
+					<textual>dTTP_5050[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>
+				</group>	
+				<group id="ms_Ala_5050" scale="auto">	
+					<textual>Ala_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Val_5050" scale="auto">	
+					<textual>Val_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_AKV_5050" scale="auto">	
+					<textual>AKV_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Leu_5050" scale="auto">	
+					<textual>Leu_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_IPPM_5050" scale="auto">	
+					<textual>IPPM_5050[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_PRPP_5050" scale="auto">	
+					<textual>PRPP_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_AICAR_5050" scale="auto">	
+					<textual>AICAR_5050[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_Phe_5050" scale="auto">	
+					<textual>Phe_5050[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_Tyr_5050" scale="auto">	
+					<textual>Tyr_5050[1,2,3,4,5,6,7,8,9]#M0,1,2,3,4,5,6,7,8,9</textual>
+				</group>	
+				<group id="ms_Trp_5050" scale="auto">	
+					<textual>Trp_5050[1,2,3,4,5,6,7,8,9,10,11]#M0,1,2,3,4,5,6,7,8,9,10,11</textual>
+				</group>	
+				<group id="ms_Glu_5050" scale="auto">	
+					<textual>Glu_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_OROT_5050" scale="auto">	
+					<textual>OROT_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Pro_5050" scale="auto">	
+					<textual>Pro_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_Gln_5050" scale="auto">	
+					<textual>Gln_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_ORN_5050" scale="auto">	
+					<textual>ORN_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_CITRL_5050" scale="auto">	
+					<textual>CITRL_5050[1,2,3,4,5,6]#M0,1,2,3,4,5,6</textual>
+				</group>	
+				<group id="ms_PSer_5050" scale="auto">	
+					<textual>PSer_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Gly_5050" scale="auto">	
+					<textual>Gly_5050[1,2]#M0,1,2</textual>
+				</group>	
+				<group id="ms_Ser_5050" scale="auto">	
+					<textual>Ser_5050[1,2,3]#M0,1,2,3</textual>
+				</group>	
+				<group id="ms_Met_5050" scale="auto">	
+					<textual>Met_5050[1,2,3,4,5]#M0,1,2,3,4,5</textual>
+				</group>	
+				<group id="ms_ATP_5050" scale="auto">	
+					<textual>ATP_5050[1,2,3,4,5,6,7,8,9,10]#M0,1,2,3,4,5,6,7,8,9,10</textual>
+				</group>	
+				<group id="ms_AcGlu_5050" scale="auto">	
+					<textual>AcGlu_5050[1,2,3,4,5,6,7]#M0,1,2,3,4,5,6,7</textual>
+				</group>	
+				<group id="ms_AcCoA_5050" scale="auto">	
+					<textual>AcCoA_5050[1,2]#M0,1,2</textual>
+				</group>	
+			</labelingmeasurement>		
+			<fluxmeasurement>		
+				<netflux id="uptake">	
+					<textual>upt</textual>
+				</netflux>	
+			</fluxmeasurement>		
+		</model>
+		<data>			
+		<!-- dummy labeling data -->
+			<datum id="uptake" stddev="0.042">1.0</datum>		
+					
+			<datum id="ms_G6P" stddev="0.020" weight="0">	0.019747622	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="1">	1.28176E-06	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="2">	0.961989405	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="3">	0.000609684	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="4">	0.017108307	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="5">	0.000368605	</datum>
+			<datum id="ms_G6P" stddev="0.020" weight="6">	0.000175094	</datum>
+					
+			<datum id="ms_FBP" stddev="0.020" weight="0">	0.125387675	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="1">	8.41176E-05	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="2">	0.637139607	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="3">	0.001377484	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="4">	0.231551003	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="5">	0.001181047	</datum>
+			<datum id="ms_FBP" stddev="0.020" weight="6">	0.003279066	</datum>
+					
+			<datum id="ms_DHAP" stddev="0.020" weight="0">	0.45242884	</datum>
+			<datum id="ms_DHAP" stddev="0.020" weight="1">	8.54789E-07	</datum>
+			<datum id="ms_DHAP" stddev="0.020" weight="2">	0.5474826	</datum>
+			<datum id="ms_DHAP" stddev="0.020" weight="3">	8.77051E-05	</datum>
+					
+			<datum id="ms_GAM6P" stddev="0.020" weight="0">	0.360143326	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="1">	0.011496574	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="2">	0.44192569	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="3">	8.93941E-09	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="4">	0.11335456	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="5">	0.073014108	</datum>
+			<datum id="ms_GAM6P" stddev="0.020" weight="6">	6.57342E-05	</datum>
+					
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_ACGAM1P" stddev="0.020" weight="8">	0	</datum>
+					
+			<datum id="ms_GLYC3P" stddev="0.020" weight="0">	0.435697166	</datum>
+			<datum id="ms_GLYC3P" stddev="0.020" weight="1">	2.51494E-06	</datum>
+			<datum id="ms_GLYC3P" stddev="0.020" weight="2">	0.56416698	</datum>
+			<datum id="ms_GLYC3P" stddev="0.020" weight="3">	0.000133338	</datum>
+					
+			<datum id="ms_BPG" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_BPG" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_BPG" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_BPG" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_PGA" stddev="0.020" weight="0">	0.518736281	</datum>
+			<datum id="ms_PGA" stddev="0.020" weight="1">	0.000151721	</datum>
+			<datum id="ms_PGA" stddev="0.020" weight="2">	0.481091508	</datum>
+			<datum id="ms_PGA" stddev="0.020" weight="3">	2.04909E-05	</datum>
+					
+			<datum id="ms_PEP" stddev="0.020" weight="0">	0.48962971	</datum>
+			<datum id="ms_PEP" stddev="0.020" weight="1">	9.8686E-08	</datum>
+			<datum id="ms_PEP" stddev="0.020" weight="2">	0.510364165	</datum>
+			<datum id="ms_PEP" stddev="0.020" weight="3">	6.02654E-06	</datum>
+					
+			<datum id="ms_PYR" stddev="0.020" weight="0">	0.448869795	</datum>
+			<datum id="ms_PYR" stddev="0.020" weight="1">	1.076E-05	</datum>
+			<datum id="ms_PYR" stddev="0.020" weight="2">	0.550810721	</datum>
+			<datum id="ms_PYR" stddev="0.020" weight="3">	0.000308724	</datum>
+					
+			<datum id="ms_PHPYR" stddev="0.020" weight="0">	0.292979963	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="1">	0.003057905	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="2">	0.389119161	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="3">	0.01019586	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="4">	0.234670173	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="5">	0.051424027	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="6">	0.009157405	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="7">	0.008499356	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="8">	0.000430594	</datum>
+			<datum id="ms_PHPYR" stddev="0.020" weight="9">	0.000465556	</datum>
+					
+			<datum id="ms_Phe" stddev="0.020" weight="0">	0.200338646	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="1">	0.003667811	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="2">	0.414725297	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="3">	0.026832305	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="4">	0.271118893	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="5">	0.034723406	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="6">	0.034787313	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="7">	0.008023478	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="8">	0.000339218	</datum>
+			<datum id="ms_Phe" stddev="0.020" weight="9">	0.005443634	</datum>
+					
+			<datum id="ms_CitICit" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_CitICit" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_OGA" stddev="0.020" weight="0">	0.436911468	</datum>
+			<datum id="ms_OGA" stddev="0.020" weight="1">	0.005879555	</datum>
+			<datum id="ms_OGA" stddev="0.020" weight="2">	0.45468155	</datum>
+			<datum id="ms_OGA" stddev="0.020" weight="3">	0.002783831	</datum>
+			<datum id="ms_OGA" stddev="0.020" weight="4">	0.099637678	</datum>
+			<datum id="ms_OGA" stddev="0.020" weight="5">	0.000105918	</datum>
+					
+			<datum id="ms_ORN" stddev="0.020" weight="0">	0.388701881	</datum>
+			<datum id="ms_ORN" stddev="0.020" weight="1">	0.011421114	</datum>
+			<datum id="ms_ORN" stddev="0.020" weight="2">	0.47201265	</datum>
+			<datum id="ms_ORN" stddev="0.020" weight="3">	0.015626688	</datum>
+			<datum id="ms_ORN" stddev="0.020" weight="4">	0.11038504	</datum>
+			<datum id="ms_ORN" stddev="0.020" weight="5">	0.001852627	</datum>
+					
+			<datum id="ms_CITRL" stddev="0.020" weight="0">	0.372476317	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="1">	0.0255359	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="2">	0.460432865	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="3">	0.027500393	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="4">	0.109278305	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="5">	0.004233361	</datum>
+			<datum id="ms_CITRL" stddev="0.020" weight="6">	0.000542858	</datum>
+					
+			<datum id="ms_Succ" stddev="0.020" weight="0">	0.576794562	</datum>
+			<datum id="ms_Succ" stddev="0.020" weight="1">	0.001417081	</datum>
+			<datum id="ms_Succ" stddev="0.020" weight="2">	0.412570192	</datum>
+			<datum id="ms_Succ" stddev="0.020" weight="3">	0.008779274	</datum>
+			<datum id="ms_Succ" stddev="0.020" weight="4">	0.000438891	</datum>
+					
+			<datum id="ms_MAL" stddev="0.020" weight="0">	0.492367552	</datum>
+			<datum id="ms_MAL" stddev="0.020" weight="1">	0.007981193	</datum>
+			<datum id="ms_MAL" stddev="0.020" weight="2">	0.488239933	</datum>
+			<datum id="ms_MAL" stddev="0.020" weight="3">	0.010966582	</datum>
+			<datum id="ms_MAL" stddev="0.020" weight="4">	0.00044474	</datum>
+					
+			<datum id="ms_m6PG" stddev="0.020" weight="0">	3.76414E-05	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="1">	6.70663E-07	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="2">	0.990170792	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="3">	0.001319783	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="4">	0.008353483	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="5">	5.93592E-05	</datum>
+			<datum id="ms_m6PG" stddev="0.020" weight="6">	5.82708E-05	</datum>
+					
+			<datum id="ms_R5P" stddev="0.020" weight="0">	0.01241708	</datum>
+			<datum id="ms_R5P" stddev="0.020" weight="1">	0.547005415	</datum>
+			<datum id="ms_R5P" stddev="0.020" weight="2">	0.094608022	</datum>
+			<datum id="ms_R5P" stddev="0.020" weight="3">	0.256167649	</datum>
+			<datum id="ms_R5P" stddev="0.020" weight="4">	0.089002642	</datum>
+			<datum id="ms_R5P" stddev="0.020" weight="5">	0.000799191	</datum>
+					
+			<datum id="ms_X5P" stddev="0.020" weight="0">	0.008764192	</datum>
+			<datum id="ms_X5P" stddev="0.020" weight="1">	0.484339172	</datum>
+			<datum id="ms_X5P" stddev="0.020" weight="2">	0.11504153	</datum>
+			<datum id="ms_X5P" stddev="0.020" weight="3">	0.293651453	</datum>
+			<datum id="ms_X5P" stddev="0.020" weight="4">	0.097633746	</datum>
+			<datum id="ms_X5P" stddev="0.020" weight="5">	0.000569907	</datum>
+					
+			<datum id="ms_S7P" stddev="0.020" weight="0">	0.0292594	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="1">	0.016690001	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="2">	0.480959519	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="3">	0.178329618	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="4">	0.182627668	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="5">	0.097128811	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="6">	0.014547398	</datum>
+			<datum id="ms_S7P" stddev="0.020" weight="7">	0.000457585	</datum>
+					
+			<datum id="ms_SBP" stddev="0.020" weight="0">	0.20208479	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="1">	0.008143966	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="2">	0.588987018	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="3">	0.102468763	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="4">	0.087016717	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="5">	0.010931034	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="6">	0.000172961	</datum>
+			<datum id="ms_SBP" stddev="0.020" weight="7">	0.000194751	</datum>
+					
+			<datum id="ms_Asp" stddev="0.020" weight="0">	0.488121394	</datum>
+			<datum id="ms_Asp" stddev="0.020" weight="1">	0.00881982	</datum>
+			<datum id="ms_Asp" stddev="0.020" weight="2">	0.487449084	</datum>
+			<datum id="ms_Asp" stddev="0.020" weight="3">	0.015112373	</datum>
+			<datum id="ms_Asp" stddev="0.020" weight="4">	0.000497329	</datum>
+					
+			<datum id="ms_Thr" stddev="0.020" weight="0">	0.490634872	</datum>
+			<datum id="ms_Thr" stddev="0.020" weight="1">	0.006246108	</datum>
+			<datum id="ms_Thr" stddev="0.020" weight="2">	0.489802145	</datum>
+			<datum id="ms_Thr" stddev="0.020" weight="3">	0.012791355	</datum>
+			<datum id="ms_Thr" stddev="0.020" weight="4">	0.000525521	</datum>
+					
+			<datum id="ms_Ile" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Ile" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_Asn" stddev="0.020" weight="0">	0.445461838	</datum>
+			<datum id="ms_Asn" stddev="0.020" weight="1">	0.062756825	</datum>
+			<datum id="ms_Asn" stddev="0.020" weight="2">	0.483290889	</datum>
+			<datum id="ms_Asn" stddev="0.020" weight="3">	0.008164077	</datum>
+			<datum id="ms_Asn" stddev="0.020" weight="4">	0.000326371	</datum>
+					
+			<datum id="ms_Arg" stddev="0.020" weight="0">	0.386485567	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="1">	0.017600016	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="2">	0.471981449	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="3">	0.02223287	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="4">	0.096048312	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="5">	0.00516654	</datum>
+			<datum id="ms_Arg" stddev="0.020" weight="6">	0.000485246	</datum>
+					
+			<datum id="ms_His" stddev="0.020" weight="0">	0.014543553	</datum>
+			<datum id="ms_His" stddev="0.020" weight="1">	0.280858122	</datum>
+			<datum id="ms_His" stddev="0.020" weight="2">	0.326589124	</datum>
+			<datum id="ms_His" stddev="0.020" weight="3">	0.167228141	</datum>
+			<datum id="ms_His" stddev="0.020" weight="4">	0.169013233	</datum>
+			<datum id="ms_His" stddev="0.020" weight="5">	0.04144878	</datum>
+			<datum id="ms_His" stddev="0.020" weight="6">	0.000319048	</datum>
+					
+			<datum id="ms_HomoSer" stddev="0.020" weight="0">	0.490634872	</datum>
+			<datum id="ms_HomoSer" stddev="0.020" weight="1">	0.006246108	</datum>
+			<datum id="ms_HomoSer" stddev="0.020" weight="2">	0.489802145	</datum>
+			<datum id="ms_HomoSer" stddev="0.020" weight="3">	0.012791355	</datum>
+			<datum id="ms_HomoSer" stddev="0.020" weight="4">	0.000525521	</datum>
+					
+			<datum id="ms_CBASP" stddev="0.020" weight="0">	0.476890343	</datum>
+			<datum id="ms_CBASP" stddev="0.020" weight="1">	0.026437271	</datum>
+			<datum id="ms_CBASP" stddev="0.020" weight="2">	0.46193485	</datum>
+			<datum id="ms_CBASP" stddev="0.020" weight="3">	0.034127919	</datum>
+			<datum id="ms_CBASP" stddev="0.020" weight="4">	0.000201474	</datum>
+			<datum id="ms_CBASP" stddev="0.020" weight="5">	0.000408144	</datum>
+					
+			<datum id="ms_UMP" stddev="0.020" weight="0">	0.010153776	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="1">	0.259955195	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="2">	0.087994777	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="3">	0.355450809	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="4">	0.125237414	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="5">	0.107036194	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="6">	0.050156948	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="7">	0.002134906	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="8">	0.001265071	</datum>
+			<datum id="ms_UMP" stddev="0.020" weight="9">	0.00061491	</datum>
+					
+			<datum id="ms_dTTP" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="9">	0	</datum>
+			<datum id="ms_dTTP" stddev="0.020" weight="10">	0	</datum>
+					
+			<datum id="ms_Ala" stddev="0.020" weight="0">	0.468210974	</datum>
+			<datum id="ms_Ala" stddev="0.020" weight="1">	1.88E-06	</datum>
+			<datum id="ms_Ala" stddev="0.020" weight="2">	0.53174601	</datum>
+			<datum id="ms_Ala" stddev="0.020" weight="3">	4.11312E-05	</datum>
+					
+			<datum id="ms_Val" stddev="0.020" weight="0">	0.246388823	</datum>
+			<datum id="ms_Val" stddev="0.020" weight="1">	4.85455E-05	</datum>
+			<datum id="ms_Val" stddev="0.020" weight="2">	0.506500356	</datum>
+			<datum id="ms_Val" stddev="0.020" weight="3">	0.000285763	</datum>
+			<datum id="ms_Val" stddev="0.020" weight="4">	0.246695358	</datum>
+			<datum id="ms_Val" stddev="0.020" weight="5">	8.11547E-05	</datum>
+					
+			<datum id="ms_AKV" stddev="0.020" weight="0">	0.295613802	</datum>
+			<datum id="ms_AKV" stddev="0.020" weight="1">	0.001843324	</datum>
+			<datum id="ms_AKV" stddev="0.020" weight="2">	0.502942403	</datum>
+			<datum id="ms_AKV" stddev="0.020" weight="3">	0.003067023	</datum>
+			<datum id="ms_AKV" stddev="0.020" weight="4">	0.196353292	</datum>
+			<datum id="ms_AKV" stddev="0.020" weight="5">	0.000180155	</datum>
+					
+			<datum id="ms_Leu" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Leu" stddev="0.020" weight="6">	0	</datum>
+			
+			<datum id="ms_Lys" stddev="0.020" weight="0">	0.281217458	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="1">	4.88997E-06	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="2">	0.478475356	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="3">	0.004025985	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="4">	0.211793999	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="5">	4.62612E-05	</datum>
+			<datum id="ms_Lys" stddev="0.020" weight="6">	0.024436051	</datum>
+					
+			<datum id="ms_IPPM" stddev="0.020" weight="0">	0.268286101	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="1">	0.000297927	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="2">	0.390280264	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="3">	0.000979922	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="4">	0.286386419	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="5">	0.000334918	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="6">	0.052992381	</datum>
+			<datum id="ms_IPPM" stddev="0.020" weight="7">	0.000442068	</datum>
+					
+			<datum id="ms_PRPP" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PRPP" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PRPP" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PRPP" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_PRPP" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_PRPP" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_AICAR" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_AICAR" stddev="0.020" weight="9">	0	</datum>
+					
+			<datum id="ms_Tyr" stddev="0.020" weight="0">	0.233747721	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="1">	0.007105547	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="2">	0.415730387	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="3">	0.030395935	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="4">	0.244441593	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="5">	0.035447754	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="6">	0.028301491	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="7">	0.004332718	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="8">	0.000235267	</datum>
+			<datum id="ms_Tyr" stddev="0.020" weight="9">	0.000261585	</datum>
+					
+			<datum id="ms_Trp" stddev="0.020" weight="0">	1.11E-02	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="1">	0.108237087	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="2">	0.091090474	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="3">	0.30360056	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="4">	0.151569623	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="5">	0.21670583	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="6">	0.071452643	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="7">	3.46E-02	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="8">	0.010308741	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="9">	0.000369997	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="10">	0.000477733	</datum>
+			<datum id="ms_Trp" stddev="0.020" weight="11">	0.000484846	</datum>
+					
+			<datum id="ms_SKM" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_SKM" stddev="0.020" weight="7">	0	</datum>
+					
+			<datum id="ms_Glu" stddev="0.020" weight="0">	0.349471888	</datum>
+			<datum id="ms_Glu" stddev="0.020" weight="1">	0.011176713	</datum>
+			<datum id="ms_Glu" stddev="0.020" weight="2">	0.494663388	</datum>
+			<datum id="ms_Glu" stddev="0.020" weight="3">	0.011145743	</datum>
+			<datum id="ms_Glu" stddev="0.020" weight="4">	0.130525059	</datum>
+			<datum id="ms_Glu" stddev="0.020" weight="5">	0.003017208	</datum>
+					
+			<datum id="ms_OROT" stddev="0.020" weight="0">	0.52796894	</datum>
+			<datum id="ms_OROT" stddev="0.020" weight="1">	0.024970516	</datum>
+			<datum id="ms_OROT" stddev="0.020" weight="2">	0.434653414	</datum>
+			<datum id="ms_OROT" stddev="0.020" weight="3">	0.011663364	</datum>
+			<datum id="ms_OROT" stddev="0.020" weight="4">	0.000317549	</datum>
+			<datum id="ms_OROT" stddev="0.020" weight="5">	0.000426216	</datum>
+					
+			<datum id="ms_Pro" stddev="0.020" weight="0">	0.369002906	</datum>
+			<datum id="ms_Pro" stddev="0.020" weight="1">	0.010510787	</datum>
+			<datum id="ms_Pro" stddev="0.020" weight="2">	0.511489403	</datum>
+			<datum id="ms_Pro" stddev="0.020" weight="3">	0.000596421	</datum>
+			<datum id="ms_Pro" stddev="0.020" weight="4">	0.104083327	</datum>
+			<datum id="ms_Pro" stddev="0.020" weight="5">	0.004317155	</datum>
+					
+			<datum id="ms_Gln" stddev="0.020" weight="0">	0.360021718	</datum>
+			<datum id="ms_Gln" stddev="0.020" weight="1">	0.01411558	</datum>
+			<datum id="ms_Gln" stddev="0.020" weight="2">	0.482412139	</datum>
+			<datum id="ms_Gln" stddev="0.020" weight="3">	0.016277264	</datum>
+			<datum id="ms_Gln" stddev="0.020" weight="4">	0.123972971	</datum>
+			<datum id="ms_Gln" stddev="0.020" weight="5">	0.003200328	</datum>
+					
+			<datum id="ms_Ser" stddev="0.020" weight="0">	0.441342145	</datum>
+			<datum id="ms_Ser" stddev="0.020" weight="1">	0.114468092	</datum>
+			<datum id="ms_Ser" stddev="0.020" weight="2">	0.443778765	</datum>
+			<datum id="ms_Ser" stddev="0.020" weight="3">	4.11E-04	</datum>
+					
+			<datum id="ms_Gly" stddev="0.020" weight="0">	0.500521121	</datum>
+			<datum id="ms_Gly" stddev="0.020" weight="1">	0.499406498	</datum>
+			<datum id="ms_Gly" stddev="0.020" weight="2">	7.23808E-05	</datum>
+					
+			<datum id="ms_PSer" stddev="0.020" weight="0">	0.453738248	</datum>
+			<datum id="ms_PSer" stddev="0.020" weight="1">	0.025248608	</datum>
+			<datum id="ms_PSer" stddev="0.020" weight="2">	0.521006603	</datum>
+			<datum id="ms_PSer" stddev="0.020" weight="3">	6.54062E-06	</datum>
+					
+			<datum id="ms_Met" stddev="0.020" weight="0">	0.248743011	</datum>
+			<datum id="ms_Met" stddev="0.020" weight="1">	0.286577868	</datum>
+			<datum id="ms_Met" stddev="0.020" weight="2">	0.254101242	</datum>
+			<datum id="ms_Met" stddev="0.020" weight="3">	0.203129484	</datum>
+			<datum id="ms_Met" stddev="0.020" weight="4">	0.006974308	</datum>
+			<datum id="ms_Met" stddev="0.020" weight="5">	0.000474088	</datum>
+					
+			<datum id="ms_ATP" stddev="0.020" weight="0">	0.006630222	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="1">	0.074455151	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="2">	0.219576356	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="3">	0.273219068	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="4">	0.211629215	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="5">	0.134176792	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="6">	0.067078913	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="7">	0.010796026	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="8">	0.001212121	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="9">	0.000651853	</datum>
+			<datum id="ms_ATP" stddev="0.020" weight="10">	0.000574284	</datum>
+					
+			<datum id="ms_AcGlu" stddev="0.020" weight="0">	0.24677005	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="1">	0.000227864	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="2">	0.488839496	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="3">	3.17304E-05	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="4">	0.250214288	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="5">	8.08342E-05	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="6">	0.013640311	</datum>
+			<datum id="ms_AcGlu" stddev="0.020" weight="7">	0.000195428	</datum>
+					
+			<datum id="ms_AcCoA" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AcCoA" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AcCoA" stddev="0.020" weight="2">	0	</datum>
+
+			
+			<datum id="ms_G6P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_G6P_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_FBP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_FBP_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_DHAP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_DHAP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_DHAP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_DHAP_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_GAM6P_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_ACGAM1P_5050" stddev="0.020" weight="8">	0	</datum>
+					
+			<datum id="ms_GLYC3P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_GLYC3P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_GLYC3P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_GLYC3P_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_BPG_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_BPG_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_BPG_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_BPG_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_PGA_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PGA_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PGA_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PGA_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_PEP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PEP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PEP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PEP_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_PYR_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PYR_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PYR_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PYR_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_CitICit_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_OGA_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_OGA_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_OGA_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_OGA_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_OGA_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_OGA_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_Succ_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Succ_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Succ_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Succ_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Succ_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_MAL_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_MAL_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_MAL_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_MAL_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_MAL_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_m6PG_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Ru5P_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_R5P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_R5P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_R5P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_R5P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_R5P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_R5P_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_X5P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_X5P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_X5P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_X5P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_X5P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_X5P_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_S7P_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_S7P_5050" stddev="0.020" weight="7">	0	</datum>
+					
+			<datum id="ms_SBP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_SBP_5050" stddev="0.020" weight="7">	0	</datum>
+					
+			<datum id="ms_Asp_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Asp_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Asp_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Asp_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Asp_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_Thr_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Thr_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Thr_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Thr_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Thr_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_Ile_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Ile_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_HomoSer_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_HomoSer_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_HomoSer_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_HomoSer_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_HomoSer_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_CBASP_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_UMP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_UMP_5050" stddev="0.020" weight="9">	0	</datum>
+					
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="9">	0	</datum>
+			<datum id="ms_dTTP_5050" stddev="0.020" weight="10">	0	</datum>
+					
+			<datum id="ms_Ala_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Ala_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Ala_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Ala_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_Val_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Val_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Val_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Val_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Val_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Val_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_AKV_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AKV_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AKV_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_AKV_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_AKV_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_AKV_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_Leu_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Leu_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_Asn_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Asn_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Asn_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Asn_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Asn_5050" stddev="0.020" weight="4">	0	</datum>
+					
+			<datum id="ms_Arg_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Arg_5050" stddev="0.020" weight="6">	0	</datum>
+			
+			<datum id="ms_His_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_His_5050" stddev="0.020" weight="6">	0	</datum>
+
+			<datum id="ms_Lys_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Lys_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_IPPM_5050" stddev="0.020" weight="7">	0	</datum>
+					
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_PRPP_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_AICAR_5050" stddev="0.020" weight="9">	0	</datum>
+					
+			<datum id="ms_Phe_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_Phe_5050" stddev="0.020" weight="9">	0	</datum>
+					
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_Tyr_5050" stddev="0.020" weight="9">	0	</datum>
+					
+			<datum id="ms_Trp_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="7">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="8">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="9">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="10">	0	</datum>
+			<datum id="ms_Trp_5050" stddev="0.020" weight="11">	0	</datum>
+					
+			<datum id="ms_Glu_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Glu_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Glu_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Glu_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Glu_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Glu_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_OROT_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_OROT_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_OROT_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_OROT_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_OROT_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_OROT_5050" stddev="0.020" weight="5">	0	</datum>
+
+			<datum id="ms_Pro_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Pro_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Pro_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Pro_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Pro_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Pro_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_Gln_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Gln_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Gln_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Gln_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Gln_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Gln_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_ORN_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_ORN_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_ORN_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_ORN_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_ORN_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_ORN_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_CITRL_5050" stddev="0.020" weight="6">	0	</datum>
+					
+			<datum id="ms_Gly_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Gly_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Gly_5050" stddev="0.020" weight="2">	0	</datum>
+					
+			<datum id="ms_Ser_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Ser_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Ser_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Ser_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_PSer_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_PSer_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_PSer_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_PSer_5050" stddev="0.020" weight="3">	0	</datum>
+					
+			<datum id="ms_Met_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_Met_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_Met_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_Met_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_Met_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_Met_5050" stddev="0.020" weight="5">	0	</datum>
+					
+			<datum id="ms_ATP_5050" stddev="0.020" weight="0">	0.021938303	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="1">	0.058560824	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="2">	0.091516748	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="3">	0.13139408	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="4">	0.141559372	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="5">	0.133016291	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="6">	0.138857276	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="7">	0.126736504	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="8">	0.086208152	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="9">	0.053757532	</datum>
+			<datum id="ms_ATP_5050" stddev="0.020" weight="10">	0.016454917	</datum>
+					
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="2">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="3">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="4">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="5">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="6">	0	</datum>
+			<datum id="ms_AcGlu_5050" stddev="0.020" weight="7">	0	</datum>
+					
+			<datum id="ms_AcCoA_5050" stddev="0.020" weight="0">	1	</datum>
+			<datum id="ms_AcCoA_5050" stddev="0.020" weight="1">	0	</datum>
+			<datum id="ms_AcCoA_5050" stddev="0.020" weight="2">	0	</datum>
+			
+		</data>			
+	</measurement>				
+	<simulation method="cumomer" type="auto">				
+		<variables>			
+		<!-- dummy free flux values -->
+			<fluxvalue flux="EX_CO2" type="net">	3.236386317	</fluxvalue>
+			<fluxvalue flux="IN_CO2" type="net">	1.0	</fluxvalue>
+			<fluxvalue flux="EX_FTHF" type="net">	0.004119805	</fluxvalue>
+			<fluxvalue flux="PGA_cysds" type="net">	1.25E-05	</fluxvalue>
+			<fluxvalue flux="PGA_serd" type="net">	1.25E-05	</fluxvalue>
+			<fluxvalue flux="g6pdh" type="net">	0.22380837	</fluxvalue>
+			<fluxvalue flux="mals" type="net">	8.31E-06	</fluxvalue>
+			<fluxvalue flux="mdh" type="net">	0.298291224	</fluxvalue>
+			<fluxvalue flux="pc" type="net">	0.1	</fluxvalue>
+			<fluxvalue flux="agx" type="net">	0	</fluxvalue>
+			<fluxvalue flux="sbpase" type="net">	-7.99E-05	</fluxvalue>
+			<fluxvalue flux="sucoasA" type="net">	0.149135531	</fluxvalue>
+			<fluxvalue flux="OAA_Asp_5050" type="xch">	3.276160383	</fluxvalue>
+			<fluxvalue flux="OAA_CBASP_5050" type="xch">	2.404991481	</fluxvalue>
+			<fluxvalue flux="OAA_Gly_5050" type="xch">	0.002304825	</fluxvalue>
+			<fluxvalue flux="OAA_HomoSer_5050" type="xch">	2.453575214	</fluxvalue>
+			<fluxvalue flux="OAA_Ile_5050" type="xch">	0.020361727	</fluxvalue>
+			<fluxvalue flux="OAA_Lys_5050" type="xch">	0.001010396	</fluxvalue>
+			<fluxvalue flux="OAA_OROT_5050" type="xch">	0.023632995	</fluxvalue>
+			<fluxvalue flux="OAA_Thr_5050" type="xch">	2.096096519	</fluxvalue>
+			<fluxvalue flux="OAA_UMP_5050" type="xch">	0.006135167	</fluxvalue>
+			<fluxvalue flux="OGA_Gln_5050" type="xch">	2.584118071	</fluxvalue>
+			<fluxvalue flux="OGA_Glu_5050" type="xch">	2.584118071	</fluxvalue>
+			<fluxvalue flux="PEP_Chor_5050" type="xch">	0.000390713	</fluxvalue>
+			<fluxvalue flux="PEP_PHPYRB_5050" type="xch">	2.464558572	</fluxvalue>
+			<fluxvalue flux="PEP_SKM_5050" type="xch">	2.25521735	</fluxvalue>
+			<fluxvalue flux="PEP_Trp_5050" type="xch">	0.009646142	</fluxvalue>
+			<fluxvalue flux="PEP_TyrB_5050" type="xch">	2.464558572	</fluxvalue>
+			<fluxvalue flux="PGA_Gly_5050" type="xch">	0.00195093	</fluxvalue>
+			<fluxvalue flux="PGA_PSer_5050" type="xch">	2.982598681	</fluxvalue>
+			<fluxvalue flux="PGA_Ser_5050" type="xch">	2.02098438	</fluxvalue>
+			<fluxvalue flux="PYR_AKV_5050" type="xch">	0.026754019	</fluxvalue>
+			<fluxvalue flux="PYR_IPPM_5050" type="xch">	2.255654008	</fluxvalue>
+			<fluxvalue flux="PYR_Leu_5050" type="xch">	0.001337217	</fluxvalue>
+			<fluxvalue flux="akgdh_5050" type="xch">	0.079681595	</fluxvalue>
+			<fluxvalue flux="cs_5050" type="xch">	0.002654011	</fluxvalue>
+			<fluxvalue flux="eno_5050" type="xch">	2.669417601	</fluxvalue>
+			<fluxvalue flux="fba_5050" type="xch">	0.93941921	</fluxvalue>
+			<fluxvalue flux="fumB_5050" type="xch">	4.094249831	</fluxvalue>
+			<fluxvalue flux="g6pdh_5050" type="xch">	5.718661774	</fluxvalue>
+			<fluxvalue flux="gapd_5050" type="xch">	2.616433134	</fluxvalue>
+			<fluxvalue flux="gnd_5050" type="xch">	0.003752888	</fluxvalue>
+			<fluxvalue flux="icdh_5050" type="xch">	1.421136286	</fluxvalue>
+			<fluxvalue flux="iclB_5050" type="xch">	0.000144523	</fluxvalue>
+			<fluxvalue flux="mals_5050" type="xch">	0.00844271	</fluxvalue>
+			<fluxvalue flux="mdh_5050" type="xch">	2.345878629	</fluxvalue>
+			<fluxvalue flux="me_5050" type="xch">	0.001195537	</fluxvalue>
+			<fluxvalue flux="pdh_5050" type="xch">	0.016520987	</fluxvalue>
+			<fluxvalue flux="pfk_5050" type="xch">	0.061451721	</fluxvalue>
+			<fluxvalue flux="pgi_5050" type="xch">	4.487070061	</fluxvalue>
+			<fluxvalue flux="pgk_5050" type="xch">	2.588693742	</fluxvalue>
+			<fluxvalue flux="ppc_5050" type="xch">	0.00163287	</fluxvalue>
+			<fluxvalue flux="pyk_5050" type="xch">	1.663110528	</fluxvalue>
+			<fluxvalue flux="rpe_5050" type="xch">	8.49604575	</fluxvalue>
+			<fluxvalue flux="rpi_5050" type="xch">	2.396736637	</fluxvalue>
+			<fluxvalue flux="sba_5050" type="xch">	0.001206613	</fluxvalue>
+			<fluxvalue flux="sbpase_5050" type="xch">	0.001044309	</fluxvalue>
+			<fluxvalue flux="sucd_5050" type="xch">	0.132687634	</fluxvalue>
+			<fluxvalue flux="sucoasB_5050" type="xch">	2.887726884	</fluxvalue>
+			<fluxvalue flux="tal_5050" type="xch">	0.000698702	</fluxvalue>
+			<fluxvalue flux="tkt1_5050" type="xch">	0.209239973	</fluxvalue>
+			<fluxvalue flux="tkt2_5050" type="xch">	0.024296608	</fluxvalue>
+			<fluxvalue flux="tpi_5050" type="xch">	3.312577959	</fluxvalue>
+		</variables>			
+	</simulation>				
+</configuration>					
+</fluxml>
