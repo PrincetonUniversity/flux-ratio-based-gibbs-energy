@@ -1,5 +1,14 @@
 function [m,info_] = interconfint2(m,rxns,iter)
-%% 
+%% integration of metabolite concentrations and Gibbs free energies
+% confidence intervals of concentrations and Gibbs energy
+%
+% input: m is stoichiometric model with thermodynamic information,
+%        rxns is the network where integrative analysis is applied,
+%        iter is an optional input for the number of iterations
+% interconfint2 generates 2 new fields:
+% m.metConc shows best fit concentrations in M (col 1) with L.B. (col 2) and U.B. (col 3)
+% m.rxndG2 shows best fit Gibbs free energy in kJ/mol (col 1) with L.B. (col 2) and U.B. (col 3)
+
 % define constants
 if nargin<3 || isempty(iter)
     iter=1;
