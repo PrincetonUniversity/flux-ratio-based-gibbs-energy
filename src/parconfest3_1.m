@@ -489,4 +489,4 @@ eval([var_lb_fr '=lb_fr;']);
 eval([var_ub_fr '=ub_fr;']);
 eval([var_lb_ratio '=lb_ratio;']);
 eval([var_ub_ratio '=ub_ratio;']);
-save(fname,var_lub_s,var_lb_fr,var_ub_fr,var_lb_ratio,var_ub_ratio,'-append')
+save(fname,var_lub_s,var_lb_nx,var_ub_nx,var_lb_fr,var_ub_fr,var_lb_ratio,var_ub_ratio,'-append')
